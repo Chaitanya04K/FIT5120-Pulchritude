@@ -16,7 +16,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarMenu">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link">Get support</a>
                 </li>
