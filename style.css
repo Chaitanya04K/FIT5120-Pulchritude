@@ -1,7 +1,7 @@
 .banner-heading {
     display: inline-block;
     width: 500px;
-    line-height: 0.9;
-    font-size: 6rem;
-    font-weight: 800;
+    line-height: 0.9 !important;
+    font-size: 6rem !important;
+    font-weight: 800 !important;
 }

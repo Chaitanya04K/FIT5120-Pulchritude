@@ -41,7 +41,7 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4 banner-heading">You are not alone</h1>
+            <h1 class="display-4 banner-heading">You are Not Alone</h1>
             <p class="lead">Need someone to talk to?</p>
         </div>
     </div>
