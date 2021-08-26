@@ -15,6 +15,11 @@ body {
     text-shadow: 2px 2px 5px black;
 }
 
+.banner-heading.learnAboutDepression {
+    width: 900px;
+    margin-bottom: 25px;
+}
+
 .banner-subheading {
     font-size: 1.5rem !important;
     font-weight: 500 !important;
@@ -22,12 +27,18 @@ body {
     margin-bottom: 30px;
 }
 
+
+
 .jumbotron {
     background-image: url('images/background.jpg');
     background-position: center;
     height: 500px !important;
     background-size: cover;
     height: 100%;
+}
+
+.jumbotron.learnAboutDepression {
+    background-image: url('images/support.jpg');
 }
 
 .actionBtn {
@@ -91,7 +102,6 @@ body {
 .card-body .actionBtn {
     position: absolute;
     bottom: 2.5rem;
-    /* right: 2.5rem; */
     width: 300px;
     text-align: center;
 }
@@ -113,4 +123,73 @@ body {
 
 .img-square-wrapper.help {
     background-image: url("images/help.jpg");
+}
+
+.info-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-card {
+    position: relative;
+    height: 250px;
+    width: 430px;
+    text-align: center;
+    line-height: 250px;
+    padding: 0 35px;
+    bottom: 0;
+    transition: bottom 0.5s;
+}
+
+.info-card p{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.info-card:first-of-type p span,
+.info-card:nth-of-type(2) p span,
+.info-card:nth-of-type(3) p span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.info-card:first-of-type p span {
+    color: #14588c;
+}
+
+.info-card:nth-of-type(2) p span {
+    color: #a54617;
+}
+
+.info-card:nth-of-type(3) p span {
+    color: #9e6828;
+}
+
+.info-card:first-of-type {
+    background: #a7bbca;
+}
+
+.info-card:nth-of-type(2) {
+    background: #b69c8f;
+}
+
+.info-card:nth-of-type(3) {
+    background: #ecad62;
+}
+
+.info-card:hover {
+    bottom: 10px;
+}
+
+.card.graph {
+    height: 400px;
+}
+
+.img-square-wrapper.graph {
+    background: black;
+    width: 1200px;
 }

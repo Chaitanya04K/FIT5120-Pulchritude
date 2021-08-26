@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <a href="#" class="navbar-brand font-weight-bold">Brainguard</a>
+        <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,7 +62,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Learn about depression</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
-                            <a href="/getInfo.html" class="actionBtn btn-right">Learn more</a>
+                            <a href="getInfo.html" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
                 </div>
