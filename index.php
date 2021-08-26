@@ -41,7 +41,7 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4 banner-heading">BLAH</h1>
+            <h1 class="display-4 banner-heading">You are Not Alone</h1>
             <p class="lead banner-subheading">Need someone to talk to?</p>
             <a href="tel:0435976608" class="actionBtn">Call 0000 00 0000</a>
         </div>
