@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <a href="#" class="navbar-brand font-weight-bold">Brainguard</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,45 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
-            <p class="lead">Need someone to talk to?</p>
+            <p class="lead banner-subheading">Need someone to talk to?</p>
+            <a href="tel:0435976608" class="actionBtn">Call 0000 00 0000</a>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <!-- <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, dicta animi ipsam alias distinctio exercitationem ab rem consequatur! Accusantium iure maxime id facilis nesciunt autem cupiditate asperiores placeat ratione rem.</span> -->
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Maiores</span>, dicta animi ipsam alias distinctio exercitationem ab rem consequatur! Accusantium iure maxime id facilis nesciunt autem cupiditate asperiores placeat ratione rem.</p>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="cardSection col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Learn about depression</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
+                            <a href="#" class="actionBtn btn-right">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardSection col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="card-body">
+                            <h4 class="card-title">Help someone else</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
+                            <a href="#" class="actionBtn">Find out more</a>
+                        </div>
+                        <div class="img-square-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

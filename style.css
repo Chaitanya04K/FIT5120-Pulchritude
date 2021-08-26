@@ -1,7 +1,112 @@
+body {
+    background: #EEEEEE !important;
+}
+
 .banner-heading {
     display: inline-block;
     width: 500px;
     line-height: 0.9 !important;
     font-size: 6rem !important;
     font-weight: 800 !important;
+}
+
+.banner-subheading, .banner-heading {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner-subheading {
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    height: 500px !important;
+    background-size: cover;
+    height: 100%;
+}
+
+.actionBtn {
+    color: white;
+    background: rgb(39 39 39);
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.actionBtn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.info-section {
+    height: 150px;
+    background: #90044B3D;
+    text-align: center;
+    line-height: 150px;
+}
+
+.info-section p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    max-width: 1140px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.info-section span {
+    color: #90044B;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.cardSection {
+    padding: 0 !important;
+    margin-top: 2rem;
+}
+
+.card {
+    height: 250px;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.card-body {
+    padding: 2.5rem !important;
+    position: relative;
+}
+
+.card-body .actionBtn {
+    position: absolute;
+    bottom: 2.5rem;
+    /* right: 2.5rem; */
+    width: 300px;
+    text-align: center;
+}
+
+.card-body .actionBtn.btn-right {
+    right: 2.5rem;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.img-square-wrapper {
+    width: 500px;
+    background-image: url("images/learn_about_depression.jpg");
+    background-position: center;
+    background-size: cover;
 }
