@@ -23,8 +23,14 @@
         </button>
         <div class="navbar-collapse collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="getSupport.html" class="nav-link">Get support</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Information and Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="getSupport.html" class="dropdown-item">Get support</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Chatroom</a>
@@ -72,9 +78,9 @@
                 <div class="card">
                     <div class="card-horizontal">
                         <div class="card-body">
-                            <h4 class="card-title">Help someone else</h4>
+                            <h4 class="card-title">Feeling stressed?</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
-                            <a href="#" class="actionBtn">Find out more</a>
+                            <a href="#" class="actionBtn">Take the K10 Checklist</a>
                         </div>
                         <div class="img-square-wrapper help"></div>
                     </div>

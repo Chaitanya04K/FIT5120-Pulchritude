@@ -12,7 +12,8 @@
 
     <!-- Bootstrap CSS -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,8 +24,14 @@
         </button>
         <div class="navbar-collapse collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="getSupport.html" class="nav-link">Get support</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Information and Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="getSupport.html" class="dropdown-item">Get support</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Chatroom</a>
@@ -42,7 +49,8 @@
     <div class="jumbotron learnAboutDepression jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading learnAboutDepression">Depression can happen to anyone</h1>
-            <p class="lead banner-subheading learnAboutDepression">60% of International students studying in Melbourne are dealing with Depression and other mental health conditions</p>
+            <p class="lead banner-subheading learnAboutDepression">60% of International students studying in Melbourne
+                are dealing with Depression and other mental health conditions</p>
             <a href="tel:0435976608" class="actionBtn">Call 0000 00 0000</a>
         </div>
     </div>
@@ -51,21 +59,26 @@
         <div class="row">
             <div class="info-card-container col-12">
                 <div class="info-card">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio <span>explicabo</span> voluptatibus non. Eos nemo maiores provident accusantium? Architecto aliquid sunt nisi rem! Ex veniam eveniet odit, blanditiis iure laudantium error.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio <span>explicabo</span>
+                        voluptatibus non. Eos nemo maiores provident accusantium? Architecto aliquid sunt nisi rem! Ex
+                        veniam eveniet odit, blanditiis iure laudantium error.</p>
                 </div>
                 <div class="info-card">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio <span>explicabo</span> voluptatibus non. Eos nemo maiores provident accusantium? Architecto aliquid sunt nisi rem! Ex veniam eveniet odit, blanditiis iure laudantium error.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio <span>explicabo</span>
+                        voluptatibus non. Eos nemo maiores provident accusantium? Architecto aliquid sunt nisi rem! Ex
+                        veniam eveniet odit, blanditiis iure laudantium error.</p>
                 </div>
                 <div class="info-card">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio <span>explicabo</span> voluptatibus non. Eos nemo maiores provident accusantium? Architecto aliquid sunt nisi rem! Ex veniam eveniet odit, blanditiis iure laudantium error.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio <span>explicabo</span>
+                        voluptatibus non. Eos nemo maiores provident accusantium? Architecto aliquid sunt nisi rem! Ex
+                        veniam eveniet odit, blanditiis iure laudantium error.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="row">
-
             <div class="cardSection col-12">
                 <div class="card graph">
                     <div class="card-horizontal">
@@ -73,7 +86,26 @@
                         <div class="card-body">
                             <h4 class="card-title">Some graph</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
-                            <!-- <a href="getInfo.html" class="actionBtn btn-right">Learn more</a> -->
+                            <a href="getInfo.html" class="actionBtn btn-right">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="cardSection col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper signs"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Signs and Symptoms</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia
+                                corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci
+                                consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
+                            <a href="#" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -81,11 +113,32 @@
         </div>
     </div>
 
+    <div class="causes-and-treatment-container">
+        <a href="#" class="link-card">
+            <div class="icon-svg causes"></div>
+            <p class="svg-title">Causes</p>
+            <p class="svg-subTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus itaque.</p>
+            <div class="actionBtn-div">Learn more</div>
+        </a>
+        <a href="#" class="link-card">
+            <div class="icon-svg treatment"></div>
+            <p class="svg-title">Treatment</p>
+            <p class="svg-subTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus itaque.</p>
+            <div class="actionBtn-div">Learn more</div>
+        </a>
+    </div>
+
     <!-- JavaScript Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

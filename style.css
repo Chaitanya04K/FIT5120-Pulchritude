@@ -246,3 +246,83 @@ body {
 .blue {
     background: #52aeff;
 }
+
+.img-square-wrapper.signs {
+    background-image: url("images/signs.jpg");
+}
+
+.causes-and-treatment-container {
+    display: flex;
+    max-width: 1140px;
+    margin:0 auto;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.link-card {
+    height: 350px;
+    width: 430px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 30px 0 30px;
+    color: black;
+    transition: 0.5s;
+    box-shadow: 0px 30px 40px -20px hsl(229deg 6% 66%);
+    margin-bottom: 2rem;
+}
+
+.link-card:hover {
+    text-decoration: none;
+    color: black;
+    background: #6f86a4;
+}
+
+.link-card:hover .icon-svg {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.link-card:hover {
+    color: white;
+}
+
+.icon-svg {
+    transition: filter 0.5s;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-svg.causes {
+    background-image: url("images/causes.svg");
+}
+
+.icon-svg.treatment {
+    background-image: url("images/treatment.svg");
+}
+
+.svg-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    right: 7px;
+}
+
+.svg-subTitle {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+.actionBtn-div {
+    color: white;
+    background: rgb(39 39 39);
+    padding: 15px 20px;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
