@@ -76,7 +76,7 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
                             <a href="#" class="actionBtn">Find out more</a>
                         </div>
-                        <div class="img-square-wrapper"></div>
+                        <div class="img-square-wrapper help"></div>
                     </div>
                 </div>
             </div>
