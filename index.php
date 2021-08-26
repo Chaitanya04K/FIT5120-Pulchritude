@@ -24,7 +24,7 @@
         <div class="navbar-collapse collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Get support</a>
+                    <a href="getSupport.html" class="nav-link">Get support</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Chatroom</a>
