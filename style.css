@@ -332,6 +332,16 @@ body {
     font-weight: 800;
 }
 
+.info-subHeading {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
 .jumbotron.depression-causes {
     background-image: url('images/causes.jpg');
 }
+
+.jumbotron.depression-signs {
+    background-image: url('images/signsandsymptoms.jpg');
+}
+
