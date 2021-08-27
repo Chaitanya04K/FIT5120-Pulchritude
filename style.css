@@ -352,4 +352,5 @@ body {
 .my-container {
     display: flex;
     padding: 2rem;
+    justify-content: space-around;
 }
