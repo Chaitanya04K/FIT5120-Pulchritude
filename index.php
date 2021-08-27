@@ -89,7 +89,7 @@
 
         </div>
     </div>
-    <div>
+    <div class = "footerLinks">
         <ul>
             <li>
                 <a href = "#">Contact us</a>

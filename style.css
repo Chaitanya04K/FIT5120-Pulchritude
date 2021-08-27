@@ -354,3 +354,7 @@ body {
     padding: 2rem;
     justify-content: space-around;
 }
+
+.footerLinks {
+    float: right;
+}
