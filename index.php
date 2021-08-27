@@ -49,13 +49,12 @@
         <div class="container">
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
             <p class="lead banner-subheading">Need someone to talk to?</p>
-            <a href="tel:0435976608" class="actionBtn">Call 0000 00 0000</a>
+            <a href="tel:0435976608" class="actionBtn">Call 13 11 14</a>
         </div>
     </div>
 
     <div class="info-section">
-        <!-- <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, dicta animi ipsam alias distinctio exercitationem ab rem consequatur! Accusantium iure maxime id facilis nesciunt autem cupiditate asperiores placeat ratione rem.</span> -->
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>Maiores</span>, dicta animi ipsam alias distinctio exercitationem ab rem consequatur! Accusantium iure maxime id facilis nesciunt autem cupiditate asperiores placeat ratione rem.</p>
+        <p>A survey initiated on March 23, 2021 shows <span>9 out of 10</span> students said they experienced stress, and more than <span>two-thirds</span> reported self-diagnosed anxiety or self-diagnosed depression. More than a <span>quarter</span> of the students said they had thoughts of self-harm.</p>
     </div>
 
     <div class="container-fluid">
