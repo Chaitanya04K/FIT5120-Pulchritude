@@ -326,3 +326,12 @@ body {
     transition: color 0.5s;
     transition: background-color 0.5s;
 }
+
+.info-mainHeading {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.jumbotron.depression-causes {
+    background-image: url('images/causes.jpg');
+}

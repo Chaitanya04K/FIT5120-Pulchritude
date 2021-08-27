@@ -29,7 +29,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a href="getSupport.html" class="dropdown-item">Get support</a>
-                        <a class="dropdown-item" href="/getInfo.html">Depression</a>
+                        <a class="dropdown-item" href="getInfo.html">Depression</a>
                     </div>
                 </li>
                 <li class="nav-item">
