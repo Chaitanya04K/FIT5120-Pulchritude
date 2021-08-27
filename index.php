@@ -66,7 +66,7 @@
                         <div class="img-square-wrapper"></div>
                         <div class="card-body">
                             <h4 class="card-title">Learn about depression</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
+                            <p class="card-text">Depression is a very serious condition which unfortunately is very common and should not be ignored. It can affect your physical and mental health and can even stop you from doing normal daily activies.</p>
                             <a href="getInfo.html" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                     <div class="card-horizontal">
                         <div class="card-body">
                             <h4 class="card-title">Feeling stressed?</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
+                            <p class="card-text">The K10 Checklist is a simple checklist which will measure the level of general stress one is facing without identifying the causes.</p>
                             <a href="#" class="actionBtn">Take the K10 Checklist</a>
                         </div>
                         <div class="img-square-wrapper help"></div>
