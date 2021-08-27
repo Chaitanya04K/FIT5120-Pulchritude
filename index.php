@@ -40,7 +40,7 @@
                     <a href="#" class="nav-link">Mood diary</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">K10 checklist</a>
+                    <a href="#" class="nav-link">K10 checklistt</a>
                 </li>
             </ul>
         </div>
