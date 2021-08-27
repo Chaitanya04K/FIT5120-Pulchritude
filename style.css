@@ -348,3 +348,9 @@ body {
 .jumbotron.depression-treatment {
     background-image: url('images/treatment.jpg');
 }
+
+.my-container {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+}
