@@ -67,7 +67,7 @@
                         <div class="img-square-wrapper"></div>
                         <div class="card-body">
                             <h4 class="card-title">Learn about depression</h4>
-                            <p class="card-text">Depression is a very serious condition which unfortunately is very common and should not be ignored. It can affect your physical and mental health and can even stop you from doing normal daily activies.</p>
+                            <p class="card-text">Depression is a very serious condition which unfortunately is very common and should not be ignored. It can affect your physical and mental health and can even stop you from doing normal daily activties.</p>
                             <a href="getInfo.html" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
