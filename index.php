@@ -98,7 +98,7 @@
 
 
                     <div class="sf-content-block content-block">
-                        <div><a href="/about/policies/privacy">Privacy Legal Notice                   </a></div>
+                        <div><a href="#">Privacy Legal Notice                   </a></div>
 
                     </div>
                 </div>
@@ -163,7 +163,7 @@
 
 
                     <div class="sf-content-block content-block">
-                        <div><a href="/about/policies/terms-of-use">TE04-Brainguard</a></div>
+                        <div><a href="#">TE04-Brainguard</a></div>
 
                     </div>
                 </div>
