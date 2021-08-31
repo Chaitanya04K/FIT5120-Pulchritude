@@ -355,12 +355,14 @@ body {
     justify-content: space-around;
 }
 
-.footerLinks {
-    float: right;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    margin: 0;
-    padding: 0;
+.bottom-footer {
+    display: block;
+    width: 100%;
+    background-color: #20313b;
+    float: left;
+    font-weight: bold;
+}
+.bottom-footer .container {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
 }
