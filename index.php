@@ -163,7 +163,7 @@
 
 
                     <div class="sf-content-block content-block">
-                        <div><a href="/about/policies/terms-of-use">WHO</a></div>
+                        <div><a href="/about/policies/terms-of-use">TE04-Brainguard</a></div>
 
                     </div>
                 </div>
