@@ -98,7 +98,7 @@
 
 
                     <div class="sf-content-block content-block">
-                        <div><a href="/about/policies/privacy">Privacy Legal Notice</a></div>
+                        <div><a href="/about/policies/privacy">Privacy Legal Notice                   </a></div>
 
                     </div>
                 </div>
@@ -153,7 +153,7 @@
 
                 </div>
                 <div class="col-md-4 copyright"> <span>
-                        ©
+                                            ©
                     </span>
 
                     2021
