@@ -89,6 +89,7 @@
 
         </div>
     </div>
+
     <div class="bottom-footer">
         <div class="container">
             <div class="row">
@@ -151,9 +152,25 @@
                     </div>
 
                 </div>
+                <div class="col-md-4 copyright"> <span>
+                        ©
+                    </span>
+
+                    2021
+
+
+
+
+
+                    <div class="sf-content-block content-block">
+                        <div><a href="/about/policies/terms-of-use">WHO</a></div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <!-- <div class="footerLinks">
         <ul>
             <li>
