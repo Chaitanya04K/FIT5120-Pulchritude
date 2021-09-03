@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brainguard</title>
 
+    <!-- icon -->
+    <link rel="icon" href="/images/brainstorm_logo.png">
+
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -17,6 +20,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <img class="brand-logo-brainguard" src="images/brainstorm_logo.png" alt="brand_logo">
         <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
