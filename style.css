@@ -1917,7 +1917,7 @@ body {
     padding-bottom: 0
 }
 
-article,
+/* article,
 aside,
 footer,
 header,
@@ -1926,7 +1926,7 @@ section {
     display: block;
     position: relative;
     width: 100%;
-}
+} */
 
 a {
     color: #008dc9;
