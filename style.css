@@ -362,6 +362,10 @@ body {
     margin-bottom: 0rem !important;
 }
 
+nav {
+    float: none !important;
+}
+
 
 /* OTHER CSS */
 
