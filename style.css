@@ -358,6 +358,13 @@ body {
     justify-content: space-around;
 }
 
+.breadcrumb {
+    margin-bottom: 0rem !important;
+}
+
+
+/* OTHER CSS */
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif+JP);
 .slick-slider {
@@ -1919,7 +1926,7 @@ section {
     display: block;
     position: relative;
     width: 100%;
-    float: left
+    /* float: left */
 }
 
 a {

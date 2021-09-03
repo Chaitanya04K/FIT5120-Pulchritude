@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,14 @@
         <div class="navbar-collapse collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Information and Resources
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Information and Support
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="getSupport.html" class="dropdown-item">Get support</a>
-                        <a class="dropdown-item" href="getInfo.html">Depression</a>
-                        <a class="dropdown-item" href="graphs.html">Statistics</a>
+                        <a class="dropdown-item" href="getInfo.html">Information on Depression</a>
+                        <a href="getSupport.html" class="dropdown-item">Find support</a>
+                        <a class="dropdown-item" href="graphs.html">Statistics on Depression</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -55,7 +56,7 @@
     </div>
 
     <div class="info-section">
-        <p> </span> 60% </span> of international uni students studying in Victoria have mental health illness. International students are </span> twice </span> as likely to suffer from depression as local students. </p>
+        <p> <span> 60% </span> of international uni students studying in Victoria have mental health illness. International students are <span> twice </span> as likely to suffer from depression as local students. </p>
     </div>
 
     <div class="container-fluid">
