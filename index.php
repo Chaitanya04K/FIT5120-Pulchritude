@@ -21,7 +21,7 @@
 <body>
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <!-- <img class="brand-logo-brainguard" src="images/brainstorm_logo.png" alt="brand_logo"> -->
-        <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
+        <a href="index.php" class="navbar-brand font-weight-bold">Brainguardd</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
