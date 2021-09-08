@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="checklist.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Information and Support
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="getInfo.html">Information on Depression</a>
+                        <a href="getSupport.html" class="dropdown-item">Find support</a>
+                        <a class="dropdown-item" href="graphs.html">Statistics on Depression</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Chatroom</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Mood diary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">K10 checklist</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Get Support</li>
+        </ol>
+    </nav>
+    <div class="checklist depressionChecklist">
+        <header class="sfClearfix">
+            <div class="col1">In the past 4 weeks...</div>
+            <div class="col2">None of the time</div>
+            <div class="col3">A little of the time</div>
+            <div class="col4">Some of the time</div>
+            <div class="col5">Most of the time</div>
+            <div class="col6">All of the time</div>
+        </header>
+        <ol class="sfClearfix zebra">
+            <li>
+                <div class="col1">
+                    About how often did you feel tired out for no good reason?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion1" style="display:none;">Question 1 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_1_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q1" value="chk_1_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_1_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q1" value="chk_1_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_1_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q1" value="chk_1_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_1_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q1" value="chk_1_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_1_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_1_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q1" value="chk_1_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel nervous?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion2" style="display:none;">Question 2 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_2_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q2" value="chk_2_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_2_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q2" value="chk_2_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_2_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q2" value="chk_2_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_2_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q2" value="chk_2_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_2_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_2_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q2" value="chk_2_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel so nervous that nothing could calm you down?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion3" style="display:none;">Question 3 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_3_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q3" value="chk_3_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_3_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q3" value="chk_3_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_3_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q3" value="chk_3_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_3_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q3" value="chk_3_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_3_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_3_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q3" value="chk_3_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel hopeless?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion4" style="display:none;">Question 4 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_4_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q4" value="chk_4_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_4_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q4" value="chk_4_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_4_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q4" value="chk_4_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_4_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q4" value="chk_4_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_4_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_4_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q4" value="chk_4_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel restless or fidgety?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion5" style="display:none;">Question 5 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_5_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q5" value="chk_5_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_5_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q5" value="chk_5_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_5_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q5" value="chk_5_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_5_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q5" value="chk_5_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_5_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_5_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q5" value="chk_5_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel so restless you could not sit still?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion6" style="display:none;">Question 6 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_6_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q6" value="chk_6_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_6_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q6" value="chk_6_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_6_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q6" value="chk_6_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_6_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q6" value="chk_6_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_6_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_6_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q6" value="chk_6_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel depressed?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion7" style="display:none;">Question 7 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_7_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q7" value="chk_7_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_7_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q7" value="chk_7_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_7_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q7" value="chk_7_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_7_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q7" value="chk_7_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_7_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_7_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q7" value="chk_7_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel that everything was an effort?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion8" style="display:none;">Question 8 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_8_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q8" value="chk_8_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_8_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q8" value="chk_8_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_8_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q8" value="chk_8_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_8_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q8" value="chk_8_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_8_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_8_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q8" value="chk_8_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel so sad that nothing could cheer you up?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion9" style="display:none;">Question 9 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_9_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q9" value="chk_9_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_9_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q9" value="chk_9_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_9_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q9" value="chk_9_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_9_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q9" value="chk_9_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_9_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_9_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q9" value="chk_9_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col1">
+                    About how often did you feel worthless?
+                    <span id="MainContentPlaceholder_C005_ctl00_ctl00_valQuestion10" style="display:none;">Question 10 is mandatory</span>
+                </div>
+                <div class="col2">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_1" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_10_1" class="offScreen">None of the time</label>
+                    <div class="display-mobile">Never</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_1" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q10" value="chk_10_1">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col3">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_2" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_10_2" class="offScreen">A little of the time</label>
+                    <div class="display-mobile">Little</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_2" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q10" value="chk_10_2">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col4">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_3" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_10_3" class="offScreen">Some of the time</label>
+                    <div class="display-mobile">Some</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_3" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q10" value="chk_10_3">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col5">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_4" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_10_4" class="offScreen">Most of the time</label>
+                    <div class="display-mobile">Most</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_4" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q10" value="chk_10_4">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+                <div class="col6">
+                    <label for="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_5" id="MainContentPlaceholder_C005_ctl00_ctl00_lbl_10_5" class="offScreen">All of the time</label>
+                    <div class="display-mobile">Always</div>
+                    <div class="fancy-radio-alone">
+                        <input id="MainContentPlaceholder_C005_ctl00_ctl00_chk_10_5" type="radio" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$q10" value="chk_10_5">
+                        <span class="checkbox-icon"></span>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <div class="buttonWrap">
+            <input type="submit" name="ctl00$MainContentPlaceholder$C005$ctl00$ctl00$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContentPlaceholder$C005$ctl00$ctl00$btnSubmit&quot;, &quot;&quot;, true, &quot;valStep&quot;, &quot;&quot;, false, false))"
+                id="MainContentPlaceholder_C005_ctl00_ctl00_btnSubmit" class="button buttonLarge includeDisable">
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
