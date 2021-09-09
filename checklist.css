@@ -1,17 +1,61 @@
-.depressionChecklist {
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 25px;
+.depressionChecklist ol li,
+.depressionChecklist header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
 }
 
-div.a {
-    text-align: center;
+.depressionChecklist header {
+    background: #5D99C9;
+    overflow: hidden;
 }
 
-img {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
 html,
@@ -96,52 +140,115 @@ mark,
 audio,
 video {
     border: 0;
+    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     margin: 0;
     padding: 0;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-div {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
     display: block;
 }
 
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+.depressionChecklist {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 25px;
+}
+
 body {
+    font-family: "FFDINWeb", sans-serif;
+    font-size: 18px;
     color: #333;
 }
 
 body {
+    line-height: 1;
+}
+
+body {
     margin: 0;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
 *,
 *:before,
 *:after {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 :before,
  :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 :before,
  :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
