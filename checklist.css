@@ -142,11 +142,6 @@ li {
     text-align: left;
 }
 
-input[type=submit] {
-    -webkit-appearance: button;
-    cursor: pointer;
-}
-
 input {
     line-height: normal;
     border-radius: 0;
