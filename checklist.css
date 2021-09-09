@@ -2,3 +2,69 @@
     background: #5D99C9;
     overflow: hidden;
 }
+
+.depressionChecklist ol li,
+.depressionChecklist header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+}
+
+div,
+header {
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+}
+
+.depressionChecklist {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 25px;
+}
+
+.depressionChecklist .col1 {
+    text-align: left;
+}
+
+.depressionChecklist [class*=col] {
+    text-align: center;
+    padding: 20px 10px !important;
+}
+
+.depressionChecklist .col1 {
+    width: 33%;
+    color: #009BC9;
+}
+
+div {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.depressionChecklist header [class*=col] {
+    color: #fff;
+    font-family: "FFDINWebBold", sans-serif;
+    padding: 10px 10px !important;
+}
+
+.depressionChecklist .col1 {
+    width: 33%;
+    color: #009BC9;
+}
