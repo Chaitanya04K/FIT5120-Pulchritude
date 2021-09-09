@@ -65,11 +65,13 @@ div {
     color: #fff;
     font-family: "FFDINWebBold", sans-serif;
     padding: 10px 10px !important;
+    font-weight: bold;
 }
 
 .depressionChecklist .col1 {
     width: 33%;
     color: #009BC9;
+    font-weight: bold;
 }
 
 .depressionChecklist .col2,
@@ -140,11 +142,15 @@ li {
     padding: 12px 20px 10px;
     border: 0 none;
     text-align: left;
-    font-weight: bold;
 }
 
 input[type="submit"] {
     cursor: pointer;
     -webkit-appearance: button;
     *overflow: visible;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
 }

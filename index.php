@@ -8,7 +8,7 @@
     <title>Brainguard</title>
 
     <!-- icon -->
-    <link rel="icon" href="/images/brainstorm_logo.png">
+    <link rel="icon" href="/images/Logo without name.png">
 
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
@@ -61,7 +61,7 @@
     </div>
 
     <div class="info-section">
-        <p> <span> 60% </span> of international uni students studying in Victoria have mental health illness. International students are <span> twice </span> as likely to suffer from depression as local students. </p>
+        <p> <span> 60% </span> of international university students studying in Victoria have mental health illness. International students are <span> twice </span> as likely to suffer from depression as local students. </p>
     </div>
 
     <div class="container-fluid">
