@@ -76,3 +76,37 @@ div {
 .depressionChecklist .col6 {
     width: 13.4%;
 }
+
+.offScreen {
+    position: absolute;
+    left: -888%;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+label {
+    font-family: "FFDINWeb", sans-serif;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-family: "OthersBold";
+    cursor: pointer;
+}
+
+:not(.lt-ie10) .fancy-radio-alone {
+    display: inline-block;
+    position: relative;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol li {
+    list-style: none;
+}
