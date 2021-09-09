@@ -142,20 +142,6 @@ li {
     text-align: left;
 }
 
-input {
-    line-height: normal;
-    border-radius: 0;
-    color: inherit;
-    font: inherit;
-    margin: 0;
-    font-family: inherit;
-    line-height: inherit;
-    font-size: 100%;
-    margin: 0;
-    vertical-align: baseline;
-    *vertical-align: middle;
-}
-
 input[type="submit"] {
     cursor: pointer;
     -webkit-appearance: button;
