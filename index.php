@@ -21,7 +21,7 @@
 <body>
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
         <!-- <img class="brand-logo-brainguard" src="images/brainstorm_logo.png" alt="brand_logo"> -->
-        <a href="index.php" class="navbar-brand font-weight-bold">Brainguardd</a>
+        <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,7 +54,8 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
-            <p class="lead banner-subheading">Need someone to talk to?</p>
+            <p class="lead banner-subheading">We are offering to provide information and support for international students 
+                in Victorian Universities and they can seek to find more on this website</p>
             <a href="tel:0435976608" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
