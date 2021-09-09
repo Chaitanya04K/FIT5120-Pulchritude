@@ -123,12 +123,12 @@ li {
     display: none;
 }
 
-.depressionChecklist .buttonWrap input[type=submit],
+.depressionChecklist .buttonWrap input[type="submit"],
 .buttonLarge {
     background: #025C76;
 }
 
-.depressionChecklist .buttonWrap input[type=submit],
+.depressionChecklist .buttonWrap input[type="submit"],
 .button,
 .buttonLarge {
     color: #fff !important;
@@ -150,4 +150,10 @@ input[type=submit] {
 input {
     line-height: normal;
     border-radius: 0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    *overflow: visible;
 }
