@@ -54,7 +54,8 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
-            <p class="lead banner-subheading">Need someone to talk to?</p>
+            <p class="lead banner-subheading">We are offering to provide information and support for international students 
+                in Victorian Universities and they can seek to find more on this website</p>
             <a href="tel:0435976608" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
