@@ -128,6 +128,7 @@ li {
 .depressionChecklist .buttonWrap input[type="submit"],
 .buttonLarge {
     background: #025C76;
+    text-align: center;
 }
 
 .depressionChecklist .buttonWrap input[type="submit"],
