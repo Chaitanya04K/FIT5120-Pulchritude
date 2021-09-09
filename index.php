@@ -8,7 +8,7 @@
     <title>Brainguard</title>
 
     <!-- icon -->
-    <link rel="icon" href="/images/3fb50e716ed14d2f976bf1a99c344ec3.png">
+    <link rel="icon" href="/images/24dbe005ebd440639a59678e67566826.png">
 
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
