@@ -117,3 +117,7 @@ li {
 .depressionChecklist ol {
     margin-bottom: 20px;
 }
+
+.display-mobile {
+    display: none;
+}
