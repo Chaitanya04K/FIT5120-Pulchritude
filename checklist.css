@@ -110,3 +110,7 @@ label {
 ol li {
     list-style: none;
 }
+
+.depressionChecklist ol {
+    margin-bottom: 20px;
+}
