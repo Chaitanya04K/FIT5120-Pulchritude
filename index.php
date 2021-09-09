@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brainguard</title>
-    <link rel="shortcut icon" href="/images/Logo with name2.png">
+    <link rel="shortcut icon" href="/images/Logo with name.png">
 
     <!-- icon -->
-    <link rel="icon" href="/images/Logo without name.png">
+    <link rel="icon" href="/images/Logo without name2.png">
 
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
