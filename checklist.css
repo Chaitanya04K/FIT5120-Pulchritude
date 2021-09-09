@@ -149,9 +149,12 @@ input[type="submit"] {
     -webkit-appearance: button;
     *overflow: visible;
     font-weight: bold;
-    text-align: center;
 }
 
 h2 {
     text-align: center;
+}
+
+.button buttonLarge includeDisable {
+    align-items: center
 }
