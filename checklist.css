@@ -150,3 +150,7 @@ input[type="submit"] {
     *overflow: visible;
     font-weight: bold;
 }
+
+p {
+    text-align: center;
+}
