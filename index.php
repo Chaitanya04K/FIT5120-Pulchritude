@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brainguard</title>
+    <link rel="shortcut icon" href="/images/Logo with name.png">
 
     <!-- icon -->
-    <link rel="icon" href="/images/brainstorm_logo.png">
+    <link rel="icon" href="/images/Logo without name2.png">
 
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
@@ -61,7 +62,7 @@
     </div>
 
     <div class="info-section">
-        <p> <span> 60% </span> of international uni students studying in Victoria have mental health illness. International students are <span> twice </span> as likely to suffer from depression as local students. </p>
+        <p> <span> 60% </span> of international university students studying in Victoria have mental health illness. International students are <span> twice </span> as likely to suffer from depression as local students. </p>
     </div>
 
     <div class="container-fluid">
