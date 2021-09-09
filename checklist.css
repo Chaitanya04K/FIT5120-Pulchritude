@@ -47,7 +47,8 @@ header {
 
 div,
 ol,
-li {
+li,
+label {
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -120,4 +121,33 @@ li {
 
 .display-mobile {
     display: none;
+}
+
+.depressionChecklist .buttonWrap input[type=submit],
+.buttonLarge {
+    background: #025C76;
+}
+
+.depressionChecklist .buttonWrap input[type=submit],
+.button,
+.buttonLarge {
+    color: #fff !important;
+    font-family: "FFDINWebBold", sans-serif;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 12px 20px 10px;
+    border: 0 none;
+    text-align: left;
+}
+
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+input {
+    line-height: normal;
+    border-radius: 0;
 }
