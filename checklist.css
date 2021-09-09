@@ -68,3 +68,11 @@ div {
     width: 33%;
     color: #009BC9;
 }
+
+.depressionChecklist .col2,
+.depressionChecklist .col3,
+.depressionChecklist .col4,
+.depressionChecklist .col5,
+.depressionChecklist .col6 {
+    width: 13.4%;
+}
