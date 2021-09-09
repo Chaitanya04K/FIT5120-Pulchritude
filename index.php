@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/images/Logo with name.png">
 
     <!-- icon -->
-    <link rel="icon" href="/images/Logo without name2.png">
+    <link rel="icon" href="/images/Logo without name white2.png">
 
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
