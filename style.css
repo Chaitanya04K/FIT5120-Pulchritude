@@ -401,6 +401,11 @@ nav {
     font-size: 0.8rem;
 }
 
+.info-videos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* OTHER CSS */
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
