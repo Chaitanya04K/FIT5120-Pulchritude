@@ -57,6 +57,9 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                 <li class="nav-item">
                     <a href="checklist.html" class="nav-link">K10 checklist</a>
                 </li>
+                <li class="nav-item">
+                    <a href="logout.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Log Out</a>  
+                </li>
             </ul>
         </div>
     </nav>
