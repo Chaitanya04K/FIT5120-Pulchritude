@@ -159,3 +159,54 @@ h2 {
 .buttonWrap {
     align-items: center;
 }
+
+.footer {
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: baseline;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a {
+    color: #008dc9;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
