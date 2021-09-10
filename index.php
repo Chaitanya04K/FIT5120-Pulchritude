@@ -52,7 +52,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                     <a href="#" class="nav-link">Chatroom</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Mood diary</a>
+                    <a href="comingSoon.php" class="nav-link">Mood diary</a>
                 </li>
                 <li class="nav-item">
                     <a href="checklist.html" class="nav-link">K10 checklist</a>

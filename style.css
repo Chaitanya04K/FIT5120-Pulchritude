@@ -375,6 +375,12 @@ nav {
     margin-right: 10px;
 }
 
+.coming-soon-background {
+    background-image: url(images/coming-soon.jpg);
+    height: 93.5vh;
+    background-size: cover;
+}
+
 
 /* OTHER CSS */
 
