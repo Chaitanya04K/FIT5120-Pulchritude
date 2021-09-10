@@ -23796,22 +23796,3 @@ screen and (max-height: 300px) {
     padding: 100px 20px;
     height: 100%;
   }
-
-  .signsymp-container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-  }
-  
-  .signsymp-img {
-    max-width: 100%
-  }
-  
-  .signsymp-image {
-    flex-basis: 40%
-  }
-  
-  .sign-symp-text {
-    font-size: 20px;
-    padding-left: 20px;
-  }
