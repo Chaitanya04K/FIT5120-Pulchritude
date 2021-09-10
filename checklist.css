@@ -210,3 +210,9 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
