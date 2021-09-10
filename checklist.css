@@ -160,3 +160,8 @@ h2 {
 .buttonWrap {
     align-items: center;
 }
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
