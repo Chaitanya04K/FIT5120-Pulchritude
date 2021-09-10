@@ -19,6 +19,7 @@ header {
     vertical-align: baseline;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 header {
@@ -45,6 +46,7 @@ header {
     color: #009BC9;
 }
 
+header,
 div,
 ol,
 li,
