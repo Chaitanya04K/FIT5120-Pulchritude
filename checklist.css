@@ -154,3 +154,7 @@ input[type="submit"] {
 h2 {
     text-align: center;
 }
+
+.buttonWrap {
+    align-items: center;
+}
