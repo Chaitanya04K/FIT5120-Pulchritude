@@ -352,6 +352,10 @@ body {
     background-image: url('images/treatment.jpg');
 }
 
+.jumbotron.statistics {
+    background-image: url('images/Statistics_page.jpeg');
+}
+
 .my-container {
     display: flex;
     padding: 2rem;
