@@ -86,7 +86,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Feeling stressed?</h4>
                             <p class="card-text">The K10 Checklist is a simple checklist which will measure the level of general stress one is facing without identifying the causes.</p>
-                            <a href="#" class="actionBtn">Take the K10 Checklist</a>
+                            <a href="checklist.html" class="actionBtn">Take the K10 Checklist</a>
                         </div>
                         <div class="img-square-wrapper help"></div>
                     </div>
