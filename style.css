@@ -404,6 +404,7 @@ nav {
 .info-videos {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 /* OTHER CSS */
