@@ -46,7 +46,6 @@ header {
     color: #009BC9;
 }
 
-header,
 div,
 ol,
 li,
@@ -159,9 +158,4 @@ h2 {
 
 .buttonWrap {
     align-items: center;
-}
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
 }
