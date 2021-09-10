@@ -66,58 +66,82 @@
         </div>
     </div>
 
-    <button class="stats-tablink" onclick="openPage('PDS', this, '#FAAC58')">Level of psychological distress changes</button>
-    <button class="stats-tablink" onclick="openPage('AD', this, '#F7D358')" id="defaultOpen">Diagnosed with anxiety or depression</button>
+    <button class="stats-tablink" onclick="openPage('PDS', this, '#FAAC58')">Level of psychological distress
+        changes</button>
+    <button class="stats-tablink" onclick="openPage('AD', this, '#F7D358')" id="defaultOpen">Diagnosed with anxiety or
+        depression</button>
 
     <div id="PDS" class="stats-tabcontent">
         <h3>Changes in the level of psychological distress for Victorian adults from 2015 to 2019</h3>
-        <p>The line chart visualizes the proportion (%) of adult population (18+ years), by level of psychological distress 
+        <p>The line chart visualizes the proportion (%) of adult population (18+ years), by level of psychological
+            distress
             changes in Victoria over 2015-2019. The higher level of psychological distress for was the highest in 2019.
         </p>
         <p>Data is obtained from Victorian Population Health Survey by the Victorian Health Intelligence Unit</p>
         <div>
-            <a href="https://plotly.com/~valho/1/?share_key=1RvSq7QKnOlq0qABEYwmPP" target="_blank" title="Level of Psychological Distress" style="display: block; text-align: center;"><img src="https://plotly.com/~valho/1.png?share_key=1RvSq7QKnOlq0qABEYwmPP" alt="Level of Psychological Distress" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-            <script data-plotly="valho:1" sharekey-plotly="1RvSq7QKnOlq0qABEYwmPP" src="https://plotly.com/embed.js" async></script>
+            <a href="https://plotly.com/~valho/1/?share_key=1RvSq7QKnOlq0qABEYwmPP" target="_blank"
+                title="Level of Psychological Distress" style="display: block; text-align: center;"><img
+                    src="https://plotly.com/~valho/1.png?share_key=1RvSq7QKnOlq0qABEYwmPP"
+                    alt="Level of Psychological Distress" style="max-width: 100%;width: 600px;" width="600"
+                    onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+            <script data-plotly="valho:1" sharekey-plotly="1RvSq7QKnOlq0qABEYwmPP" src="https://plotly.com/embed.js"
+                async></script>
         </div>
-      </div>
-      
+    </div>
+
     <div id="AD" class="stats-tabcontent">
         <h3>Proportion of adults that were diagnosed with anxiety or depression from 2015 to 2019</h3>
-        <p>The line chart visualizes the proportion (%) of adult population (18+ years), with anxiety or depression 
+        <p>The line chart visualizes the proportion (%) of adult population (18+ years), with anxiety or depression
             in Victoria over 2015-2019. The proportion of adults has been gradually increasing over the years.
         </p>
         <p>Data is obtained from Victorian Population Health Survey by the Victorian Health Intelligence Unit</p>
-      <div>
-          <a href="https://plotly.com/~valho/3/?share_key=QtFfNWastwpG0IFAl2Uy0m" target="_blank" title="Diag_ad" style="display: block; text-align: center;"><img src="https://plotly.com/~valho/3.png?share_key=QtFfNWastwpG0IFAl2Uy0m" alt="Diag_ad" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-          <script data-plotly="valho:3" sharekey-plotly="QtFfNWastwpG0IFAl2Uy0m" src="https://plotly.com/embed.js" async></script>
-        </div> 
+        <div>
+            <a href="https://plotly.com/~valho/3/?share_key=QtFfNWastwpG0IFAl2Uy0m" target="_blank" title="Diag_ad"
+                style="display: block; text-align: center;"><img
+                    src="https://plotly.com/~valho/3.png?share_key=QtFfNWastwpG0IFAl2Uy0m" alt="Diag_ad"
+                    style="max-width: 100%;width: 600px;" width="600"
+                    onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+            <script data-plotly="valho:3" sharekey-plotly="QtFfNWastwpG0IFAl2Uy0m" src="https://plotly.com/embed.js"
+                async></script>
+        </div>
     </div>
 
     <script>
-        function openPage(pageName,elmnt,color) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("stats-tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("stats-tablink");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].style.backgroundColor = "";
-          }
-          document.getElementById(pageName).style.display = "block";
-          elmnt.style.backgroundColor = color;
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("stats-tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("stats-tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
         }
-        
+
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
-        </script>
+    </script>
+
+    <div class="footer">
+        <a href="index.php">Brainguard</a>
+        <p>Copyright &copy; 2021</p>
+    </div>
 
 
     <!-- JavaScript Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
