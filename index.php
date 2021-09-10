@@ -48,12 +48,12 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                         <a class="dropdown-item" href="graphs.html">Statistics on Depression</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="#" class="nav-link">Chatroom</a>
                 </li>
                 <li class="nav-item">
                     <a href="comingSoon.php" class="nav-link">Mood diary</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a href="checklist.html" class="nav-link">K10 checklist</a>
                 </li>
