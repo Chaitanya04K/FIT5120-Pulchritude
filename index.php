@@ -69,7 +69,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
             <p class="lead banner-subheading">We are offering to provide information and support for international students 
                 in Victorian Universities and they can seek to find more on this website</p>
-            <a href="tel:0435976608" class="actionBtn">Call: Lifeline 13 11 14</a>
+            <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
 
