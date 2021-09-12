@@ -1,0 +1,30 @@
+.authenticate-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.authenticate-username-input {
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    margin-bottom: 10px;
+}
+
+.authenticate-password-input {
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    margin-bottom: 10px;
+}
+
+.authenticate-submit {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
