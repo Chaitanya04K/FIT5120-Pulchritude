@@ -605,7 +605,7 @@ $(function(){
 			var check_v=$("input[name=n"+i+"]:checked").val();
 			if(check_v==null){
 				flag=false;
-				alert('Please answer completely');
+				alert('Please answer all questions.');
 				break; 
 			}
 			score+=Number(check_v);
@@ -622,7 +622,7 @@ $(function(){
 				"Level of psychological distress",
 				"Low",
 				"Moderate",
-				"Hight",
+				"High",
 				"Very High",
 			];
 			var level="";
