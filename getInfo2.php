@@ -68,28 +68,6 @@
         <br>
 
         <table border="1">
-            <tbody>
-                <tr>
-                    <th style="text-align: center;background-color: #f49e4c;">
-                        Things to Note:
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <p><b>Please remember that this result is not a diagnosis.</b>
-                            This checklist may not have assessed everything that is going on for you.</p>
-                        <br>
-                        <p>If you feel sad, stressed, anxious or are struggling with something else that is not covered 
-                             in the checklist, you should consider other options for further assistance that 
-                            feel right for you at this time.</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br>
-
-        <table border="1">
             <tr>
                 <th style="text-align: center;background-color: #009BC9;">
                     What does my score mean?
@@ -97,17 +75,36 @@
             </tr>
             <tr>
                 <td>
-                    <div style="font-size: 20px; font-weight: bold;color:#00b4d8;">Low:</div>
-                    <p>Your score falls into the low range, which means you’ve likely been experiencing little or no symptoms of distress in the past four weeks.</p>
+                    <div style="font-size: 20px; font-weight: bold;color:#00b4d8;">10-15:</div>
+                    <p>CONGRATULATIONS! You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
+                    <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                     <br>
-                    <div style="font-size: 20px; font-weight: bold;color:#0096c7;">Moderate:</div>
-                    <p>Your score falls into the moderate range, which means you’ve likely been experiencing symptoms of distress for a little or some of the time over the past four weeks.</p>
+                    <div style="font-size: 20px; font-weight: bold;color:#0096c7;">16-21:</div>
+                    <p>You have a moderate level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
+                    <p>You may not take it seriously. However, It may be a sign that your mental health is getting worse!</p>
+                    <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
                     <br>
-                    <div style="font-size: 20px; font-weight: bold;color: #0077b6;">High:</div>
-                    <p>Your score falls into the high range, which means you’ve likely been experiencing symptoms of distress for some of the time over the past four weeks.</p>
+                    <div style="font-size: 20px; font-weight: bold;color: #0077b6;">22-29:</div>
+                    <p>You have a high level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
+                    <p>You may be not willing to seek help. However, it is really important to explore your options at this score range.</p>
+                    <br>
+                    <p>Here are some help Brainguard provides you:
+                    <h4 style="color:green;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
+                    <h4 style="color:blue;"><a href="getSupport.php">Find mental health services!</a></h4>
                     <br>
                     <div style="font-size: 20px; font-weight: bold;color: #023e8a;">Very High:</div>
-                    <p>Your score falls into the very high range, which means you’ve likely been experiencing symptoms of distress for a lot of the time over the past four weeks.</p>
+                    <p>You have a very high level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
+                    <p>Many people who score in this range are suffering from serious anxiety and depression. Some people 
+                        may also have thoughts of self-harm or suicide.</p>
+                    <p>Life could be very tough for you recently. However, please remember you are not alone! Some other 
+                        international students are also experiencing serious mental distress. Brainguard will try best to 
+                        help you!</p>
+                    <p>Here are some help Brainguard provides you:
+                    <h4 style="color:red">Call Lifeline: 13 11 14</h4>
+                    <h4 style="color:green;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
+                    <h4 style="color:blue;"><a href="getSupport.php">Find mental health services!</a></h4>
+                    <h4 style="color:purple;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
+                        with counselors for help.</a></h4>
                 </td>
             </tr>
         </table>
