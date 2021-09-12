@@ -6,6 +6,7 @@ session_start();
 if (session_destroy()) {
 
     $_SESSION["loggedin"] = false;
+    $_SESSION["userid"] = "";
 
     //Redirecting to login page
     header("location: login.php");
