@@ -18,7 +18,7 @@
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
             if (username == "fit5120" && password == "team04") {
-                window.location.href = "index.php"
+                window.location.href = "/index.php"
             } else {
                 alert("WRONG CREDENTIALS! PLEASE TRY AGAIN!")
             }
