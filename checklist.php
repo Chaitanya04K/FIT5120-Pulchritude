@@ -526,8 +526,6 @@
 
     <?php include 'footer.php'; ?>
 
-    
-
 <script>
 $(function(){
 	var lis=$('.zebra>li');

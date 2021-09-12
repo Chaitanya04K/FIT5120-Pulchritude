@@ -77,7 +77,6 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     </div>
 
     <?php include 'footer.php'; ?>
-
     
 </body>
 
