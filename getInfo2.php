@@ -89,8 +89,8 @@
                     <p>You may be not willing to seek help. However, it is really important to explore your options at this score range.</p>
                     <br>
                     <p>Here are some help Brainguard provides you:
-                    <h4 style="color:green"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:blue"><a href="getSupport.php">Find mental health services!</a></h4>
+                    <h4 style="color:#396C32;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
+                    <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
                     <br>
                     <div style="font-size: 20px; font-weight: bold;color: #023e8a;">30-50:</div>
                     <p>You have a very high level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
@@ -100,10 +100,10 @@
                         international students are also experiencing serious mental distress. Brainguard will try best to 
                         help you!</p>
                     <p>Here are some help Brainguard provides you:
-                    <h4 style="color:red">Call Lifeline: 13 11 14</h4>
-                    <h4 style="color:green"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:blue"><a href="getSupport.php">Find mental health services!</a></h4>
-                    <h4 style="color:purple"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
+                    <h4 style="color:#F4380F;">Call Lifeline: 13 11 14</h4>
+                    <h4 style="color:#396C32;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
+                    <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
+                    <h4 style="color:#7D4379;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
                         with counselors for help.</a></h4>
                 </td>
             </tr>
