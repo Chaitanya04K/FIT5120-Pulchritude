@@ -70,7 +70,7 @@
         <table border="1">
             <tbody>
                 <tr>
-                    <th style="text-align: center;background-color: #fec601;">
+                    <th style="text-align: center;background-color: #f49e4c;">
                         Things to Note:
                     </th>
                 </tr>
@@ -91,7 +91,7 @@
 
         <table border="1">
             <tr>
-                <th style="text-align: center;background-color: #2364aa;">
+                <th style="text-align: center;background-color: #009BC9;">
                     What does my score mean?
                 </th>
             </tr>
