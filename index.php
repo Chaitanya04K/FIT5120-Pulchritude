@@ -1,7 +1,3 @@
-<?php 
-header("location: authenticate.php");
-exit;
-?>
 <!DOCTYPE html>
 <html lang="en">
 
