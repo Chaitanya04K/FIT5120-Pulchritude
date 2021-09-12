@@ -39,7 +39,7 @@
                     <a href="checklist.php" class="nav-link">K10 checklist</a>
                 </li>
 
-                <?php if (isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) : ?>
+                <?php if ($_SESSION["loggedin"] !== true) : ?>
                     <li class="nav-item">
                         <a href="logout.php" class="nav-link">Logout</a>
                     </li>
