@@ -516,7 +516,7 @@
         </div>
     </div>
 
-    <table border="5" cellpadding="1" cellspacing="0" style="width: 75%;margin:auto">
+    <table border="5" cellpadding="0" cellspacing="0" style="width: 75%;margin:auto">
             <tbody>
                 <tr>
                     <th style="text-align: center;background-color: #f49e4c;">
@@ -539,8 +539,7 @@
                 </tr>
             </tbody>
         </table>
-
-
+        <br>
 
     <!-- <div class="footer">
         <a href="index.php" style="text-decoration: none;
