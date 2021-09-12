@@ -510,11 +510,38 @@
         </ol>
         <div style="text-align:center" class="buttonWrap">
 			<button id="show" class="button btn-primary" style="margin-right: 50px;cursor: pointer;">
-			next page
+			Next page
 			</button>
             <input type="submit" name="" value="Submit" onclick="" id="tijiao" class="button buttonLarge includeDisable">
         </div>
     </div>
+
+    <table border="1">
+            <tbody>
+                <tr>
+                    <th style="text-align: center;background-color: #f49e4c;">
+                        What happens next?
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Your responses will help us provide you the range of distress that you currently fall into, which
+                            can give you a better indication of how you are feeling.
+                            <br>
+                            A few things to note:
+                            <li>This checklist does not give you a diagnosis</li>
+                            <li>Please contact a health professional for a diagnosis.</li></p>
+                        <br>
+                        <p>Reference: Professor Ronald C Kessler of the Department of Health Care Policy, Harvard Medical School 
+                            is thanked for the use of research on the K10 funded by US Public Health Service Grants RO1 MH46376, 
+                            R01 MH52861, RO1 MH49098, and K05 MH00507 and by the John D and Catherine T MacArthur Foundation Network 
+                            on Successful Midlife Development (Gilbert Brim, Director). </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
 
     <!-- <div class="footer">
         <a href="index.php" style="text-decoration: none;
@@ -546,7 +573,7 @@ $(function(){
 					lis.eq(index).hide()
 				}
 			});
-			$(this).text('previous page');
+			$(this).text('Previous page');
 			f=false;
 		}
 		else{
@@ -559,7 +586,7 @@ $(function(){
 					lis.eq(index).show()
 				}
 			});
-			$(this).text('next page');
+			$(this).text('Next page');
 			f=true;
 		}
 	});
@@ -571,7 +598,7 @@ $(function(){
 			var check_v=$("input[name=n"+i+"]:checked").val();
 			if(check_v==null){
 				flag=false;
-				alert('Please answer all questions.');
+				alert('Please ensure that all questions are answered.');
 				break; 
 			}
 			score+=Number(check_v);
