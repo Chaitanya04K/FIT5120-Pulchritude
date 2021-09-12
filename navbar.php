@@ -27,16 +27,16 @@
                         Information and Support
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="getInfo.html">Information on Depression</a>
-                        <a class="dropdown-item" href="getSupport.html">Find support</a>
-                        <a class="dropdown-item" href="graphs.html">Statistics on Depression</a>
+                        <a class="dropdown-item" href="getInfo.php">Information on Depression</a>
+                        <a class="dropdown-item" href="getSupport.php">Find support</a>
+                        <a class="dropdown-item" href="graphs.php">Statistics on Depression</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a href="moodDiary.php" class="nav-link">Mood diary</a>
                 </li>
                 <li class="nav-item">
-                    <a href="checklist.html" class="nav-link">K10 checklist</a>
+                    <a href="checklist.php" class="nav-link">K10 checklist</a>
                 </li>
             </ul>
         </div>

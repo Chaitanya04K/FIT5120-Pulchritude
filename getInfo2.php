@@ -24,7 +24,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-            <li class="breadcrumb-item"><a href="checklist.html">K10 Checklist</a></li>
+            <li class="breadcrumb-item"><a href="checklist.php">K10 Checklist</a></li>
             <li class="breadcrumb-item active" aria-current="page">K10 Result</li>
         </ol>
     </nav>

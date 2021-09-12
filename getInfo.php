@@ -65,7 +65,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Some graph</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia corrupti molestiae eos assumenda ex saepe nulla sunt impedit eligendi minima adipisci consequatur sed expedita dolorum voluptate rerum, qui veniam?</p>
-                            <a href="getInfo.html" class="actionBtn btn-right">Learn more</a>
+                            <a href="getInfo.php" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Causes</h4>
                             <p class="card-text">Find out more about the causes and contributing factors of depression.</p>
-                            <a href="causes.html" class="actionBtn btn-right">Learn more</a>
+                            <a href="causes.php" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -91,14 +91,14 @@
     </div>
 
     <div class="causes-and-treatment-container">
-        <a href="signsandsymptoms.html" class="link-card">
+        <a href="signsandsymptoms.php" class="link-card">
             <div class="icon-svg causes"></div>
             <p class="svg-title">Signs and Symptoms</p>
             <p class="svg-subTitle">What are some things you shoud keep an eye out 
                 which would be important for yourself or others?</p>
             <div class="actionBtn-div">Learn more</div>
         </a>
-        <a href="treatment.html" class="link-card">
+        <a href="treatment.php" class="link-card">
             <div class="icon-svg treatment"></div>
             <p class="svg-title">Treatment</p>
             <p class="svg-subTitle">Common approaches and treatments to help you cope and recover from depression</p>

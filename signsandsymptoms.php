@@ -25,7 +25,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-            <li class="breadcrumb-item"><a href="getInfo.html">About Depression</a></li>
+            <li class="breadcrumb-item"><a href="getInfo.php">About Depression</a></li>
             <li class="breadcrumb-item active" aria-current="page">Signs and Symptoms</li>
         </ol>
     </nav>

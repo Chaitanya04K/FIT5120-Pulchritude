@@ -54,7 +54,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                         <div class="card-body">
                             <h4 class="card-title">Learn about depression</h4>
                             <p class="card-text">Depression is a very serious condition which unfortunately is very common and should not be ignored. It can affect your physical and mental health and can even stop you from doing normal daily activies.</p>
-                            <a href="getInfo.html" class="actionBtn btn-right">Learn more</a>
+                            <a href="getInfo.php" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                         <div class="card-body">
                             <h4 class="card-title">Feeling stressed?</h4>
                             <p class="card-text">The K10 Checklist is a simple checklist which will measure the level of general stress one is facing without identifying the causes.</p>
-                            <a href="checklist.html" class="actionBtn">Take the K10 Checklist</a>
+                            <a href="checklist.php" class="actionBtn">Take the K10 Checklist</a>
                         </div>
                         <div class="img-square-wrapper help"></div>
                     </div>

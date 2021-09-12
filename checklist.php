@@ -603,7 +603,7 @@ $(function(){
 					level=score_arr_level[j]
 				}
 			}
-			window.location.href="getInfo2.html?score="+score+"&level="+level;
+			window.location.href="getInfo2.php?score="+score+"&level="+level;
 		}
 	})
 })

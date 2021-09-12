@@ -42,9 +42,9 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                         Information and Support
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="getInfo.html">Information on Depression</a>
-                        <a href="getSupport.html" class="dropdown-item">Find support</a>
-                        <a class="dropdown-item" href="graphs.html">Statistics on Depression</a>
+                        <a class="dropdown-item" href="getInfo.php">Information on Depression</a>
+                        <a href="getSupport.php" class="dropdown-item">Find support</a>
+                        <a class="dropdown-item" href="graphs.php">Statistics on Depression</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -54,7 +54,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                     <a href="#" class="nav-link">Mood diary</a>
                 </li>
                 <li class="nav-item">
-                    <a href="checklist.html" class="nav-link">K10 checklist</a>
+                    <a href="checklist.php" class="nav-link">K10 checklist</a>
                 </li>
                 <li class="nav-item">
                     <a href="logout.php" class="nav-link">Log Out</a>
