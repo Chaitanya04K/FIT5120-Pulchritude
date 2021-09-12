@@ -3,6 +3,6 @@
 </head>
 
 <div class="footer">
-    <a href="index.php">Brainguard</a>
+    <a href="homepage.php">Brainguard</a>
     <p>Copyright &copy; 2021</p>
 </div>

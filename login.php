@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         $_SESSION["userid"] = $id;
                         $_SESSION["name"] = $name;
 
-                        //redirecting the user to the home scren(index.php)
-                        header("location: index.php");
+                        //redirecting the user to the home scren(homepage.php)
+                        header("location: homepage.php");
                         exit;
 
                     } else {

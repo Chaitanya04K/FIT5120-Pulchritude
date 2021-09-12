@@ -8,8 +8,8 @@ if (session_destroy()) {
     unset($_SESSION["loggedin"]);
     unset($_SESSION["userid"]);
 
-    //Redirecting to Index page
-    header("location: index.php");
+    //Redirecting to homepage page
+    header("location: homepage.php");
     exit;
 }
 ?>
