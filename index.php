@@ -1,4 +1,4 @@
-<?php 
+<?php
 //Starting the session
 session_start();
 
@@ -24,50 +24,17 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <img class="brand-logo-brainguard" src="images/icon_logo.png" alt="brand_logo">
-        <a href="index.php" class="navbar-brand font-weight-bold">Brainguard</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarMenu">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Information and Support
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="getInfo.html">Information on Depression</a>
-                        <a href="getSupport.html" class="dropdown-item">Find support</a>
-                        <a class="dropdown-item" href="graphs.html">Statistics on Depression</a>
-                    </div>
-                </li>
-                <!-- <li class="nav-item">
-                    <a href="#" class="nav-link">Chatroom</a>
-                </li>
-                <li class="nav-item">
-                    <a href="comingSoon.php" class="nav-link">Mood diary</a>
-                </li> -->
-                <li class="nav-item">
-                    <a href="checklist.html" class="nav-link">K10 checklist</a>
-                </li>
-                <li class="nav-item">
-                    <a href="logout.php" class="nav-link">Log Out</a>  
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <?php include 'navbar.php'; ?>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
-            <p class="lead banner-subheading">We are offering to provide information and support for international students 
+            <p class="lead banner-subheading">We are offering to provide information and support for international students
                 in Victorian Universities and they can seek to find more on this website</p>
             <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
@@ -109,13 +76,9 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         </div>
     </div>
 
-    <div class="footer">
-        <a href="index.php">Brainguard</a>
-        <p>Copyright &copy; 2021</p>
-    </div>
+    <?php include 'footer.php'; ?>
 
     <!-- JavaScript Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
