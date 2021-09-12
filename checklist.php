@@ -516,7 +516,7 @@
         </div>
     </div>
 
-    <table border="1">
+    <table border="5" cellpadding="3" cellspacing="0" style="width: 60%;margin:auto">
             <tbody>
                 <tr>
                     <th style="text-align: center;background-color: #f49e4c;">
@@ -527,10 +527,9 @@
                     <td>
                         <p>Your responses will help us provide you the range of distress that you currently fall into, which
                             can give you a better indication of how you are feeling.
-                            <br>
                             A few things to note:
-                            <li>This checklist does not give you a diagnosis</li>
-                            <li>Please contact a health professional for a diagnosis.</li></p>
+                            <li>- This checklist does not give you a diagnosis</li>
+                            <li>- Please contact a health professional for a diagnosis.</li></p>
                         <br>
                         <p>Reference: Professor Ronald C Kessler of the Department of Health Care Policy, Harvard Medical School 
                             is thanked for the use of research on the K10 funded by US Public Health Service Grants RO1 MH46376, 
