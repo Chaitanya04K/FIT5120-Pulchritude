@@ -38,6 +38,17 @@
                 <li class="nav-item">
                     <a href="checklist.php" class="nav-link">K10 checklist</a>
                 </li>
+
+                <?php if (isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) : ?>
+                    <li class="nav-item">
+                        <a href="logout.php" class="nav-link">Logout</a>
+                    </li>
+                <? else : ?>
+                    <li class="nav-item">
+                        <a href="register.php" class="nav-link">Login/Register</a>
+                    </li>
+                <?php endif; ?>
+
             </ul>
         </div>
     </nav>
