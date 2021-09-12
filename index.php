@@ -67,7 +67,14 @@
     </div>
 
     <?php include 'footer.php'; ?>
-    
+
+    <script>
+        var password = prompt("ENTER PASSWORD")
+        while (password != "team04") {
+            password = prompt("WRONG PASSWORD! TRY AGAIN!")
+        }
+    </script>
+
 </body>
 
 </html>
