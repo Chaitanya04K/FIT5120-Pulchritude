@@ -516,7 +516,7 @@
         </div>
     </div>
 
-    <table border="5" cellpadding="3" cellspacing="0" style="width: 60%;margin:auto">
+    <table border="5" cellpadding="1" cellspacing="0" style="width: 75%;margin:auto">
             <tbody>
                 <tr>
                     <th style="text-align: center;background-color: #f49e4c;">
