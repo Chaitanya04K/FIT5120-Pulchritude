@@ -89,10 +89,10 @@
                     <p>You may be not willing to seek help. However, it is really important to explore your options at this score range.</p>
                     <br>
                     <p>Here are some help Brainguard provides you:
-                    <h4 style="color:green;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:blue;"><a href="getSupport.php">Find mental health services!</a></h4>
+                    <h4 style="color:green"><a href="https://www.google.com/">Visit chatroom!</a></h4>
+                    <h4 style="color:blue"><a href="getSupport.php">Find mental health services!</a></h4>
                     <br>
-                    <div style="font-size: 20px; font-weight: bold;color: #023e8a;">Very High:</div>
+                    <div style="font-size: 20px; font-weight: bold;color: #023e8a;">30-50:</div>
                     <p>You have a very high level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
                     <p>Many people who score in this range are suffering from serious anxiety and depression. Some people 
                         may also have thoughts of self-harm or suicide.</p>
@@ -101,9 +101,9 @@
                         help you!</p>
                     <p>Here are some help Brainguard provides you:
                     <h4 style="color:red">Call Lifeline: 13 11 14</h4>
-                    <h4 style="color:green;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:blue;"><a href="getSupport.php">Find mental health services!</a></h4>
-                    <h4 style="color:purple;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
+                    <h4 style="color:green"><a href="https://www.google.com/">Visit chatroom!</a></h4>
+                    <h4 style="color:blue"><a href="getSupport.php">Find mental health services!</a></h4>
+                    <h4 style="color:purple"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
                         with counselors for help.</a></h4>
                 </td>
             </tr>
