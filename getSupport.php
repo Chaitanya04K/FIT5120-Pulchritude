@@ -37,7 +37,7 @@
                     from trained mental health professionals. Chat online service 1pm - 12am/7 days a week.</p>
             </div>
             <div class="support-card-footer">
-                <a href="tel:1300224636" class="actionBtn">1300 22 4636</a>
+                <a href="tel:1300224636" class="actionBtn">1300 224 636</a>
                 <a href="https://www.beyondblue.org.au/" class="actionBtn">Go to website</a>
             </div>
         </div>
