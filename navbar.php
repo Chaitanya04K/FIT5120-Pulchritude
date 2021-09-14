@@ -31,12 +31,15 @@ session_start();
                         Information and Support
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">Information on Depression
-                            <a class="dropdown-item" href="getInfo.php">Causes of Depression</a>    
-                            <a class="dropdown-item" href="getInfo.php">Signs and Symptoms</a>
-                            <a class="dropdown-item" href="getInfo.php">Treatments</a>
-                        </div>
-                        <!-- <a class="dropdown-item" href="getInfo.php">Information on Depression</a> -->
+                        <a class="dropdown-item" href="getInfo.php">Information on Depression</a>
+
+                        <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information on Depression</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
+                            <li class="dropdown-item" href="#"><a>Causes of Depression</a></li>
+                            <li class="dropdown-item" href="#"><a>Signs and Symptoms</a></li>
+                            <li class="dropdown-item" href="#"><a>Treatments od Depression</a></li>
+                        </ul>
+
                         <a class="dropdown-item" href="getSupport.php">Find support</a>
                         <a class="dropdown-item" href="graphs.php">Statistics on Depression</a>
                     </div>
