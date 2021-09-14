@@ -30,7 +30,7 @@ session_start();
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Information and Support
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
                         <!-- <a class="dropdown-item" href="getInfo.php">Information on Depression</a> -->
                         <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information on Depression</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
