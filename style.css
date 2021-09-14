@@ -27,44 +27,6 @@ body {
     margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 768px) {
-    .banner-subheading {
-        font-size: 1.2rem !important;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .banner-subheading {
-        font-size: 1.2rem !important;
-    }
-    .banner-heading {
-        width: 100%;
-        font-size: 5rem !important;
-    }
-    .container {
-        margin-top: 40px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .banner-heading {
-        width: 73%;
-        font-size: 3rem !important;
-    }
-    .banner-subheading {
-        font-size: 1rem !important;
-    }
-    .actionBtn {
-        font-size: 1rem;
-    }
-    .info-section {
-        height: unset;
-    }
-    .info-section p {
-        font-size: 1rem;
-        width: 91%;
-    }
-}
 
 .jumbotron {
     background-image: url('images/background.jpg');
@@ -468,4 +430,43 @@ nav {
     display: none;
     padding: 100px 20px;
     height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-subheading {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .banner-subheading {
+        font-size: 1.2rem !important;
+    }
+    .banner-heading {
+        width: 100%;
+        font-size: 5rem !important;
+    }
+    .container {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .banner-heading {
+        width: 73%;
+        font-size: 3rem !important;
+    }
+    .banner-subheading {
+        font-size: 1rem !important;
+    }
+    .actionBtn {
+        font-size: 1rem;
+    }
+    .info-section {
+        height: unset;
+    }
+    .info-section p {
+        font-size: 1rem;
+        width: 91%;
+    }
 }
