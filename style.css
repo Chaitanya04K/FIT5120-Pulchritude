@@ -57,6 +57,9 @@ body {
     .actionBtn {
         font-size: 1rem;
     }
+    .info-section p {
+        width: 91%;
+    }
 }
 
 .jumbotron {
