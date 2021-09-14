@@ -40,7 +40,7 @@ body {
     }
 
     .banner-heading {
-        width: 470px;
+        width: 100%;
         font-size: 5rem !important;
     }
 
