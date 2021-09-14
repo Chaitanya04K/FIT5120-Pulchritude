@@ -469,4 +469,7 @@ nav {
         font-size: 1rem;
         width: 91%;
     }
+    .info-section span {
+        font-size: 1.5rem;
+    }
 }
