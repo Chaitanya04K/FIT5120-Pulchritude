@@ -30,9 +30,9 @@ session_start();
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Information and Support
                     </a>
-                    <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <!-- <a class="dropdown-item" href="getInfo.php">Information on Depression</a> -->
-                        <a class="dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information on Depression</a>
+                        <a class="dropdown-item dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information on Depression</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
                             <li class="dropdown-item" href="#"><a>Causes of Depression</a></li>
                             <li class="dropdown-item" href="#"><a>Signs and Symptoms</a></li>
