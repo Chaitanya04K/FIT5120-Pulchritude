@@ -28,6 +28,27 @@ body {
     margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+    .banner-subheading {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .banner-subheading {
+        font-size: 1.2rem !important;
+    }
+
+    .banner-heading {
+        width: 470px;
+        font-size: 5rem !important;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
 .jumbotron {
     background-image: url('images/background.jpg');
     background-position: center;
