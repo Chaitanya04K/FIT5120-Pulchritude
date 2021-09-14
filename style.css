@@ -10,8 +10,7 @@ body {
     font-weight: 800 !important;
 }
 
-.banner-subheading,
-.banner-heading {
+.banner-subheading, .banner-heading {
     color: white;
     text-shadow: 2px 2px 5px black;
 }
@@ -38,14 +37,25 @@ body {
     .banner-subheading {
         font-size: 1.2rem !important;
     }
-
     .banner-heading {
         width: 100%;
         font-size: 5rem !important;
     }
-
     .container {
         margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .banner-heading {
+        width: 73%;
+        font-size: 3rem !important;
+    }
+    .banner-subheading {
+        font-size: 1rem !important;
+    }
+    .actionBtn {
+        font-size: 1rem;
     }
 }
 
@@ -175,9 +185,7 @@ body {
     color: white;
 }
 
-.info-card:first-of-type p span,
-.info-card:nth-of-type(2) p span,
-.info-card:nth-of-type(3) p span {
+.info-card:first-of-type p span, .info-card:nth-of-type(2) p span, .info-card:nth-of-type(3) p span {
     font-size: 2rem;
     font-weight: 700;
 }
@@ -428,8 +436,9 @@ nav {
     margin-bottom: 20px;
 }
 
- /* Style tab links */
- .stats-tablink {
+/* Style tab links */
+
+.stats-tablink {
     background-color: rgb(39, 39, 39);
     color: white;
     float: left;
@@ -439,16 +448,17 @@ nav {
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
-  }
-  
-  .stats-tablink:hover {
+}
+
+.stats-tablink:hover {
     background-color: #777;
-  }
-  
-  /* Style the tab content (and add height:100% for full page content) */
-  .stats-tabcontent {
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.stats-tabcontent {
     color: black;
     display: none;
     padding: 100px 20px;
     height: 100%;
-  }
+}
