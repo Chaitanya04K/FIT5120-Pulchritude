@@ -31,7 +31,12 @@ session_start();
                         Information and Support
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="getInfo.php">Information on Depression</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">Information on Depression
+                            <a class="dropdown-item" href="getInfo.php">Causes of Depression</a>    
+                            <a class="dropdown-item" href="getInfo.php">Signs and Symptoms</a>
+                            <a class="dropdown-item" href="getInfo.php">Treatments</a>
+                        </div>
+                        <!-- <a class="dropdown-item" href="getInfo.php">Information on Depression</a> -->
                         <a class="dropdown-item" href="getSupport.php">Find support</a>
                         <a class="dropdown-item" href="graphs.php">Statistics on Depression</a>
                     </div>
