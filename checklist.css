@@ -196,11 +196,14 @@ a:-webkit-any-link {
 .footer p {
     color: white;
     font-size: 0.8rem;
+    margin:inherit
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    /*margin-top: 0;*/
+    /*margin-bottom: 1rem;*/
+    /*margin:50px*/
+    margin:70px;
 }
 
 p {
