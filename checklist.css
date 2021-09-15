@@ -196,14 +196,12 @@ a:-webkit-any-link {
 .footer p {
     color: white;
     font-size: 0.8rem;
-    margin:inherit
 }
 
 p {
-    /*margin-top: 0;*/
-    /*margin-bottom: 1rem;*/
-    /*margin:50px*/
-    margin:70px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin:50px;
 }
 
 p {
@@ -212,6 +210,11 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+p.a {
+    margin: 70px;
+    text-align: center;
 }
 
 *,

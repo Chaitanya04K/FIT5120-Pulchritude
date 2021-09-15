@@ -29,9 +29,11 @@
     </nav>
     
     <h2>K10 Anxiety & Depression Checklist</h2>
-    <p>The K10 is widely recommended as a simple measure of psychological distress and as a measure of outcomes following treatment for common mental health disorders. The K10 is in the public domain and is promoted on the Clinical Research Unit for
-            Anxiety and Depression website (www.crufad.org) as a self report measure to identify need for treatment.</p>
-    <p>Please choose the options based on real feelings about yourself.</p>
+    <p class="a">The K10 is widely recommended as a simple measure of psychological distress and as a measure of outcomes following treatment for common mental health disorders. The K10 is in the public domain and is promoted on the Clinical Research Unit for 
+        Anxiety and Depression website (www.crufad.org) as a self report measure to identify need for treatment.
+        <br><br>
+        Please choose the options based on real feelings about yourself.
+    </p>
     <hr>
     <div class="checklist depressionChecklist container">
         <header class="sfClearfix">
