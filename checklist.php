@@ -37,7 +37,7 @@
     <p> </p>
     <p>Please choose the options based on real feelings about yourself.</p>
     <hr>
-    <div class="checklist depressionChecklist">
+    <div class="checklist depressionChecklist container">
         <header class="sfClearfix">
             <div class="col1">In the past 4 weeks...</div>
             <div class="col2">None of the time</div>
