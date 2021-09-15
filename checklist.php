@@ -27,14 +27,10 @@
             <li class="breadcrumb-item active" aria-current="page">K10 Checklist</li>
         </ol>
     </nav>
-
-    <div class="a">
-        <h2>K10 Anxiety & Depression Checklist</h2>
-        <p>The K10 is widely recommended as a simple measure of psychological distress and as a measure of outcomes following treatment for common mental health disorders. The K10 is in the public domain and is promoted on the Clinical Research Unit for
+    
+    <h2>K10 Anxiety & Depression Checklist</h2>
+    <p>The K10 is widely recommended as a simple measure of psychological distress and as a measure of outcomes following treatment for common mental health disorders. The K10 is in the public domain and is promoted on the Clinical Research Unit for
             Anxiety and Depression website (www.crufad.org) as a self report measure to identify need for treatment.</p>
-    </div>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Depression_man.png" alt="HTML5 Icon" style="width:50%">
-    <p> </p>
     <p>Please choose the options based on real feelings about yourself.</p>
     <hr>
     <div class="checklist depressionChecklist container">
@@ -525,16 +521,15 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>Your responses will help us provide you the range of distress that you currently fall into, which
-                            can give you a better indication of how you are feeling.
-                            A few things to note:
-                            <li>- This checklist does not give you a diagnosis</li>
-                            <li>- Please contact a health professional for a diagnosis.</li></p>
-                        <br>
-                        <p>Reference: Professor Ronald C Kessler of the Department of Health Care Policy, Harvard Medical School 
-                            is thanked for the use of research on the K10 funded by US Public Health Service Grants RO1 MH46376, 
-                            R01 MH52861, RO1 MH49098, and K05 MH00507 and by the John D and Catherine T MacArthur Foundation Network 
-                            on Successful Midlife Development (Gilbert Brim, Director). </p>
+                        <ul>
+                            <li>Your responses will help us provide you the range of distress that you currently fall into, which can give you a better indication of how you are feeling.<br>A few things to note:</li>
+                            <ul>
+                                <li style="list-style-type:square">This checklist does not give you a diagnosis</li>
+                                <li style="list-style-type:square">Please contact a health professional for a diagnosis.</li>
+                            </ul>
+                            <br>
+                            <li>Reference: Professor Ronald C Kessler of the Department of Health Care Policy, Harvard Medical School is thanked for the use of research on the K10 funded by US Public Health Service Grants RO1 MH46376, R01 MH52861, RO1 MH49098, and K05 MH00507 and by the John D and Catherine T MacArthur Foundation Network on Successful Midlife Development (Gilbert Brim, Director).</li>
+                        </ul>
                     </td>
                 </tr>
             </tbody>
