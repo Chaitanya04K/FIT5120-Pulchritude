@@ -517,7 +517,7 @@
     <table border="5" cellpadding="0" cellspacing="0" style="width: 75%;margin:auto">
             <tbody>
                 <tr>
-                    <th style="text-align: center;background-color: #f49e4c;">
+                    <th style="text-align: center;background-color: #f49e4c;height:50px">
                         What happens next?
                     </th>
                 </tr>
