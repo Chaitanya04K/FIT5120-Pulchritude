@@ -143,6 +143,7 @@ li {
     padding: 12px 20px 10px;
     border: 0 none;
     text-align: left;
+    border-radius: 10px;
 }
 
 input[type="submit"] {
@@ -154,6 +155,7 @@ input[type="submit"] {
 
 h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 .buttonWrap {
