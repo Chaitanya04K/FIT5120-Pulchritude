@@ -36,7 +36,7 @@ session_start();
                         <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
                             <li class="dropdown-item" href="#"><a>Causes of Depression</a></li>
                             <li class="dropdown-item" href="#"><a>Signs and Symptoms</a></li>
-                            <li class="dropdown-item" href="#"><a>Treatments od Depression</a></li>
+                            <li class="dropdown-item" href="#"><a>Treatments of Depression</a></li>
                         </ul>
 
                         <a class="dropdown-item" href="getSupport.php">Find support</a>
