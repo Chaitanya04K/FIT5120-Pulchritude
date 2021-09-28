@@ -154,12 +154,14 @@
         //         continue;
         //     }
         // }
-        var lis = $("#guide > tr");
-        lis.each(function(index){
-		if(index>=2){
-			$(this).hide()
-		}
-	    })
+        function showR(){
+            var lis = $("#guide > tr");
+            lis.each(function(index){
+            if(index>=2){
+                $(this).hide();
+            }
+            })
+        }
         
     
    
