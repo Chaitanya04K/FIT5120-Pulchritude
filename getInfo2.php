@@ -146,7 +146,17 @@
             return (false);
         } 
         function ShowTr() {
-            var score = getQueryVariable('score');
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            var score = 0;
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == 'level') {
+                    continue;
+                }else{
+                    score = pair[1];
+                }
+            }
             if (score >= 10 && score <= 15) {
              $("#tr1").style.visibility="visible";
             }
