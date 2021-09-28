@@ -143,17 +143,17 @@
         return (false);
     }
     $(function(){
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        var choice = 0;
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] == 'index') {
-                choice = pair[1];
-            }else{
-                continue;
-            }
-        }
+        // var query = window.location.search.substring(1);
+        // var vars = query.split("&");
+        // var choice = 0;
+        // for (var i = 0; i < vars.length; i++) {
+        //     var pair = vars[i].split("=");
+        //     if (pair[0] == 'index') {
+        //         choice = pair[1];
+        //     }else{
+        //         continue;
+        //     }
+        // }
         var lis = $("#guide > tr");
         lis.each(function(index){
 		if(index>=2){
