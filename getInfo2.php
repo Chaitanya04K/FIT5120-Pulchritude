@@ -156,7 +156,7 @@
         }
         var lis = $('#guide>tr');
         lis.each(function(index){
-		if(index!=choice){
+		if(index>=2){
 			$(this).hide()
 		}
 	    });
