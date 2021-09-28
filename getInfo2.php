@@ -142,7 +142,7 @@
         }
         return (false);
     }
-    $(function(){
+    
         // var query = window.location.search.substring(1);
         // var vars = query.split("&");
         // var choice = 0;
@@ -159,9 +159,9 @@
 		if(index>=2){
 			$(this).hide()
 		}
-	    });
+	    })
         
-    }) 
+    
    
 </script>
 
