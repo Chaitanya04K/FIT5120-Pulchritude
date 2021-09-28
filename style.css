@@ -439,9 +439,6 @@ nav {
     .banner-heading.learnAboutDepression {
         width: 730px;
         margin-bottom: 25px;
-    }
-
-    .banner-heading.learnAboutDepression {
         font-size: 5rem !important;
     }
 
@@ -527,6 +524,16 @@ nav {
     }
     .info-section span {
         font-size: 1.5rem;
+    }
+
+    .banner-heading.learnAboutDepression {
+        width: 730px;
+        margin-bottom: 25px;
+        font-size: 3rem !important;
+    }
+
+    .banner-subheading.learnAboutDepression {
+        font-size: 1rem !important;
     }
 }
 
