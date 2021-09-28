@@ -73,14 +73,14 @@
                     What does my score mean?
                 </th>
             </tr>
-            <tr id = "tr1" style="display:none">
+            <tr id = "tr1" style="visibility:hidden">
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color:#00b4d8;">10-15:</div>
                     <p>CONGRATULATIONS! You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
                     <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                 <td>  
            </tr>  
-           <tr id = "tr2" style="display:none">
+           <tr id = "tr2" style="visibility:hidden">
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color:#0096c7;">16-21:</div>
                     <p>You have a moderate level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
@@ -88,7 +88,7 @@
                     <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
                 <td>  
            </tr>
-           <tr id = "tr3" style="display:none">
+           <tr id = "tr3" style="visibility:hidden">
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color: #0077b6;">22-29:</div>
                     <p>You have a high level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
@@ -98,7 +98,7 @@
                     <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
                 <td>  
            </tr>
-           <tr id = "tr4" style="display:none">
+           <tr id = "tr4" style="visibility:hidden">
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color: #023e8a;">30-50:</div>
                     <p>You have a very high level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
@@ -148,16 +148,16 @@
         function ShowTr() {
             var score = getQueryVariable('score');
             if (score >= 10 && score <= 15) {
-             $("#tr1").style.display="block";
+             $("#tr1").style.visibility="visible";
             }
             if (score >= 16 && score <= 21) {
-             $("#tr2").style.display="block";
+             $("#tr2").style.visibility="visible";
             }
             if (score >= 22 && score <= 29) {
-             $("#tr3").style.display="block";
+             $("#tr3").style.visibility="visible";
             }
             if (score >= 30 && score <= 50) {
-             $("#tr4").style.display="block";
+             $("#tr4").style.visibility="visible";
             }
         }
     })
