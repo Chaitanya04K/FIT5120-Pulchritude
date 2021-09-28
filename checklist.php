@@ -613,14 +613,23 @@ $(function(){
 				"High",
 				"Very_High",
 			];
+            var score_index=[
+                0,
+                1,
+                2,
+                3,
+                4,
+            ];
 			var level="";
+            var index=0;
 			for(var j=0;j<score_arr.length;j++){
 				console.log(score_arr[j])
 				if(score>=score_arr[j][0]&&score<=score_arr[j][1]){
 					level=score_arr_level[j]
+                    index=score_index[j];
 				}
 			}
-			window.location.href="getInfo2.php?score="+score+"&level="+level;
+			window.location.href="getInfo2.php?score="+score+"&level="+level+"&index="+index;
 		}
 	})
 })

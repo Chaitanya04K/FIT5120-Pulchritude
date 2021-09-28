@@ -67,7 +67,7 @@
 
         <br>
 
-        <table border="1">
+        <table border="1" id="guide">
             <tr>
                 <th style="text-align: center;background-color: #009BC9;">
                     What does my score mean?
@@ -129,9 +129,11 @@
 <script>
     var score = getQueryVariable('score');
     var level = getQueryVariable('level');
+    var index = getQueryVariable('index');
+    var lis=$('#guide>tr');
     $("#score").text(score);
     $("#level").text(level);
-
+    lis.eq(index).show();
 
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
@@ -144,33 +146,7 @@
         }
         return (false);
     } 
-    $(function(){
-        $("#tr1, #tr2, #tr3, #tr4").each(function() {
-            var query = window.location.search.substring(1);
-            var vars = query.split("&");
-            var score = 0;
-            for (var i = 0; i < vars.length; i++) {
-                var pair = vars[i].split("=");
-                if (pair[0] == 'level') {
-                    continue;
-                }else{
-                    score = pair[1];
-                }
-            }
-            if (score >= 10 && score <= 15) {
-             $("#tr1").style.visibility="visible";
-            }
-            if (score >= 16 && score <= 21) {
-             $("#tr2").style.visibility="visible";
-            }
-            if (score >= 22 && score <= 29) {
-             $("#tr3").style.visibility="visible";
-            }
-            if (score >= 30 && score <= 50) {
-             $("#tr4").style.visibility="visible";
-            }
-        })
-    })
+   
 </script>
 
 </html>
