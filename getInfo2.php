@@ -132,7 +132,6 @@
     var index = getQueryVariable('index');
     $("#score").text(score);
     $("#level").text(level);
-    $('#guide>tr').eq(index).show();
 
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
@@ -144,6 +143,10 @@
             }
         }
         return (false);
+    }
+    function showTr(index) {
+        var lis = $('#guide>tr');
+        lis.eq(index).show();
     } 
    
 </script>
