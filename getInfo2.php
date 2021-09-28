@@ -155,12 +155,13 @@
         //     }
         // }
         function showR(){
-            var lis = $('.guide > tr');
-            lis.each(function(index){
-            if(index>=1){
-                $(this).hide();
-            }
-            })
+            // var lis = $('.guide > tr');
+            // lis.each(function(index){
+            // if(index>=1){
+            //     $(this).hide();
+            // }
+            // })
+            $('.guide').hide();
         }
         
     
