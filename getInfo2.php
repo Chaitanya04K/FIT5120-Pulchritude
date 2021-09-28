@@ -145,7 +145,7 @@
             }
             return (false);
         } 
-        function ShowTr() {
+        $("#tr1, #tr2, #tr3, #tr4").each(function() {
             var query = window.location.search.substring(1);
             var vars = query.split("&");
             var score = 0;
@@ -169,7 +169,7 @@
             if (score >= 30 && score <= 50) {
              $("#tr4").style.visibility="visible";
             }
-        }
+        })
     })
 </script>
 
