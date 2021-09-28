@@ -130,10 +130,9 @@
     var score = getQueryVariable('score');
     var level = getQueryVariable('level');
     var index = getQueryVariable('index');
-    var lis=$('#guide>tr');
     $("#score").text(score);
     $("#level").text(level);
-    lis.eq(index).show();
+    $('#guide>tr').eq(index).show();
 
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
