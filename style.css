@@ -435,10 +435,35 @@ nav {
     height: 100%;
 }
 
+@media only screen and (max-width: 992px) {
+    .banner-heading.learnAboutDepression {
+        width: 730px;
+        margin-bottom: 25px;
+    }
+
+    .banner-heading.learnAboutDepression {
+        font-size: 5rem !important;
+    }
+
+    .banner-subheading.learnAboutDepression {
+        font-size: 1.2rem !important;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .banner-subheading {
         font-size: 1.2rem !important;
     }
+
+    .banner-heading.learnAboutDepression {
+        font-size: 4rem !important;
+        width: 100%;
+    }
+
+    .banner-subheading.learnAboutDepression {
+        font-size: 1.1rem !important;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
