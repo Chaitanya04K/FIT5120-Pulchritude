@@ -129,10 +129,8 @@
 <script>
     var score = getQueryVariable('score');
     var level = getQueryVariable('level');
-    var index = getQueryVariable('index');
     $("#score").text(score);
     $("#level").text(level);
-    showTr(index);
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
         var vars = query.split("&");
@@ -144,10 +142,22 @@
         }
         return (false);
     }
-    function showTr(index) {
+    $(function(){
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        var index = 0;
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == 'index') {
+                index = pair[1];
+            }else{
+                continue;
+            }
+        }
         var lis = $('#guide>tr');
         lis.eq(index).show();
-    } 
+        
+    }) 
    
 </script>
 
