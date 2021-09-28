@@ -50,6 +50,7 @@ body {
     font-weight: 500;
     transition: color 0.5s;
     transition: background-color 0.5s;
+    float: left;
 }
 
 .actionBtn:hover {
