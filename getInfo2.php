@@ -132,7 +132,7 @@
     var index = getQueryVariable('index');
     $("#score").text(score);
     $("#level").text(level);
-
+    showTr(index);
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
         var vars = query.split("&");
