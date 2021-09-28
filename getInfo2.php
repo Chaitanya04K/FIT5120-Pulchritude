@@ -67,7 +67,7 @@
 
         <br>
 
-        <table border="1" id="guide">
+        <table border="1" class="guide">
             <tr>
                 <th style="text-align: center;background-color: #009BC9;">
                     What does my score mean?
@@ -155,9 +155,9 @@
         //     }
         // }
         function showR(){
-            var lis = $("#guide > tr");
+            var lis = $('.guide > tr');
             lis.each(function(index){
-            if(index>=2){
+            if(index>=1){
                 $(this).hide();
             }
             })
