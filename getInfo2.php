@@ -145,17 +145,21 @@
     $(function(){
         var query = window.location.search.substring(1);
         var vars = query.split("&");
-        var index = 0;
+        var choice = 0;
         for (var i = 0; i < vars.length; i++) {
             var pair = vars[i].split("=");
             if (pair[0] == 'index') {
-                index = pair[1];
+                choice = pair[1];
             }else{
                 continue;
             }
         }
         var lis = $('#guide>tr');
-        lis.eq(index).show();
+        lis.each(function(index){
+		if(index!=choice){
+			$(this).hide()
+		}
+	    });
         
     }) 
    
