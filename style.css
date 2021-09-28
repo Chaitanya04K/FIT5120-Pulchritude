@@ -92,7 +92,6 @@ body {
 }
 
 .card {
-    height: 250px;
     border: none !important;
     border-radius: 0 !important;
 }
@@ -103,22 +102,25 @@ body {
 }
 
 .card-body .actionBtn {
-    position: absolute;
-    bottom: 2.5rem;
     width: 300px;
     text-align: center;
 }
 
 .card-body .actionBtn.btn-right {
-    right: 2.5rem;
+    float:right;
 }
 
 .card-title {
     font-weight: 700;
 }
 
+.card-text {
+    margin-bottom: 35px;
+}
+
 .img-square-wrapper {
     width: 500px;
+    min-width: 300px;
     background-image: url("images/learn_about_depression.jpg");
     background-position: center;
     background-size: cover;
