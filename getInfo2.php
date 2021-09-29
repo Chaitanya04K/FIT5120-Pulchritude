@@ -161,6 +161,7 @@
             //     $(this).hide();
             // }
             // })
+            alert("sb");
             $('.guide').hide();
         }
         
