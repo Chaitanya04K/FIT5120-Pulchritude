@@ -73,14 +73,14 @@
                     What does my score mean?
                 </th>
             </tr>
-            <!-- <tr >
+            <tr >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color:#00b4d8;">10-15:</div>
                     <p>CONGRATULATIONS! You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
                     <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                 <td>  
-           </tr>   -->
-           <tr >
+           </tr>  
+           <!-- <tr >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color:#0096c7;">16-21:</div>
                     <p>You have a moderate level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
@@ -88,7 +88,7 @@
                     <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
                 <td>  
            </tr>
-           <!-- <tr  >
+           <tr  >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color: #0077b6;">22-29:</div>
                     <p>You have a high level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
@@ -142,6 +142,7 @@
         }
         return (false);
     }
+    
         
     
    

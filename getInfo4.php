@@ -79,7 +79,7 @@
                     <p>CONGRATULATIONS! You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
                     <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                 <td>  
-           </tr>   -->
+           </tr>  
            <tr >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color:#0096c7;">16-21:</div>
@@ -88,7 +88,7 @@
                     <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
                 <td>  
            </tr>
-           <!-- <tr  >
+           <tr  >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color: #0077b6;">22-29:</div>
                     <p>You have a high level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
@@ -97,7 +97,7 @@
                     <h4 style="color:#396C32;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
                     <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
                 <td>  
-           </tr>
+           </tr> -->
            <tr >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color: #023e8a;">30-50:</div>
@@ -114,7 +114,7 @@
                     <h4 style="color:#7D4379;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
                         with counselors for help.</a></h4>
                 </td>
-            </tr> -->
+            </tr>
         </table>
 
     </div>
