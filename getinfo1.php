@@ -114,7 +114,7 @@
                     <h4 style="color:#7D4379;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
                         with counselors for help.</a></h4>
                 </td>
-            </tr> -->
+            </tr>  -->
         </table>
 
     </div>
