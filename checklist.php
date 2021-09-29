@@ -629,7 +629,7 @@ $(function(){
                     index=score_index[j];
 				}
 			}
-			window.location.href="getInfo" + index + ".php?score="+score+"&level="+level+"&index="+index;
+			window.location.href="getInfo" + index + ".php?score="+score+"&level="+level;
 		}
 	})
 })
