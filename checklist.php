@@ -615,7 +615,7 @@ $(function(){
 			];
             var score_index=[
                 0,
-                1,
+                5,
                 2,
                 3,
                 4,
