@@ -28,7 +28,7 @@
         </ol>
     </nav>
     
-    <h2>K10 Anxiety & Depression Checklist</h2>
+    <h2 style="font-weight: bold">K10 Anxiety & Depression Checklist</h2>
     <p class="a">The K10 is widely recommended as a simple measure of psychological distress and as a measure of outcomes following treatment for common mental health disorders. The K10 is in the public domain and is promoted on the Clinical Research Unit for 
         Anxiety and Depression website (www.crufad.org) as a self report measure to identify need for treatment.
         <br><br>
@@ -36,7 +36,7 @@
     </p>
     <hr>
     <div class="checklist depressionChecklist container">
-        <header class="sfClearfix">
+        <header class="sfClearfix" style="border-radius:20px">
             <div class="col1">In the past 4 weeks...</div>
             <div class="col2">None of the time</div>
             <div class="col3">A little of the time</div>
