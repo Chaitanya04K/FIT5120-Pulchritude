@@ -110,7 +110,22 @@
                 </td>
             </tr>
         </table>
-
+        <br>
+        <br>
+        <table border="1" class="guide" align="center">
+            <tr>
+                <th style="text-align: center;background-color: #BDDFF5;height:50px">
+                    Should I seek help?
+                </th>
+            </tr>
+            <tr >
+                <td>
+                    <p>Please remember that this checklist is not a doctor diagnosis.</p>
+                    <p>If you feel anything else that the checklist does not cover, please contact a mental health 
+                        professional for a diagnosis.</p>
+                <td>  
+           </tr>
+        </table>
     </div>
     <br>
     <br>
