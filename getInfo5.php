@@ -67,16 +67,16 @@
 
         <br>
 
-        <table border="1" class="guide">
+        <table border="1" class="guide" align="center">
             <tr>
-                <th style="text-align: center;background-color: #009BC9;">
+                <th style="text-align: center;background-color: #BDDFF5;height:50px">
                     What does my score mean?
                 </th>
             </tr>
             <tr >
                 <td>
                     <div style="font-size: 20px; font-weight: bold;color:#00b4d8;">10-15:</div>
-                    <p>CONGRATULATIONS! You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
+                    <p>You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
                     <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                 <td>  
            </tr>  
