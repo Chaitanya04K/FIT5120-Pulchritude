@@ -67,9 +67,9 @@
 
         <br>
 
-        <table border="1" class="guide">
+        <table border="1" class="guide" align="center">
             <tr>
-                <th style="text-align: center;background-color: #009BC9;">
+                <th style="text-align: center;background-color: #1F9FF3;height:50px">
                     What does my score mean?
                 </th>
             </tr>
@@ -93,9 +93,7 @@
                     <div style="font-size: 20px; font-weight: bold;color: #0077b6;">22-29:</div>
                     <p>You have a high level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
                     <p>You may be not willing to seek help. However, it is really important to explore your options at this score range.</p>                     
-                    <p>Here are some help Brainguard provides you:
-                    <h4 style="color:#396C32;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
+                    <p>You can find more mental health information and supports on Brainguard. Please feel free to ask for a help!</p>
                 <td>  
            </tr>
            <!-- <tr >

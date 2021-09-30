@@ -67,9 +67,9 @@
 
         <br>
 
-        <table border="1" class="guide">
+        <table border="1" class="guide" align="center">
             <tr>
-                <th style="text-align: center;background-color: #009BC9;">
+                <th style="text-align: center;background-color: #0E76BA;height:50px">
                     What does my score mean?
                 </th>
             </tr>
@@ -107,12 +107,6 @@
                     <p>Life could be very tough for you recently. However, please remember you are not alone! Some other 
                         international students are also experiencing serious mental distress. Brainguard will try best to 
                         help you!</p>
-                    <p>Here are some help Brainguard provides you:
-                    <h4 style="color:#F4380F;">Call Lifeline: 13 11 14</h4>
-                    <h4 style="color:#396C32;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
-                    <h4 style="color:#7D4379;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
-                        with counselors for help.</a></h4>
                 </td>
             </tr>
         </table>

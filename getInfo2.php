@@ -67,9 +67,9 @@
 
         <br>
 
-        <table border="1" class="guide">
+        <table border="1" class="guide" align="center">
             <tr>
-                <th style="text-align: center;background-color: #009BC9;">
+                <th style="text-align: center;background-color: #8ACCF7;height:50px">
                     What does my score mean?
                 </th>
             </tr>
