@@ -99,7 +99,7 @@
         </div>
         <br>
         <div style="text-align:center">
-            <table border="5" cellpadding="3" cellspacing="0" style="width: 60%;margin:auto">
+            <table border="5" cellpadding="3" cellspacing="0" style="width: 70%;margin:auto">
                 <tr>
                     <th>K10 score</th>
                     <th>Level of psychological distress</th>
