@@ -487,6 +487,14 @@ nav {
     .info-card:hover {
         bottom: unset;
     }
+
+    .carousel-control-prev {
+        left: -80px !important;
+    }
+    
+    .carousel-control-next {
+        right: -80px !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
