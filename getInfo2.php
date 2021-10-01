@@ -15,6 +15,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #1E7ED1;
+        position: absolute;
+        height: 100%;
+        overflow: auto;
+        border-radius:10px;
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        border-collapse: collapse;
+        border:1px dashed #E2E5E9;
+    }
+    .sidebar a.active {
+        background-color: #1E7ED1;
+        color: white;
+    }
+    .sidebar a:hover:not(.active) {
+        background-color: #B2D2EE;
+        color: white;
+    }
+    div.container {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {float: left;}
+        div.container {margin-left: 0;}
+    }
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -30,6 +79,15 @@
     </nav>
     <br>
 
+    <div class="sidebar">
+        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
+        <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
+        <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
+        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
+        <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
+        <a href="treatment.php" style="font-size:23px;color:white;">Depression Treatments</a>
+    </div>
+
     <div class="container">
         <div align="center" style="    color: #009BC9;
     font-weight: bold; font-size: 40px;">
@@ -41,7 +99,7 @@
         </div>
         <br>
         <div style="text-align:center">
-            <table border="5" cellpadding="3" cellspacing="0" style="width: 60%;margin:auto">
+            <table border="5" cellpadding="3" cellspacing="0" style="width: 70%;margin:auto">
                 <tr>
                     <th>K10 score</th>
                     <th>Level of psychological distress</th>
@@ -66,8 +124,10 @@
         </div>
 
         <br>
+        <br>
+        <br>
 
-        <table border="1" class="guide" align="center">
+        <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
                 <th style="text-align: center;background-color: #8ACCF7;height:50px">
                     What does my score mean?
@@ -82,7 +142,7 @@
            </tr>   -->
            <tr >
                 <td>
-                    <div style="font-size: 20px; font-weight: bold;color:#0096c7;">16-21:</div>
+                    <br>
                     <p>You have a moderate level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
                     <p>You may not take it seriously. However, It may be a sign that your mental health is getting worse!</p>
                     <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
@@ -119,14 +179,15 @@
 
         <br>
         <br>
-        <table border="1" class="guide" align="center">
+        <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
-                <th style="text-align: center;background-color: #BDDFF5;height:50px">
+                <th style="text-align: center;background-color: #D7AADA;height:50px">
                     Should I seek help?
                 </th>
             </tr>
             <tr >
                 <td>
+                    <br>
                     <p>Please remember that this checklist is not a doctor diagnosis.</p>
                     <p>If you feel anything else that the checklist does not cover, please contact a mental health 
                         professional for a diagnosis.</p>
