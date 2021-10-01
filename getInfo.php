@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <!-- <div class="container-fluid">
+    <div class="container-fluid hide-for-mobile">
         <div class="row">
             <div class="info-card-container col-12">
                 <div class="info-card">
@@ -53,9 +53,9 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="info-card">
