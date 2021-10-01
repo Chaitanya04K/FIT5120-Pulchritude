@@ -440,6 +440,56 @@ nav {
     display: none !important;
 }
 
+@media only screen and (max-width: 1400px) {
+    #carouselExampleControls {
+        display: block !important;
+    }
+
+    .container-fluid.hide-for-mobile {
+        display: none !important;
+    }
+
+    .info-card {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        text-align: center;
+        line-height: 250px;
+        padding: 0 35px;
+        bottom: 0;
+        transition: bottom 0.5s;
+        border-radius: unset;
+    }
+
+    .info-card.one p span {
+        color: #14588c;
+    }
+    
+    .info-card.two p span {
+        color: #a54617;
+    }
+    
+    .info-card.three p span {
+        color: #9e6828;
+    }
+    
+    .info-card.one {
+        background: #a7bbca;
+    }
+    
+    .info-card.two {
+        background: #b69c8f;
+    }
+    
+    .info-card.three {
+        background: #ecad62;
+    }
+    
+    .info-card:hover {
+        bottom: unset;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .banner-heading.learnAboutDepression {
         width: 730px;
@@ -479,26 +529,6 @@ nav {
 
     .link-card .actionBtn-div {
         margin-bottom: 25px;
-    }
-
-    #carouselExampleControls {
-        display: block !important;
-    }
-
-    .container-fluid.hide-for-mobile {
-        display: none !important;
-    }
-
-    .info-card {
-        position: relative;
-        height: 250px;
-        width: 100%;
-        text-align: center;
-        line-height: 250px;
-        padding: 0 35px;
-        bottom: 0;
-        transition: bottom 0.5s;
-        border-radius: unset;
     }
 }
 

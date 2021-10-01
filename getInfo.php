@@ -58,18 +58,18 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="info-card">
+                <div class="info-card one">
                     <p>Research suggests that the mental health of university students is <span> more poor </span> than
                         that of the general population in many countries.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="info-card">
+                <div class="info-card two">
                     <p>Social isolation, loneliness, study pressure, cultural difference, and economic burden exposes international uni students to the threat of depression. A highly concerning <span>30%</span> of students have had thoughts of self-harm</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="info-card">
+                <div class="info-card three">
                     <p>International students have a <span> higher risk </span> of depression, but they are <span>
                             less </span> likely to use the health services.</p>
                 </div>
