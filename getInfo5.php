@@ -15,6 +15,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <style>
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #1E7ED1;
+        position: absolute;
+        height: 100%;
+        overflow: auto;
+        border-radius:10px;
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        border-collapse: collapse;
+        border:1px dashed #E2E5E9;
+    }
+    .sidebar a.active {
+        background-color: #1E7ED1;
+        color: white;
+    }
+    .sidebar a:hover:not(.active) {
+        background-color: #B2D2EE;
+        color: white;
+    }
+    div.container {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {float: left;}
+        div.container {margin-left: 0;}
+    }
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -30,6 +79,15 @@
     </nav>
     <br>
 
+    <div class="sidebar">
+        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
+        <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
+        <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
+        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
+        <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
+        <a href="treatment.php" style="font-size:23px;color:white;">Depression Treatments</a>
+    </div>
+   
     <div class="container">
         <div align="center" style="    color: #009BC9;
     font-weight: bold; font-size: 40px;">
