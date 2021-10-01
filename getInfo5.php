@@ -124,8 +124,10 @@
         </div>
 
         <br>
+        <br>
+        <br>
 
-        <table border="1" class="guide" align="center">
+        <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
                 <th style="text-align: center;background-color: #BDDFF5;height:50px">
                     What does my score mean?
@@ -133,7 +135,7 @@
             </tr>
             <tr >
                 <td>
-                    <div style="font-size: 20px; font-weight: bold;color:#00b4d8;">10-15:</div>
+                    <br>
                     <p>You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
                     <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                 <td>  
@@ -176,14 +178,15 @@
         </table>
         <br>
         <br>
-        <table border="1" class="guide" align="center">
+        <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
-                <th style="text-align: center;background-color: #BDDFF5;height:50px">
+                <th style="text-align: center;background-color: #D7AADA;height:50px">
                     Should I seek help?
                 </th>
             </tr>
             <tr >
                 <td>
+                    <br>
                     <p>Please remember that this checklist is not a doctor diagnosis.</p>
                     <p>If you feel anything else that the checklist does not cover, please contact a mental health 
                         professional for a diagnosis.</p>
