@@ -469,7 +469,7 @@ iframe {
 }
 
 .treatment-info-section p {
-    max-height: 785px;
+    max-width: 785px;
     text-align: justify;
 }
 
