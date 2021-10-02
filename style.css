@@ -407,7 +407,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    height: 20vw;
 }
 
 /* Style tab links */
@@ -507,7 +506,6 @@ iframe {
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 20px;
-        height: 30vw;
     }
 }
 
