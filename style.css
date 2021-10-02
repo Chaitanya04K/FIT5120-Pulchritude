@@ -441,6 +441,11 @@ nav {
     display: none !important;
 }
 
+iframe {
+    max-width: 520px !important;
+    width: auto !important;
+    height: auto !important;
+}
 
 
 @media only screen and (max-width: 1400px) {
