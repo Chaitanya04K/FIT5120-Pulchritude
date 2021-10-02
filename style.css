@@ -459,6 +459,20 @@ iframe {
     margin-left: 10px;
 }
 
+.treatment-info-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.treatment-info-section img {
+    max-height: 270px;
+}
+
+.treatment-info-section p {
+    max-height: 785px;
+    text-align: justify;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
