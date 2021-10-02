@@ -72,7 +72,7 @@
         <p class="info-subHeading">Psychotherapy</p>
         <div class="treatment-info-section">
             <img src="images/Group therapy.jpg" alt="People sitting for group therapy">
-            <p style="text-align:justify">
+            <p>
                 Psychotherapy or “talk therapy,” is sometimes used alone for treatment of mild depression; for moderate to
                 severe
                 depression, psychotherapy is often used along with antidepressant medications. Cognitive behavioral therapy
@@ -108,7 +108,7 @@
         <p class="info-subHeading">Other</p>
         <div class="treatment-info-section">
             <img src="images/healthy-diet.jpg">
-            <p></p>
+            <p>
             There are a number of other things people can do to help reduce the symptoms of depression.
             For many people, regular exercise helps create positive feeling and improves mood.
             Getting enough quality sleep on a regular basis, eating a healthy diet and avoiding alcohol (a depressant) can
