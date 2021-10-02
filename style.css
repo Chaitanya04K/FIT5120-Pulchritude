@@ -407,6 +407,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    height: 20vw;
 }
 
 /* Style tab links */
@@ -500,6 +501,13 @@ iframe {
     }
     .carousel-control-next, .carousel-control-prev {
         width: 5% !important;
+    }
+
+    .info-videos {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        height: 30vw;
     }
 }
 
