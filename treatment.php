@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -50,27 +49,29 @@
             symptoms and explore medical and family histories as well as cultural and environmental factors with the
             goal of arriving at a diagnosis and planning a course of action.
         </p>
-        <p class="info-subHeading">Medication</p>
-        <img src="images/Medication.jpg" alt="Upset faces" width="250" height="250" style="float:left;margin:0px 50px">
-        <p style="text-align:justify;">
 
-            Brain chemistry may contribute to an individual’s depression and may factor into their treatment. For this
-            reason, antidepressants might be prescribed to help modify one’s brain chemistry. These medications are not
-            sedatives, “uppers” or tranquilizers. They are not habit-forming. Generally antidepressant medications have
-            no stimulating effect on people not experiencing depression.
-            Antidepressants may produce some improvement within the first week or two of use yet full benefits may not
-            be seen for two to three months. If a patient feels little or no improvement after several weeks, his or her
-            psychiatrist can alter the dose of the medication or add or substitute another antidepressant. In some
-            situations other psychotropic medications may be helpful. It is important to let your doctor know if a
-            medication does not work or if you experience side effects.
-            Psychiatrists usually recommend that patients continue to take medication for six or more months after the
-            symptoms have improved. Longer-term maintenance treatment may be suggested to decrease the risk of future
-            episodes for certain people at high risk.
-        </p>
+        <p class="info-subHeading">Medication</p>
+        <div class="treatment-info-section">
+            <img src="images/Medication.jpg" alt="Upset faces">
+            <p style="text-align:justify;">
+
+                Brain chemistry may contribute to an individual’s depression and may factor into their treatment. For this
+                reason, antidepressants might be prescribed to help modify one’s brain chemistry. These medications are not
+                sedatives, “uppers” or tranquilizers. They are not habit-forming. Generally antidepressant medications have
+                no stimulating effect on people not experiencing depression.
+                Antidepressants may produce some improvement within the first week or two of use yet full benefits may not
+                be seen for two to three months. If a patient feels little or no improvement after several weeks, his or her
+                psychiatrist can alter the dose of the medication or add or substitute another antidepressant. In some
+                situations other psychotropic medications may be helpful. It is important to let your doctor know if a
+                medication does not work or if you experience side effects.
+                Psychiatrists usually recommend that patients continue to take medication for six or more months after the
+                symptoms have improved. Longer-term maintenance treatment may be suggested to decrease the risk of future
+                episodes for certain people at high risk.
+            </p>
+        </div>
 
         <p class="info-subHeading">Psychotherapy</p>
-        <img src="images/Group therapy.jpg" alt="Upset faces" width="270" height="250"
-            style="float:right;margin:0px 50px">
+        <img src="images/Group therapy.jpg" alt="Upset faces" width="270" height="250" style="float:right;margin:0px 50px">
         <p style="text-align:justify">
             Psychotherapy or “talk therapy,” is sometimes used alone for treatment of mild depression; for moderate to
             severe
