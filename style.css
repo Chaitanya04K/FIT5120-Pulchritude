@@ -523,6 +523,16 @@ iframe {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .treatment-info-section img {
+        display: none;
+    }
+
+    .treatment-info-section p {
+        max-width: unset;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .banner-heading.learnAboutDepression {
         width: 730px;
