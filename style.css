@@ -466,11 +466,17 @@ iframe {
 
 .treatment-info-section img {
     max-height: 270px;
+    width: 300px;
 }
 
 .treatment-info-section p {
     max-width: 785px;
     text-align: justify;
+}
+
+.treatment-info-section:nth-of-type(2),
+.treatment-info-section:nth-of-type(4) {
+    flex-direction: row-reverse;
 }
 
 @media only screen and (max-width: 1400px) {
