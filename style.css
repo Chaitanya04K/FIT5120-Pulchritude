@@ -208,6 +208,7 @@ body {
     overflow: hidden;
     bottom: 0;
     transition: bottom 0.5s;
+    margin-bottom: 35px;
 }
 
 .support-card:hover {
@@ -358,8 +359,9 @@ body {
 
 .my-container {
     display: flex;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .breadcrumb {

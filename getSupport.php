@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -41,11 +40,11 @@
                 <a href="https://www.beyondblue.org.au/" class="actionBtn">Go to website</a>
             </div>
         </div>
-    
+
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Lifeline</p>
-                <p class="support-card-subTitle">Lifeline is a national charity providing all Australians experiencing 
+                <p class="support-card-subTitle">Lifeline is a national charity providing all Australians experiencing
                     a personal crisis with access to 24-hour crisis support and suicide prevention services.</p>
             </div>
             <div class="support-card-footer">
@@ -57,7 +56,7 @@
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Black Dog Institute</p>
-                <p class="support-card-subTitle">The Black Dog Institute is a translational research institute 
+                <p class="support-card-subTitle">The Black Dog Institute is a translational research institute
                     that aims to address anything related to mental illness, and they are involved with
                     suicide prevention.</p>
             </div>
@@ -70,7 +69,7 @@
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Headspace</p>
-                <p class="support-card-subTitle">Headspace is the National Youth Mental Health Foundation 
+                <p class="support-card-subTitle">Headspace is the National Youth Mental Health Foundation
                     providing early intervention mental health services to 12-25 year olds.</p>
             </div>
             <div class="support-card-footer">
@@ -78,13 +77,11 @@
                 <a href="https://headspace.org.au/" class="actionBtn">Go to website</a>
             </div>
         </div>
-    </div>
 
-    <div class="my-container">
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Monash University</p>
-                <p class="support-card-subTitle">Monash University provides a variety of university-related 
+                <p class="support-card-subTitle">Monash University provides a variety of university-related
                     mental health and wellbeing services and programs that is easily accessible to their students.</p>
             </div>
             <div class="support-card-footer">
@@ -92,11 +89,11 @@
                 <a href="https://www.monash.edu/students/support/health/mental-health" class="actionBtn">Go to website</a>
             </div>
         </div>
-    
+
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">University of Melbourne</p>
-                <p class="support-card-subTitle">University of Melbourne Counselling and Psychological Services 
+                <p class="support-card-subTitle">University of Melbourne Counselling and Psychological Services
                     provides free, short-term professional counselling to currently enrolled students.</p>
             </div>
             <div class="support-card-footer">
@@ -120,7 +117,7 @@
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Victoria University</p>
-                <p class="support-card-subTitle">Victoria University provides professional counselling services designed to 
+                <p class="support-card-subTitle">Victoria University provides professional counselling services designed to
                     support enrolled students in their personal and university life.</p>
             </div>
             <div class="support-card-footer">
@@ -128,13 +125,11 @@
                 <a href="https://www.vu.edu.au/current-students/campus-life/advice-support/counselling" class="actionBtn">Go to website</a>
             </div>
         </div>
-    </div>
 
-    <div class="my-container">
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Swinburne University</p>
-                <p class="support-card-subTitle">Swinburne University provides access to mental support for confidential 
+                <p class="support-card-subTitle">Swinburne University provides access to mental support for confidential
                     support for personal, emotional and mental health difficulties.</p>
             </div>
             <div class="support-card-footer">
@@ -142,11 +137,11 @@
                 <a href="https://www.swinburne.edu.au/life-at-swinburne/student-support-services/health-wellbeing/psychology-counselling-services/" class="actionBtn">Go to website</a>
             </div>
         </div>
-    
+
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">La Trobe University</p>
-                <p class="support-card-subTitle">La Trobe University provides free, caring and effective support to enhance 
+                <p class="support-card-subTitle">La Trobe University provides free, caring and effective support to enhance
                     your academic and personal success.</p>
             </div>
             <div class="support-card-footer">
@@ -158,7 +153,7 @@
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Deakin University</p>
-                <p class="support-card-subTitle">Deakin University provides experienced psychologists and social workers offer free 
+                <p class="support-card-subTitle">Deakin University provides experienced psychologists and social workers offer free
                     and confidential counselling support to all Deakin students in Australia.</p>
             </div>
             <div class="support-card-footer">
