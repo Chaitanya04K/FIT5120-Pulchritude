@@ -361,7 +361,7 @@ body {
     display: flex;
     padding: 2rem 2rem 0 2rem;
     justify-content: space-around;
-    flex-wrap: wrap !;
+    flex-wrap: wrap !important;
 }
 
 .breadcrumb {
