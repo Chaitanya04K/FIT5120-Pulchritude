@@ -34,9 +34,9 @@ session_start();
                         <!-- <a class="dropdown-item" href="getInfo.php">Information on Depression</a> -->
                         <a class="dropdown-item dropdown-toggle" id="dropdown1-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information on Depression</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
-                            <li class="dropdown-item" href="#"><a>Causes of Depression</a></li>
-                            <li class="dropdown-item" href="#"><a>Signs and Symptoms</a></li>
-                            <li class="dropdown-item" href="#"><a>Treatments of Depression</a></li>
+                            <li class="dropdown-item"><a href="causes.php">Causes of Depression</a></li>
+                            <li class="dropdown-item"><a href="signsandsymptoms.php">Signs and Symptoms</a></li>
+                            <li class="dropdown-item"><a href="treatment.php">Treatments of Depression</a></li>
                         </ul>
 
                         <a class="dropdown-item" href="getSupport.php">Find support</a>
