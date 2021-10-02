@@ -361,7 +361,7 @@ body {
     display: flex;
     padding: 2rem 2rem 0 2rem;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap !;
 }
 
 .breadcrumb {
@@ -436,9 +436,12 @@ nav {
     height: 100%;
 }
 
-#carouselExampleControls {
+#carouselExampleControls,
+#carouselExampleControls-GetSupport {
     display: none !important;
 }
+
+
 
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
@@ -479,8 +482,7 @@ nav {
     .info-card:hover {
         bottom: unset;
     }
-    .carousel-control-next, 
-    .carousel-control-prev {
+    .carousel-control-next, .carousel-control-prev {
         width: 5% !important;
     }
 }
@@ -553,6 +555,33 @@ nav {
         background-image: url("images/learn_about_depression.jpg");
         background-position: center;
         background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .my-container {
+        display: none;
+    }
+    
+    #carouselExampleControls-GetSupport {
+        display: block !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 5% !important;
+    }
+
+    .support-card {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: white;
+        box-shadow: 0px 30px 40px -20px hsl(229deg 6% 66%);
+        border-radius: unset;
+        overflow: hidden;
+        bottom: 0;
+        transition: bottom 0.5s;
+        margin-bottom: 35px;
     }
 }
 
