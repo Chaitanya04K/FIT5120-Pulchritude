@@ -41,6 +41,7 @@ body {
 
 .jumbotron.mood-diary {
     background-image: url('images/mood_diary.jpg');
+    height: 700px !important;
 }
 
 .actionBtn {
@@ -440,8 +441,7 @@ nav {
     height: 100%;
 }
 
-#carouselExampleControls,
-#carouselExampleControls-GetSupport {
+#carouselExampleControls, #carouselExampleControls-GetSupport {
     display: none !important;
 }
 
@@ -478,9 +478,23 @@ iframe {
     text-align: justify;
 }
 
-.treatment-info-section:nth-of-type(2),
-.treatment-info-section:nth-of-type(4) {
+.treatment-info-section:nth-of-type(2), .treatment-info-section:nth-of-type(4) {
     flex-direction: row-reverse;
+}
+
+.mood-diary>.banner-heading {
+    display: inline-block;
+    width: 700px;
+    line-height: 0.9 !important;
+    font-size: 6rem !important;
+    font-weight: 800 !important;
+}
+
+.mood-diary>.banner-subheading {
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    margin-left: 5px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -525,7 +539,6 @@ iframe {
     .carousel-control-next, .carousel-control-prev {
         width: 5% !important;
     }
-
     .info-videos {
         display: flex;
         justify-content: space-evenly;
@@ -537,7 +550,6 @@ iframe {
     .treatment-info-section img {
         display: none;
     }
-
     .treatment-info-section p {
         max-width: unset;
     }
@@ -618,16 +630,13 @@ iframe {
     .my-container {
         display: none;
     }
-    
     #carouselExampleControls-GetSupport {
         display: block !important;
         margin-top: 21px !important;
     }
-
     .carousel-control-next, .carousel-control-prev {
         width: 5% !important;
     }
-
     .support-card {
         position: relative;
         width: 100%;
@@ -653,7 +662,6 @@ iframe {
     .container {
         margin-top: 40px;
     }
-
     .info-videos {
         display: flex;
         justify-content: space-evenly;
@@ -661,18 +669,14 @@ iframe {
         flex-direction: column;
         height: unset;
     }
-
-    .info-videos .iframe-container:first-of-type,
-    .info-videos .iframe-container:nth-of-type(2) {
+    .info-videos .iframe-container:first-of-type, .info-videos .iframe-container:nth-of-type(2) {
         margin-right: unset;
         margin-left: unset;
     }
-
     .iframe-container {
         width: 100%;
         height: 250px;
     }
-
     .info-videos .iframe-container:first-of-type {
         margin-bottom: 15px;
     }
