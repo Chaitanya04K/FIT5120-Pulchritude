@@ -482,7 +482,7 @@ iframe {
     flex-direction: row-reverse;
 }
 
-.mood-diary>.banner-heading {
+.mood-diary .banner-heading {
     display: inline-block;
     width: 700px;
     line-height: 0.9 !important;
@@ -490,7 +490,7 @@ iframe {
     font-weight: 800 !important;
 }
 
-.mood-diary>.banner-subheading {
+.mood-diary .banner-subheading {
     font-size: 1.3rem !important;
     font-weight: 500 !important;
     margin-left: 5px;
