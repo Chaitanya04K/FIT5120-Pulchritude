@@ -39,9 +39,9 @@ body {
     background-image: url('images/support.jpg');
 }
 
-.jumbotron.mood-diary {
+/* .jumbotron.mood-diary {
     background-image: url('images/mood_diary.jpg');
-}
+} */
 
 .actionBtn {
     color: white;
