@@ -527,6 +527,28 @@ iframe {
     justify-content: space-evenly;
 }
 
+.mood-diary-section-card {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.mood-diary-section-card img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.mood-diary-section-inner-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.mood-diary-section-inner {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+}
+
+
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;

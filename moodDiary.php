@@ -64,12 +64,21 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <div>
         <div class="mood-diary-section-title">TITLE</div>
         <div class="mood-diary-section">
-            <div>
-                <img src="images/security.png" alt="lock with a tick">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure distinctio eveniet sed sapiente at suscipit corporis, id ea, nisi, beatae totam est sunt nulla sint saepe? Eum odio expedita facere!</p>
+            <div class="mood-diary-section-card">
+                <img src="images/security.png" alt="computer window with a lock over it">
+                <p class="mood-diary-section-inner-title">Secure</p>
+                <p class="mood-diary-section-inner">Brainguard provides you with a secure and reliable place to write down your thoughts and emotions in your own free time.</p>
             </div>
-            <div>2</div>
-            <div>3</div>
+            <div class="mood-diary-section-card">
+                <img src="images/responsive.png" alt="computer window with a lock over it">
+                <p class="mood-diary-section-inner-title">Accessibility</p>
+                <p class="mood-diary-section-inner">You have the freedom to write whenever and wherever, from any device that can access the internet.</p>
+            </div>
+            <div class="mood-diary-section-card">
+                <img src="images/calendar.png" alt="computer window with a lock over it">
+                <p class="mood-diary-section-inner-title">Tracking</p>
+                <p class="mood-diary-section-inner">Access journal entries that you have written yesterday, a week back or even a year back. Keep track of your mood and triggers overtime.</p>
+            </div>
         </div>
     </div>
 
