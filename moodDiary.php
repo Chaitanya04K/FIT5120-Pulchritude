@@ -61,7 +61,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         </div>
     </div>
 
-    <div>
+    <div class="container">
         <div class="mood-diary-section-title">TITLE</div>
         <div class="mood-diary-section">
             <div class="mood-diary-section-card">
