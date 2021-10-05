@@ -49,9 +49,12 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 
     <div class="jumbotron jumbotron-fluid mood-diary">
         <div class="container">
-            <h1 class="display-4 banner-heading">Get to know yourself</h1>
+            <h1 class="display-4 banner-heading">Get to know Yourself</h1>
             <p class="lead banner-subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat cum, nemo fugiat quod a quae impedit iusto doloribus perspiciatis, delectus hic? Natus facilis aliquam dolores et voluptatem accusantium. Adipisci, ab.</p>
-            <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
+            <div class="actionBtn-container">
+                <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
+                <a href="#" class="actionBtn">Start Writing</a>
+            </div>
         </div>
     </div>
 

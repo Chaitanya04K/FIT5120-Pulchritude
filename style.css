@@ -488,6 +488,7 @@ iframe {
     line-height: 0.9 !important;
     font-size: 6rem !important;
     font-weight: 800 !important;
+    margin-bottom: 30px;
 }
 
 .mood-diary .banner-subheading {
