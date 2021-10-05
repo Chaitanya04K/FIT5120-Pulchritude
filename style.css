@@ -500,10 +500,11 @@ iframe {
 
 .actionBtn-container {
     display: flex;
+    justify-content: center;
 }
 
 .actionBtn-container .actionBtn {
-    width: 100%;
+    width: 40%;
     text-align: center;
 }
 
