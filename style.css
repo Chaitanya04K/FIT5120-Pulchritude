@@ -516,7 +516,6 @@ iframe {
     margin-left: 30px;
 }
 
-
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
@@ -618,12 +617,16 @@ iframe {
     .banner-subheading {
         font-size: 1.2rem !important;
     }
-    .banner-heading.learnAboutDepression {
+    .banner-heading.learnAboutDepression, .mood-diary .banner-heading {
         font-size: 4rem !important;
         width: 100%;
     }
-    .banner-subheading.learnAboutDepression {
+    .banner-subheading.learnAboutDepression, .mood-diary .banner-subheading {
         font-size: 1.1rem !important;
+    }
+    .actionBtn-container .actionBtn {
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -672,10 +675,12 @@ iframe {
 }
 
 @media only screen and (max-width: 576px) {
-    .banner-subheading {
+    .banner-subheading,
+    .mood-diary .banner-subheading {
         font-size: 1.2rem !important;
     }
-    .banner-heading {
+    .banner-heading,
+    .mood-diary .banner-heading {
         width: 100%;
         font-size: 5rem !important;
     }
@@ -700,6 +705,24 @@ iframe {
     .info-videos .iframe-container:first-of-type {
         margin-bottom: 15px;
     }
+}
+
+@media only screen and (max-width: 524px) {
+    .actionBtn-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .actionBtn .margin-left-md,
+    .actionBtn .margin-right-md {
+        margin: unset;
+    }
+
+    .actionBtn .margin-right-md {
+        margin-bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
