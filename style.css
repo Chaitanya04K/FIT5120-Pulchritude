@@ -41,7 +41,7 @@ body {
 
 .jumbotron.mood-diary {
     background-image: url('images/mood_diary.jpg');
-    height: 700px !important;
+    height: 600px !important;
 }
 
 .actionBtn {
@@ -497,6 +497,24 @@ iframe {
     margin-left: 5px;
     margin-bottom: 30px;
 }
+
+.actionBtn-container {
+    display: flex;
+}
+
+.actionBtn-container .actionBtn {
+    width: 100%;
+    text-align: center;
+}
+
+.margin-right-md {
+    margin-right: 30px;
+}
+
+.margin-left-md {
+    margin-left: 30px;
+}
+
 
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
