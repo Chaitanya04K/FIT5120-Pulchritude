@@ -546,9 +546,17 @@ iframe {
 .mood-diary-section-inner {
     width: 80%;
     margin: 0 auto 1rem auto;
+    text-align: justify;
 }
 
-
+.parallax {
+    background-image: url("images/parallax.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {

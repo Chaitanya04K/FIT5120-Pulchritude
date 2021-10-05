@@ -62,7 +62,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     </div>
 
     <div class="container">
-        <div class="mood-diary-section-title">TITLE</div>
+        <div class="mood-diary-section-title">WHY USE BRAINGUARD</div>
         <div class="mood-diary-section">
             <div class="mood-diary-section-card">
                 <img src="images/security.png" alt="computer window with a lock over it">
@@ -78,6 +78,20 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                 <img src="images/calendar.png" alt="computer window with a lock over it">
                 <p class="mood-diary-section-inner-title">Tracking</p>
                 <p class="mood-diary-section-inner">Access journal entries that you have written yesterday, a week back or even a year back. Keep track of your mood and triggers overtime.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax">
+        <div class="container">
+            <div class="parallax-title">Title</div>
+            <div class="parallax-subTitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, repellendus debitis beatae ducimus perspiciatis dicta eum nesciunt animi odit voluptatem. Provident, fugiat! Modi quidem culpa labore harum! Tenetur, laborum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium possimus.
+                <ol>
+                    <li>First point</li>
+                    <li>Second point</li>
+                    <li>Third point</li>
+                </ol>
             </div>
         </div>
     </div>
