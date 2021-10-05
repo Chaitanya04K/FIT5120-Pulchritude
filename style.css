@@ -719,7 +719,7 @@ iframe {
         margin: unset;
     }
 
-    .actionBtn .margin-right-md {
+    .actionBtn.margin-right-md {
         margin-bottom: 10px;
     }
 
@@ -737,9 +737,13 @@ iframe {
         width: 73%;
         font-size: 3rem !important;
     }
-    .banner-subheading {
-        font-size: 1rem !important;
+    .mood-diary .banner-heading {
+        font-size: 3rem !important;
     }
+    .banner-subheading,
+    .mood-diary .banner-subheading {
+        font-size: 1rem !important;
+    } 
     .actionBtn {
         font-size: 1rem;
     }
