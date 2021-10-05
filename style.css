@@ -556,7 +556,18 @@ iframe {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+.parallax:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .6;
+}
 
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
