@@ -714,8 +714,8 @@ iframe {
         justify-content: center;
     }
 
-    .actionBtn .margin-left-md,
-    .actionBtn .margin-right-md {
+    .actionBtn.margin-left-md,
+    .actionBtn.margin-right-md {
         margin: unset;
     }
 

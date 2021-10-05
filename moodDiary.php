@@ -19,6 +19,9 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brainguard</title>
 
+    <!-- icon -->
+    <link rel="icon" href="/images/icon_logo.png">
+
     <!-- style CSS -->
     <link rel="stylesheet" href="style.css">
 
