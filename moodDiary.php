@@ -84,13 +84,13 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 
     <div class="parallax">
         <div class="container">
-            <div class="parallax-title">Title</div>
+            <div class="parallax-title">BENEFITS OF JOURNALING</div>
             <div class="parallax-subTitle">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, repellendus debitis beatae ducimus perspiciatis dicta eum nesciunt animi odit voluptatem. Provident, fugiat! Modi quidem culpa labore harum! Tenetur, laborum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium possimus.
+                Expressing yourself in the form of journaling can bring out thoughts and feelings to the surface. Many mental health experts recommend journaling since it is good for your mental health. Overall, journaling has been found to:
                 <ul>
-                    <li>First point</li>
-                    <li>Second point</li>
-                    <li>Third point</li>
+                    <li>Boost your mood</li>
+                    <li>Enhance your sense of well-being</li>
+                    <li>Find patterns in your mood</li>
                 </ul>
             </div>
         </div>
