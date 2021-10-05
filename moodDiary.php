@@ -61,6 +61,15 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         </div>
     </div>
 
+    <div>
+        <div class="mood-diary-section-title">TITLE</div>
+        <div class="mood-diary-section">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+
     <?php include 'footer.php'; ?>
     <script>
         //Opening modal only if user is not logged in
