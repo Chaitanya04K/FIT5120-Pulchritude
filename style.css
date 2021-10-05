@@ -516,6 +516,17 @@ iframe {
     margin-left: 30px;
 }
 
+.mood-diary-section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.mood-diary-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
@@ -675,12 +686,10 @@ iframe {
 }
 
 @media only screen and (max-width: 576px) {
-    .banner-subheading,
-    .mood-diary .banner-subheading {
+    .banner-subheading, .mood-diary .banner-subheading {
         font-size: 1.2rem !important;
     }
-    .banner-heading,
-    .mood-diary .banner-heading {
+    .banner-heading, .mood-diary .banner-heading {
         width: 100%;
         font-size: 5rem !important;
     }
@@ -716,16 +725,12 @@ iframe {
         flex-direction: column;
         justify-content: center;
     }
-
-    .actionBtn.margin-left-md,
-    .actionBtn.margin-right-md {
+    .actionBtn.margin-left-md, .actionBtn.margin-right-md {
         margin: unset;
     }
-
     .actionBtn.margin-right-md {
         margin-bottom: 10px;
     }
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -743,10 +748,9 @@ iframe {
     .mood-diary .banner-heading {
         font-size: 3rem !important;
     }
-    .banner-subheading,
-    .mood-diary .banner-subheading {
+    .banner-subheading, .mood-diary .banner-subheading {
         font-size: 1rem !important;
-    } 
+    }
     .actionBtn {
         font-size: 1rem;
     }

@@ -64,7 +64,10 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <div>
         <div class="mood-diary-section-title">TITLE</div>
         <div class="mood-diary-section">
-            <div>1</div>
+            <div>
+                <img src="images/security.png" alt="lock with a tick">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure distinctio eveniet sed sapiente at suscipit corporis, id ea, nisi, beatae totam est sunt nulla sint saepe? Eum odio expedita facere!</p>
+            </div>
             <div>2</div>
             <div>3</div>
         </div>
