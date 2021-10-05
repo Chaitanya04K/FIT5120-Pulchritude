@@ -87,11 +87,11 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
             <div class="parallax-title">Title</div>
             <div class="parallax-subTitle">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, repellendus debitis beatae ducimus perspiciatis dicta eum nesciunt animi odit voluptatem. Provident, fugiat! Modi quidem culpa labore harum! Tenetur, laborum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium possimus.
-                <ol>
+                <ul>
                     <li>First point</li>
                     <li>Second point</li>
                     <li>Third point</li>
-                </ol>
+                </ul>
             </div>
         </div>
     </div>

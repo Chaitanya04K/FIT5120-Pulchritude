@@ -556,6 +556,20 @@ iframe {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    padding: 25px 0 0 0;
+    margin-top: 30px;
+}
+
+.parallax-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.parallax-subTitle {
+    text-align: justify;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -732,6 +746,9 @@ iframe {
     }
     .container {
         margin-top: 40px;
+    }
+    .parallax .container {
+        margin-top: unset;
     }
     .info-videos {
         display: flex;
