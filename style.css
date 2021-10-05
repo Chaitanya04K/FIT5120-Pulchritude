@@ -743,6 +743,9 @@ iframe {
     .info-videos .iframe-container:first-of-type {
         margin-bottom: 15px;
     }
+    .mood-diary-section-card img {
+        max-width: 150px;
+    }
 }
 
 @media only screen and (max-width: 524px) {
@@ -797,5 +800,8 @@ iframe {
     }
     .banner-subheading.learnAboutDepression {
         font-size: 1rem !important;
+    }
+    .mood-diary-section-card img {
+        max-width: 130px;
     }
 }
