@@ -684,6 +684,9 @@ iframe {
         width: 100%;
         font-size: 5rem !important;
     }
+    .jumbotron.mood-diary {
+        height: 100% !important;
+    }
     .container {
         margin-top: 40px;
     }
