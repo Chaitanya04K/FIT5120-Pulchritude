@@ -7,7 +7,7 @@ $openModal = false;
 
 //Checking if user is not logged in, if not then redirecting to login page
 if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
-    $openModal = true;
+    header("location: moodDiary.php");
 }
 ?>
 <!DOCTYPE html>
