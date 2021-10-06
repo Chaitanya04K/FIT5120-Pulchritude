@@ -28,6 +28,15 @@
         </ol>
     </nav>
 
+    <!-- input tag -->
+    <form style="margin:auto;max-width:300px">
+        <input id="support-searchbar" onkeyup="search_support()" type="text"
+        name="search" placeholder="Search">
+    </form>
+      
+    <!-- linking javascript -->
+    <script src="./supportsearch.js"></script>
+
     <div class="my-container">
         <div class="support-card">
             <div class="support-card-header blue">
