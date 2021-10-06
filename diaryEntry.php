@@ -6,9 +6,9 @@ session_start();
 $openModal = false;
 
 //Checking if user is not logged in, if not then redirecting to login page
-if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
-    $openModal = true;
-}
+// if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
+//     header("location: moodDiary.php");
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,28 +30,17 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 <body>
     <?php include 'navbar.php'; ?>
 
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Before you get started...</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>You will need to be logged in to be able to save your Mood diary. Either login if you already have an account or Register if new to brainguard.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="login.php"><button type="button" class="btn btn-primary">Login</button></a>
-                    <a href="register.php"><button type="button" class="btn btn-primary">Register</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <form action="submitDiary();" method="post">
+        <input type="text" name="title" id="diaryTitle">
+        <label for="diaryTitle">Title</label>
 
-    <form method="post">
-        <textarea id="mytextarea" name="mytextarea"></textarea>
+        <input type="date" name="date" id="diaryDate">
+        <label for="diaryDate">Date</label>
+
+        <textarea id="diaryContent" name="diaryContent"></textarea>
+        <label for="diaryContent">Content</label>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
     <?php include 'footer.php'; ?>
@@ -60,13 +49,17 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <script>
         // initializing tinyMCE editor
         tinymce.init({
-            selector: '#mytextarea'
+            selector: '#diaryContent'
         });
 
-        //Opening modal only if user is not logged in
-        var openModal = <?php echo $openModal; ?>;
-        if (openModal == 1) {
-            $('#exampleModalCenter').modal('show');
+        function submitDiary() {
+            var title = document.getElementById("diaryTitle");
+            var date = document.getElementById("diaryDate");
+            var content = document.getElementById("diaryContent");
+
+            console.log(title);
+            console.log(date);
+            console.log(content);
         }
     </script>
 </body>
