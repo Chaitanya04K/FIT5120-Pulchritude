@@ -108,8 +108,8 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
                 console.log("opening modal");
             } else {
                 console.log("in else");
-                window.location.href = "diaryEntry.php";
-                exit;
+                // window.location.href = "diaryEntry.php";
+                // exit;
             }
         }
         
