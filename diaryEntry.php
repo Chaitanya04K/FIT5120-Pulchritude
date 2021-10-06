@@ -37,7 +37,7 @@ $openModal = false;
                 <input type="text" name="title" id="diaryTitle">
 
                 <label for="diaryDate">Date</label>
-                <input type="date" name="date" id="diaryDate">
+                <input type="datetime-local" name="date" id="diaryDate">
 
                 <label for="diaryContent">Content</label>
                 <textarea id="diaryContent" name="diaryContent"></textarea>
