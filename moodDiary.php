@@ -30,6 +30,13 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 <body>
     <?php include 'navbar.php'; ?>
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="homepage.php">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Mood Diary</li>
+        </ol>
+    </nav>
+
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">

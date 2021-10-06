@@ -30,6 +30,14 @@ $openModal = false;
 <body>
     <?php include 'navbar.php'; ?>
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="homepage.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="moodDiary.php">Mood Diary</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Diary</li>
+        </ol>
+    </nav>
+
     <form action="submitDiary();" method="post">
         <div class="container">
             <div class="diaryForm">
