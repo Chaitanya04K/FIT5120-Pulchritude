@@ -31,16 +31,20 @@ $openModal = false;
     <?php include 'navbar.php'; ?>
 
     <form action="submitDiary();" method="post">
-        <input type="text" name="title" id="diaryTitle">
-        <label for="diaryTitle">Title</label>
+        <div class="container">
+            <div class="diaryForm">
+                <label for="diaryTitle">Title</label>
+                <input type="text" name="title" id="diaryTitle">
 
-        <input type="date" name="date" id="diaryDate">
-        <label for="diaryDate">Date</label>
+                <label for="diaryDate">Date</label>
+                <input type="date" name="date" id="diaryDate">
 
-        <textarea id="diaryContent" name="diaryContent"></textarea>
-        <label for="diaryContent">Content</label>
+                <label for="diaryContent">Content</label>
+                <textarea id="diaryContent" name="diaryContent"></textarea>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
     </form>
 
     <?php include 'footer.php'; ?>
