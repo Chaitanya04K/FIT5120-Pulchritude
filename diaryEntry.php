@@ -38,7 +38,7 @@ $openModal = false;
         </ol>
     </nav>
 
-    <form action="submitDiary();" method="post">
+    <form onsubmit="submitDiary()" method="post">
         <div class="container">
             <div class="diaryForm">
                 <label for="diaryTitle">Title</label>
@@ -47,7 +47,7 @@ $openModal = false;
                 <label for="diaryDate">Date</label>
                 <input type="datetime-local" name="date" id="diaryDate">
 
-                <label for="diaryContent">Content</label>
+                <label for="diaryContent">Note</label>
                 <textarea id="diaryContent" name="diaryContent"></textarea>
 
                 <button type="submit" class="btn btn-primary">Submit</button>

@@ -572,6 +572,11 @@ iframe {
     text-align: justify;
 }
 
+.diaryForm {
+    display: flex;
+    flex-direction: column;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
