@@ -99,7 +99,9 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <?php include 'footer.php'; ?>
     <script>
         //function to check if user is logged in or not
-        var openModal = <?php echo $openModal; ?>;
+        var openModal = "<?php echo $openModal; ?>";
+
+        console.log(openModal);
         
         function CheckIfLoggedIn() {
             console.log("inside the function")
