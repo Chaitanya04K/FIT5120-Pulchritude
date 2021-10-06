@@ -57,7 +57,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
             <p class="lead banner-subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat cum, nemo fugiat quod a quae impedit iusto doloribus perspiciatis, delectus hic? Natus facilis aliquam dolores et voluptatem accusantium. Adipisci, ab.</p>
             <div class="actionBtn-container">
                 <a href="tel:131114" class="actionBtn margin-right-md">Call: Lifeline 13 11 14</a>
-                <a onclick="CheckIfLoggedIn();" class="actionBtn margin-left-md">Start Writing</a>
+                <a href="#" onclick="CheckIfLoggedIn();" class="actionBtn margin-left-md">Start Writing</a>
             </div>
         </div>
     </div>
