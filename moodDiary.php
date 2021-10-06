@@ -57,7 +57,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
             <p class="lead banner-subheading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat cum, nemo fugiat quod a quae impedit iusto doloribus perspiciatis, delectus hic? Natus facilis aliquam dolores et voluptatem accusantium. Adipisci, ab.</p>
             <div class="actionBtn-container">
                 <a href="tel:131114" class="actionBtn margin-right-md">Call: Lifeline 13 11 14</a>
-                <a onclick="isLoggedIn();" class="actionBtn margin-left-md">Start Writing</a>
+                <a onclick="CheckIfLoggedIn();" class="actionBtn margin-left-md">Start Writing</a>
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         //function to check if user is logged in or not
         var isLoggedIn = <?php echo $isLoggedIn; ?>;
 
-        function isLoggedIn() {
+        function CheckIfLoggedIn() {
             // if (openModal == 1) {
             //     header("Location: diaryEntry.php");
             //     exit;
