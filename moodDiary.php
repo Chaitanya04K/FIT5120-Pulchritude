@@ -103,13 +103,12 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         var isLoggedIn = <?php echo $isLoggedIn; ?>;
 
         function CheckIfLoggedIn() {
-            // if (openModal == 1) {
-            //     header("Location: diaryEntry.php");
-            //     exit;
-            // } else {
-            //     $('#exampleModalCenter').modal('show');
-            // }
-            alert("working");
+            if (openModal == 1) {
+                header("Location: diaryEntry.php");
+                exit;
+            } else {
+                $('#exampleModalCenter').modal('show');
+            }
         }
 
         //Opening modal only if user is not logged in
