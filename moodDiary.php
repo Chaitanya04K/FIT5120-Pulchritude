@@ -101,17 +101,13 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         //function to check if user is logged in or not
         var openModal = "<?php echo $openModal; ?>";
 
-        console.log(openModal);
         
         function CheckIfLoggedIn() {
-            console.log("inside the function")
             if (openModal == 1) {
                 $('#exampleModalCenter').modal('show');
-                console.log("opening modal");
             } else {
-                console.log("in else");
-                // window.location.href = "diaryEntry.php";
-                // exit;
+                window.location.href = "diaryEntry.php";
+                exit;
             }
         }
         
