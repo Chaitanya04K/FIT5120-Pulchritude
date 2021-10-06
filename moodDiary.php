@@ -102,6 +102,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         var openModal = <?php echo $openModal; ?>;
         
         function CheckIfLoggedIn() {
+            console.log("inside the function")
             if (openModal == 1) {
                 $('#exampleModalCenter').modal('show');
                 console.log("opening modal");
