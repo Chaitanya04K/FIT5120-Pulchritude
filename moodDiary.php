@@ -104,7 +104,9 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
         function CheckIfLoggedIn() {
             if (openModal == 1) {
                 $('#exampleModalCenter').modal('show');
+                console.log("opening modal");
             } else {
+                console.log("in else");
                 window.location.href = "diaryEntry.php";
                 exit;
             }
