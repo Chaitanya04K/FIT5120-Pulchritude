@@ -65,13 +65,13 @@ $openModal = false;
         });
 
         function submitDiary() {
-            var title = document.getElementById("diaryTitle");
-            var date = document.getElementById("diaryDate");
-            var content = document.getElementById("diaryContent");
+            var title = document.getElementById("diaryTitle").value;
+            var date = document.getElementById("diaryDate").value;
+            var content = document.getElementById("diaryContent").value;
 
-            console.log(title);
-            console.log(date);
-            console.log(content);
+            alert(title);
+            alert(date);
+            alert(content);
         }
     </script>
 </body>
