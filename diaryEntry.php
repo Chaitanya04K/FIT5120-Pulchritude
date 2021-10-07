@@ -67,7 +67,8 @@ $openModal = false;
         function submitDiary() {
             var title = document.getElementById("diaryTitle").value;
             var date = document.getElementById("diaryDate").value;
-            var content = document.getElementById("diaryContent").value;
+            // var content = document.getElementById("diaryContent").value;
+            var content = tinyMCE.activeEditor.getContent();
 
             alert(title);
             alert(date);
