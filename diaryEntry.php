@@ -22,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $regExp2 = "/(<p>)*/g";
     $regExp3 = "/<(\/)?p[^>]*>/g";
     $content = preg_replace($regExp1,"",$content);
-    $content = str_replace($regExp2,"",$content);
-    $content = str_replace($regExp3,"",$content);
+    $content = preg_replace($regExp2,"",$content);
+    $content = preg_replace($regExp3,"",$content);
     $email = $_SESSION["email"];
     echo ("<script type='text/javascript'> console.log(" . $title . ");</script>");
     echo ("<script type='text/javascript'> console.log(" . $date . ");</script>");
