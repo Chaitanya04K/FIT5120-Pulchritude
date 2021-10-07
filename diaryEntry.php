@@ -79,9 +79,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         var diaryContent = "<?php echo $content; ?>";
 
         if (diaryContent != "") {
-            tinymce.activeEditor.setContent(diaryContent);
+            tinymce.get("#diaryContent").setContent(diaryContent);
         } else {
-            tinymce.activeEditor.setContent("<p>ELSE CONTENT</p>");
+            tinymce.get("#diaryContent").setContent("<p>ELSE CONTENT</p>");
         }
 
         function submitDiary() {
