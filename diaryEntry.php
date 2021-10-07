@@ -71,18 +71,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <!-- TinyMCE Scripts -->
     <script src="https://cdn.tiny.cloud/1/1ng6gy3zjbeddtg8y5lz43brwu7b80m4kgyy1btd71lo8424/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
-        // initializing tinyMCE editor
-        tinymce.init({
-            selector: '#diaryContent'
-        });
 
         var diaryContent = "<?php echo $content; ?>";
+        
+        // initializing tinyMCE editor
+        tinymce.init({
+            selector: '#diaryContent',
+            init_instance_callback: function(editor) {
+                editor.setContent(diaryContent);
+            }
+        });
 
-        if (diaryContent != "") {
-            tinymce.get("diaryContent").setContent(diaryContent);
-        } else {
-            tinymce.get("diaryContent").setContent("<p>ELSE CONTENT</p>");
-        }
+
+        // if (diaryContent != "") {
+        //     tinymce.get("diaryContent").setContent(diaryContent);
+        // } else {
+        //     tinymce.get("diaryContent").setContent("<p>ELSE CONTENT</p>");
+        // }
 
         function submitDiary() {
             var title = document.getElementById("diaryTitle").value;
