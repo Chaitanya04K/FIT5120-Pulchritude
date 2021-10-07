@@ -13,6 +13,8 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 //Storing diary content into database
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     header("location: homepage.php");
+} else {
+    echo "IN ELSE";
 }
 
 ?>
