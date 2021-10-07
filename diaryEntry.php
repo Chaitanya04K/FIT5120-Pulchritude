@@ -11,9 +11,6 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     exit;
 }
 
-echo $_SERVER["REQUEST_METHOD"];
-echo (isset($_POST['submit']));
-
 //Storing diary content into database
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     header("location: homepage.php");
@@ -61,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 <label for="diaryContent">Note</label>
                 <textarea name="content" id="diaryContent"></textarea>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="submit" name="submit" class="btn btn-primary" value="submit">
             </div>
         </div>
     </form>
