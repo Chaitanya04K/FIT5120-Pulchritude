@@ -8,11 +8,13 @@ $openModal = false;
 //Checking if user is not logged in, if not then redirecting to login page
 if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     header("location: moodDiary.php");
+    exit;
 }
 
 //Storing diary content into database
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     header("location: homepage.php");
+    exit;
 }
 
 ?>
