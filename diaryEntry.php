@@ -2,6 +2,8 @@
 //Starting the session
 session_start();
 
+require_once "config.php";
+
 //Initializing global variables
 $openModal = false;
 
@@ -13,8 +15,11 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 
 //Storing diary content into database
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
-    header("location: homepage.php");
-    exit;
+    $title = trim($_POST['title']);
+    $date = trim($_POST['date']);
+    $content = trim($_POST['content']);
+    $email = $_SESSION["email"];
+    echo "<script>console.log($title);</script>";
 }
 
 ?>
