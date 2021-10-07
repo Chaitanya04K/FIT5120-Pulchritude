@@ -18,17 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $title = trim($_POST['title']);
     $date = trim($_POST['date']);
     $content = trim($_POST['content']);
-    $regExp1 = "/(&nbsp;)*/g";
-    $regExp2 = "/(<p>)*/g";
-    $regExp3 = "/<(\/)?p[^>]*>/g";
-    $content = preg_replace($regExp1,"",$content);
-    $content = preg_replace($regExp2,"",$content);
-    $content = preg_replace($regExp3,"",$content);
     $email = $_SESSION["email"];
-    echo ("<script type='text/javascript'> console.log(" . $title . ");</script>");
-    echo ("<script type='text/javascript'> console.log(" . $date . ");</script>");
-    echo ("<script type='text/javascript'> console.log(" . $content . ");</script>");
-    echo ("<script type='text/javascript'> console.log(" . $email . ");</script>");
 }
 
 ?>
@@ -85,6 +75,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         tinymce.init({
             selector: '#diaryContent'
         });
+
+        var diaryContent = "<?php echo $content; ?>";
+        tinymce.activeEditor.setContent('"' + diaryContent + '"');
 
         function submitDiary() {
             var title = document.getElementById("diaryTitle").value;
