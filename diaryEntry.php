@@ -68,14 +68,14 @@ $openModal = false;
             var title = document.getElementById("diaryTitle").value;
             var date = document.getElementById("diaryDate").value;
             var content = (((tinyMCE.get('diaryContent').getContent()).replace(/(&nbsp;)*/g, "")).replace(/(<p>)*/g, "")).replace(/<(\/)?p[^>]*>/g, "");
-            var userId = "<?php echo $_SESSION["userid"]; ?>";
+            var userName = "<?php echo $_SESSION["name"]; ?>";
 
 
 
             alert(title);
             alert(date);
             alert(content);
-            alert(userId);
+            alert(userName);
         }
     </script>
 </body>
