@@ -77,7 +77,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         });
 
         var diaryContent = "<?php echo $content; ?>";
-        tinymce.activeEditor.setContent('"' + diaryContent + '"');
+
+        if (diaryContent != "") {
+            tinymce.activeEditor.setContent(diaryContent);
+        } else {
+            tinymce.activeEditor.setContent("ELSE CONTENT");
+        }
 
         function submitDiary() {
             var title = document.getElementById("diaryTitle").value;
