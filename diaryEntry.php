@@ -68,7 +68,9 @@ $openModal = false;
             var title = document.getElementById("diaryTitle").value;
             var date = document.getElementById("diaryDate").value;
             // var content = document.getElementById("diaryContent").value;
-            var content = tinyMCE.activeEditor.getContent();
+            var content = (((tinyMCE.get('diaryContent').getContent()).replace(/(&nbsp;)*/g, "")).replace(/(<p>)*/g, "")).replace(/<(\/)?p[^>]*>/g, "");
+
+
 
             alert(title);
             alert(date);
