@@ -19,8 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $date = trim($_POST['date']);
     $content = trim($_POST['content']);
     $email = $_SESSION["email"];
-    echo '<script type="text/javascript">' .
-          'console.log(' . $title . ');</script>';
+    echo ("<script type='text/javascript'> console.log($email);</script>");
 }
 
 ?>
