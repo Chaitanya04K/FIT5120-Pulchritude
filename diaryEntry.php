@@ -67,14 +67,15 @@ $openModal = false;
         function submitDiary() {
             var title = document.getElementById("diaryTitle").value;
             var date = document.getElementById("diaryDate").value;
-            // var content = document.getElementById("diaryContent").value;
             var content = (((tinyMCE.get('diaryContent').getContent()).replace(/(&nbsp;)*/g, "")).replace(/(<p>)*/g, "")).replace(/<(\/)?p[^>]*>/g, "");
+            var userId = "<?php echo $_SESSION["userid"]; ?>";
 
 
 
             alert(title);
             alert(date);
             alert(content);
+            alert(userId);
         }
     </script>
 </body>
