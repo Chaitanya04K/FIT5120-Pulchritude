@@ -6,9 +6,15 @@ session_start();
 $openModal = false;
 
 //Checking if user is not logged in, if not then redirecting to login page
-// if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
-//     header("location: moodDiary.php");
-// }
+if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
+    header("location: moodDiary.php");
+}
+
+//Storing diary content into database
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
+    echo "WORKING!!!!";
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +44,7 @@ $openModal = false;
         </ol>
     </nav>
 
-    <form onsubmit="submitDiary()" method="post">
+    <form onsubmit="submitDiary()" action="" method="post">
         <div class="container">
             <div class="diaryForm">
                 <label for="diaryTitle">Title</label>
