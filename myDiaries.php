@@ -25,9 +25,13 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
     if ($query->num_rows > 0) {
         $noDiariesFound = false;
         $result->bind_result($diaryDate, $diaryTime, $title, $content);
+        echo "before while loop";
         while ($result->fetch()) {
-            echo ($diaryDate . $diaryTime . $title . $content);
+            echo "INSIDE WHILE LOOP";
+            echo ($diaryDate);
         }
+    } else {
+        echo "some error";
     }
 }
 
