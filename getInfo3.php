@@ -85,17 +85,16 @@
         <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
         <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
         <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
-        <a href="treatment.php" style="font-size:23px;color:white;">Depression Treatments</a>
     </div>
 
     <div class="container">
         <div align="center" style="    color: #009BC9;
     font-weight: bold; font-size: 40px;">
-            Your K10 score is <b id="score"></b>
+            Your K10 score is <b id="score" style="color:purple;"></b>
         </div>
         <div align="center" style="    color: #009BC9;
     font-weight: bold; font-size: 40px;">
-            You have a <b id="level"></b> level of psychological distress
+            You have a <b id="level" style="color:purple;"></b> level of psychological distress
         </div>
         <br>
         <div style="text-align:center">
@@ -113,8 +112,8 @@
                     <td>Moderate</td>
                 </tr>
                 <tr>
-                    <td>22-29</td>
-                    <td>High</td>
+                    <td style="background-color:#FBFEB3;">22-29</td>
+                    <td style="background-color:#FBFEB3;">High</td>
                 </tr>
                 <tr>
                     <td>30-50</td>
