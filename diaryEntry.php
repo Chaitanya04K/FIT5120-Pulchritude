@@ -9,6 +9,7 @@ session_start();
 //Initializing global variables
 $openModal = false;
 $error = '';
+$success = '';
 
 //Checking if user is not logged in, if not then redirecting to login page
 if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
@@ -28,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $insertQuery->bind_param("sssss", $dateTime[0], $dateTime[1], $email, $title, $content);
     $result = $insertQuery->execute();
     if ($result) {
-        $error .= '<p class="error">Successfully submitted!</p>';
+        $success .= '<p class="error">Successfully submitted!</p>';
     } else {
         $error .= '<p class="error">Something went wrong! Please try again!</p>';
     }
@@ -69,6 +70,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     <div class="alert alert-danger" role="alert">
         <?php echo $error; ?>
+    </div>
+    <div class="alert alert-success" role="alert">
+        <?php echo $success; ?>
     </div>
     <form action="" method="post">
         <div class="container">
