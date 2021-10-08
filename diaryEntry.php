@@ -68,14 +68,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </ol>
     </nav>
 
-    <div class="error-box" >
-        <?php echo $error; ?>
-    </div>
-    <div class="success-box">
-        <?php echo $success; ?>
-    </div>
+
     <form action="" method="post">
         <div class="container">
+            <div class="error-box">
+                <?php echo $error; ?>
+            </div>
+            <div class="success-box">
+                <?php echo $success; ?>
+            </div>
             <div class="diaryForm">
                 <label for="diaryTitle">Title</label>
                 <input type="text" name="title" id="diaryTitle">
