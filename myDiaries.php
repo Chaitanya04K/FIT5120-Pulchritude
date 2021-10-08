@@ -2,12 +2,12 @@
 
 require_once "config.php";
 
+//Starting the session
+session_start();
+
 //Initializing global variables
 $noDiariesFound = true;
 $email = $_SESSION["email"];
-
-//Starting the session
-session_start();
 
 //Checking if user is not logged in, if not then redirecting to login page
 if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
