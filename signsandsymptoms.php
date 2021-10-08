@@ -90,7 +90,6 @@
     </div>
 
     <div class="sidebar">
-        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
         <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
         <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
         <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
