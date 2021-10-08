@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $email = $_SESSION["email"];
 
     $insertQuery = $db->prepare("INSERT INTO diary (diaryDate, diaryTime, email, title, content) VALUES (?, ?, ?, ?, ?);");
-    $insertQuery->bind_param("iisss", $dateTime[0], $dateTime[1], $email, $title, $content);
+    $insertQuery->bind_param("sssss", $dateTime[0], $dateTime[1], $email, $title, $content);
     $result = $insertQuery->execute();
     if ($result) {
         $error .= '<p class="error">Successfully submitted!</p>';
