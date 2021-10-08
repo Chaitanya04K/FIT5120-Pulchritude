@@ -24,8 +24,8 @@
         width: 200px;
         background-color: #1E7ED1;
         position: absolute;
-        height: 100%;
-        overflow: auto;
+        height: 69%;
+        overflow: hidden;
         border-radius:10px;
     }
     .sidebar a {
@@ -44,7 +44,7 @@
         background-color: #B2D2EE;
         color: white;
     }
-    div.container {
+    div.container1 {
         margin-left: 200px;
         padding: 1px 16px;
         height: 1000px;
@@ -56,7 +56,7 @@
             position: relative;
         }
         .sidebar a {float: left;}
-        div.container {margin-left: 0;}
+        div.container1 {margin-left: 0;}
     }
     @media screen and (max-width: 400px) {
         .sidebar a {
@@ -89,14 +89,13 @@
     </div>
 
     <div class="sidebar">
-        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
         <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
         <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
         <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
         <a href="checklist.php" style="font-size:23px;color:white;">K10 Checklist</a>
     </div>
 
-    <div class="container">
+    <div class="container1">
         <p class="info-mainHeading">What causes Depression?</p>
         <p class="info-text" style="text-align:justify;margin-right:100px;">
             It's often said that depression results from a chemical imbalance, but that figure of speech doesn't capture
