@@ -33,6 +33,8 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FR
         }
         echo "Array built";
         echo $diaryArray[0][0] . " " . $diaryArray[0][1] . " " . $diaryArray[0][2] . " " . $diaryArray[0][3] . " " . $diaryArray[0][4];
+        echo "Result array";
+        echo $resultArray[0] . " " . $resultArray[1] . " " . $resultArray[2] . " " . $resultArray[3] . " " . $resultArray[4];
     }
 }
 
