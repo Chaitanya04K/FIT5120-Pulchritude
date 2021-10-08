@@ -4,7 +4,7 @@ require_once "config.php";
 
 //Initializing global variables
 $noDiariesFound = true;
-$email = trim($_POST['email']);
+$email = $_SESSION["email"];
 
 //Starting the session
 session_start();
