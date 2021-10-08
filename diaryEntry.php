@@ -68,10 +68,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </ol>
     </nav>
 
-    <div class="alert alert-danger" role="alert">
+    <div class="error-box" >
         <?php echo $error; ?>
     </div>
-    <div class="alert alert-success" role="alert">
+    <div class="success-box">
         <?php echo $success; ?>
     </div>
     <form action="" method="post">

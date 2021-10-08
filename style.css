@@ -581,11 +581,28 @@ iframe {
     display: inline-block;
     font-size: 1.5rem;
     font-weight: 100;
+    margin: unset;
     margin-top: 15px;
 }
 
 .diaryForm input[type=submit] {
     margin: 20px 0;
+}
+
+.error-box {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.success-box {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 @media only screen and (max-width: 1400px) {
