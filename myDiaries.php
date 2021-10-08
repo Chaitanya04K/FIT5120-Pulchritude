@@ -8,6 +8,7 @@ session_start();
 //Initializing global variables
 $diariesFound = false;
 $email = $_SESSION["email"];
+$diaryArray = [];
 
 //Checking if user is not logged in, if not then redirecting to login page
 if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
@@ -27,7 +28,11 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FR
         $diariesFound = true;
         while ($query->fetch()) {
             // echo $diaryDate . " " . $diaryTime . " " . $diaryEmail . " " . $diaryTitle . " " . $diaryContent;
+            $resultArray = [$diaryDate, $diaryTime, $diaryEmail, $diaryTitle, $diaryContent];
+            $diaryArray = array_merge($diaryArray, $resultArray);   
         }
+        echo "Array built";
+        echo $diaryArray[0][0] . " " . $diaryArray[0][1] . " " . $diaryArray[0][2] . " " . $diaryArray[0][3] . " " . $diaryArray[0][4];
     }
 }
 
