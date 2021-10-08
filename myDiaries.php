@@ -6,7 +6,7 @@ require_once "config.php";
 session_start();
 
 //Initializing global variables
-$noDiariesFound = true;
+$diariesFound = false;
 $email = $_SESSION["email"];
 
 //Checking if user is not logged in, if not then redirecting to login page
@@ -20,13 +20,13 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FR
     $query->bind_param('s', $email);
     $query->execute();
     $query->store_result();
-    $query->bind_result($diaryDate, $diaryTime ,$diaryEmail ,$diaryTitle ,$diaryContent);
+    $query->bind_result($diaryDate, $diaryTime, $diaryEmail, $diaryTitle, $diaryContent);
 
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
-        $noDiariesFound = false;
+        $diariesFound = true;
         while ($query->fetch()) {
-            echo $diaryDate . " " . $diaryTime . " " . $diaryEmail . " " . $diaryTitle . " " . $diaryContent;
+            // echo $diaryDate . " " . $diaryTime . " " . $diaryEmail . " " . $diaryTitle . " " . $diaryContent;
         }
     }
 }
@@ -59,7 +59,14 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FR
         </ol>
     </nav>
 
-    <p>WORKING</p>
+    <?php if ($diariesFound == true) : ?>
+        <p>Diaries found, but still working on showing them!</p>
+    <? else : ?>
+        <li class="nav-item">
+            <p>You do not have any previous diaries!</p>
+        </li>
+    <?php endif; ?>
+
     <?php include 'footer.php'; ?>
 </body>
 
