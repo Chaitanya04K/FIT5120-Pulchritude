@@ -24,12 +24,14 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $noDiariesFound = false;
-        $result->bind_result($diaryDate, $diaryTime, $title, $content);
-        echo "before while loop";
-        while ($result->fetch()) {
-            echo "INSIDE WHILE LOOP";
-            echo ($diaryDate);
-        }
+        // $result->bind_result($diaryDate, $diaryTime, $title, $content);
+        // echo "before while loop";
+        // while ($result->fetch()) {
+        //     echo "INSIDE WHILE LOOP";
+        //     echo ($diaryDate);
+        // }
+        echo "Running smoothly";
+        echo $query;
     } else {
         echo "some error";
     }
