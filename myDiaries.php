@@ -16,7 +16,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 }
 
 //Fetching past diaries for particular user from database
-if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diary WHERE email = ?")) {
+if ($query = $db->prepare("SELECT * FROM diary WHERE email = ?")) {
     $query->bind_param('s', $email);
     $query->execute();
     $query->store_result();
