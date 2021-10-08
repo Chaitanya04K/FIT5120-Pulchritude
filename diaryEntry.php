@@ -17,8 +17,10 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $title = trim($_POST['title']);
     $date = trim($_POST['date']);
-    $content = trim($_POST['content']);
+    $content = $_POST['content'];
     $email = $_SESSION["email"];
+
+    echo "<script>console.log('Debug Objects: " . $date . "' );</script>";
 }
 
 ?>
@@ -71,37 +73,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <!-- TinyMCE Scripts -->
     <script src="https://cdn.tiny.cloud/1/1ng6gy3zjbeddtg8y5lz43brwu7b80m4kgyy1btd71lo8424/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
+        // var diaryContent = "<?php echo $content; ?>";
 
-        var diaryContent = "<?php echo $content; ?>";
-        
         // initializing tinyMCE editor
         tinymce.init({
-            selector: '#diaryContent',
-            init_instance_callback: function(editor) {
-                editor.setContent(diaryContent);
-            }
+            selector: '#diaryContent'
         });
 
-
-        // if (diaryContent != "") {
-        //     tinymce.get("diaryContent").setContent(diaryContent);
-        // } else {
-        //     tinymce.get("diaryContent").setContent("<p>ELSE CONTENT</p>");
-        // }
-
-        function submitDiary() {
-            var title = document.getElementById("diaryTitle").value;
-            var date = document.getElementById("diaryDate").value;
-            var content = (((tinyMCE.get('diaryContent').getContent()).replace(/(&nbsp;)*/g, "")).replace(/(<p>)*/g, "")).replace(/<(\/)?p[^>]*>/g, "");
-            var userName = "<?php echo $_SESSION["email"]; ?>";
-
-
-
-            alert(title);
-            alert(date);
-            alert(content);
-            alert(userName);
-        }
+        // tinymce.init({
+        //     selector: '#diaryContent',
+        //     init_instance_callback: function(editor) {
+        //         editor.setContent(diaryContent);
+        //     }
+        // });
     </script>
 </body>
 
