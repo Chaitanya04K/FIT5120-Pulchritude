@@ -24,7 +24,7 @@
         width: 200px;
         background-color: #1E7ED1;
         position: absolute;
-        height: 69%;
+        height: 60%;
         overflow: hidden;
         border-radius:10px;
     }
