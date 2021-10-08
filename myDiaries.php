@@ -24,8 +24,11 @@ if ($query = $db->prepare("SELECT * FROM diary WHERE email = ?")) {
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $noDiariesFound = false;
-        echo "INSIDE THE IF";
-    } 
+        $stmt->bind_result($diaryDate, $diaryTime, $email, $title, $content);
+        while ($stmt->fetch()) {
+            echo $diaryDate;
+        }
+    }
 }
 
 ?>
