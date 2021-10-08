@@ -46,7 +46,7 @@ session_start();
                         <a class="dropdown-item" href="graphs.php">Statistics on Depression</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item dropdown">
                     <!-- <a href="moodDiary.php" class="nav-link">Mood diary</a> -->
                     <a class="nav-link dropdown-toggle" href="#" id="moodDiary-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Diary
