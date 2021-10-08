@@ -17,10 +17,12 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $title = trim($_POST['title']);
     $date = trim($_POST['date']);
+    $dateTime = explode("T",$date);
     $content = $_POST['content'];
     $email = $_SESSION["email"];
 
-    echo "<script>console.log('Debug Objects: " . $date . "' );</script>";
+    echo "<script>console.log('Debug Objects: " . $dateTime[0] . "' );</script>";
+    echo "<script>console.log('Debug Objects: " . $dateTime[1] . "' );</script>";
 }
 
 ?>
