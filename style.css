@@ -594,7 +594,6 @@ iframe {
     background-color: #f8d7da;
     border-color: #f5c6cb;
     border-radius: .25rem;
-    padding: 10px;
 }
 
 .success-box {
@@ -602,6 +601,10 @@ iframe {
     background-color: #d4edda;
     border-color: #c3e6cb;
     border-radius: .25rem;
+}
+
+.error-box p,
+.success-box p {
     padding: 10px;
 }
 
