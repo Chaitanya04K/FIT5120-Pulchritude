@@ -24,9 +24,8 @@ if ($query = $db->prepare("SELECT * FROM diary WHERE email = ?")) {
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $noDiariesFound = false;
-        $result = $query->fetch();
-        echo $result;
-        echo "echoed after result";
+        echo $query;
+        echo "after query result";
     }
 }
 
