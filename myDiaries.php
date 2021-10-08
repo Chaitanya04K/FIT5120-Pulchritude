@@ -62,9 +62,7 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FR
     <?php if ($diariesFound == true) : ?>
         <p>Diaries found, but still working on showing them!</p>
     <? else : ?>
-        <li class="nav-item">
-            <p>You do not have any previous diaries!</p>
-        </li>
+        <p>You do not have any previous diaries!</p>
     <?php endif; ?>
 
     <?php include 'footer.php'; ?>
