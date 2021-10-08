@@ -26,7 +26,7 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
         $noDiariesFound = false;
         $result->bind_result($diaryDate, $diaryTime, $title, $content);
         while ($result->fetch()) {
-            printf ("%s (%s)\n", $diaryDate, $diaryTime, $title, $content);
+            echo ($diaryDate . $diaryTime . $title . $content);
         }
     }
 }
