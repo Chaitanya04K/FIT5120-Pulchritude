@@ -47,7 +47,14 @@ session_start();
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="moodDiary.php" class="nav-link">Mood diary</a>
+                    <!-- <a href="moodDiary.php" class="nav-link">Mood diary</a> -->
+                    <a class="nav-link dropdown-toggle" href="#" id="moodDiary-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Diary
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="moodDiary.php" class="nav-link">Mood diary</a>
+                        <a href="myDiaries.php" class="nav-link">My diaries</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a href="checklist.php" class="nav-link">K10 checklist</a>
