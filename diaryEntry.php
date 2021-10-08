@@ -1,8 +1,10 @@
 <?php
+
+require_once "config.php";
+
 //Starting the session
 session_start();
 
-require_once "config.php";
 
 //Initializing global variables
 $openModal = false;
@@ -30,7 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     } else {
         $error .= '<p class="error">Something went wrong! Please try again!</p>';
     }
-    $query->close();
     $insertQuery->close();
 
     //Closing the DB connection
