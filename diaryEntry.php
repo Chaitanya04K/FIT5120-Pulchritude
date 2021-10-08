@@ -6,6 +6,7 @@ require_once "config.php";
 
 //Initializing global variables
 $openModal = false;
+$error = '';
 
 //Checking if user is not logged in, if not then redirecting to login page
 if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
@@ -17,12 +18,23 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     $title = trim($_POST['title']);
     $date = trim($_POST['date']);
-    $dateTime = explode("T",$date);
+    $dateTime = explode("T", $date);
     $content = $_POST['content'];
     $email = $_SESSION["email"];
 
-    echo "<script>console.log('Debug Objects: " . $dateTime[0] . "' );</script>";
-    echo "<script>console.log('Debug Objects: " . $dateTime[1] . "' );</script>";
+    $insertQuery = $db->prepare("INSERT INTO diary (diaryDate, diaryTime, email, title, content) VALUES (?, ?, ?, ?, ?);");
+    $insertQuery->bind_param("iisss", $dateTime[0], $dateTime[1], $email, $title, $content);
+    $result = $insertQuery->execute();
+    if ($result) {
+        $error .= '<p class="error">Successfully submitted!</p>';
+    } else {
+        $error .= '<p class="error">Something went wrong! Please try again!</p>';
+    }
+    $query->close();
+    $insertQuery->close();
+
+    //Closing the DB connection
+    mysqli_close($db);
 }
 
 ?>
@@ -54,6 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </ol>
     </nav>
 
+    <?php echo $error; ?>
     <form onsubmit="submitDiary()" action="" method="post">
         <div class="container">
             <div class="diaryForm">
