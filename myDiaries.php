@@ -16,16 +16,18 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 }
 
 //Fetching past diaries for particular user from database
-if ($query = $db->prepare("SELECT * FROM diary WHERE email = ?")) {
+if ($query = $db->prepare("SELECT title FROM diary WHERE email = ?")) {
     $query->bind_param('s', $email);
     $query->execute();
     $query->store_result();
+    $query->bind_result($title);
 
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $noDiariesFound = false;
-        echo $query;
-        echo "after query result";
+        while ($query->fetch()) {
+            echo $title;
+        }
     }
 }
 
