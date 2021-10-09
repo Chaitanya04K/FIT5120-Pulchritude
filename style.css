@@ -629,8 +629,8 @@ iframe {
 }
 
 .diaryCard {
-    display: flex;
-    justify-content: space-between;
+    display: flex !important;
+    justify-content: space-around;
 }
 
 @media only screen and (max-width: 1400px) {
