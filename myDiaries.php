@@ -68,7 +68,7 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
         </div>
 
         <?php foreach ($diaryArray as $key => $value) : ?>
-            <div><?= $value; ?></div>
+            <div><?= $value[0]; ?></div>
         <?php endforeach; ?>
 
         <div class="container diaryContainer">
