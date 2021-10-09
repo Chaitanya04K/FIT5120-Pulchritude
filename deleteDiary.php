@@ -1,9 +1,9 @@
 <?php
 
-    $date = $_GET['date'];
-    $time = $_GET['time'];
-    $title = $_GET['title'];
-    $user = $_GET['user'];
+    $date = $_POST['date'];
+    $time = $_POST['time'];
+    $title = $_POST['title'];
+    $user = $_POST['user'];
     echo $date;
     echo $time;
     echo $title;
