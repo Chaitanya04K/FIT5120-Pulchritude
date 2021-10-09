@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <?php include 'footer.php'; ?>
 
     <script>
-        function test() {
+        function deleteDiary() {
             $.ajax({
                 url: "deleteDiary.php"
             })
