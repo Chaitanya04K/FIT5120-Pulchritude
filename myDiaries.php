@@ -16,45 +16,38 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     exit;
 }
 
-//Fetching past diaries for particular user from database
-if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diary WHERE email = ? AND diaryDate = ?")) {
+if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diary WHERE email = ?")) {
     $query->bind_param('ss', $email, $selectedDate);
     $query->execute();
     $query->store_result();
-    $query->bind_result($diaryDate, $diaryTime, $diaryTitle, $diaryContent);
 
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $diariesFound = true;
-        while ($query->fetch()) {
-            $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
-            array_push($diaryArray, $resultArray);
-        }
     }
 }
 
-// if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
-//     $selectedDate = $_POST['diaryDateSelected'];
+    $selectedDate = $_POST['diaryDateSelected'];
 
-//     //Fetching past diaries for particular user from database
-//     if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diary WHERE email = ? AND diaryDate = ?")) {
-//         $query->bind_param('ss', $email, $selectedDate);
-//         $query->execute();
-//         $query->store_result();
-//         $query->bind_result($diaryDate, $diaryTime, $diaryTitle, $diaryContent);
+    //Fetching past diaries for particular user from database
+    if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diary WHERE email = ? AND diaryDate = ?")) {
+        $query->bind_param('ss', $email, $selectedDate);
+        $query->execute();
+        $query->store_result();
+        $query->bind_result($diaryDate, $diaryTime, $diaryTitle, $diaryContent);
 
-//         //Checking if past diaries exist
-//         if ($query->num_rows > 0) {
-//             $diariesFound = true;
-//             while ($query->fetch()) {
-//                 $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
-//                 array_push($diaryArray, $resultArray);
-//             }
-//         }
-//     }
-// }
-
+        //Checking if past diaries exist
+        if ($query->num_rows > 0) {
+            $diariesFound = true;
+            while ($query->fetch()) {
+                $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
+                array_push($diaryArray, $resultArray);
+            }
+        }
+    }
+}
 
 ?>
 <!DOCTYPE html>
@@ -84,15 +77,15 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
         </ol>
     </nav>
 
-    <?php if ($diariesFound == true) : ?>
+    <form action="" method="post">
+        <div class="datePicker">
+            <p>Please select a Date</p>
+            <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
+            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+        </div>
+    </form>
 
-        <form action="" method="post">
-            <div class="datePicker">
-                <p>Please select a Date</p>
-                <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
-                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
-            </div>
-        </form>
+    <?php if ($diariesFound == true) : ?>
 
         <?php foreach ($diaryArray as $key => $value) : ?>
             <div class="container diaryContainer">
