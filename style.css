@@ -624,8 +624,7 @@ iframe {
     border-bottom-right-radius: 10px !important;
 }
 
-.datePicker,
-.diaryCardPartition {
+.datePicker {
     display: flex;
     align-items: baseline;
 }
