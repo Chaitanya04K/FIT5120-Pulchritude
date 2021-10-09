@@ -132,7 +132,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <script>
         function deleteDiary(diaryID) {
             var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
-            var date = document.getElementsByClassName("title " + diaryID).innerHTML;
+            var date = document.getElementsByClassName("title " + diaryID);
+            date = date[0].innerHTML;
 
 
             console.log(loggedInUser);
