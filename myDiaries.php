@@ -100,17 +100,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
                         <div class="diaryCardPartition">
                             <img src="images/title.png" alt="Alphabet T">
-                            <?= $value[2]; ?>
+                            <p class="title <?= $key; ?>"><?= $value[2]; ?></p>
                         </div>
                         <div class="diaryCardPartition">
                             <img src="images/clock.png" alt="clock">
-                            <?= $value[1]; ?>
+                            <p class="time <?= $key; ?>"><?= $value[1]; ?></p>
                         </div>
                         <div class="diaryCardPartition">
                             <img src="images/feelings.png" alt="sad and happy faces">
                             Happy
                         </div>
-                        <button onclick="deleteDiary()">Delete</button>
+                        <button onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                     </div>
                     <div class="collapse" id="<?= $key; ?>">
                         <div class="card card-body">
@@ -130,14 +130,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <script>
-        function deleteDiary() {
+        function deleteDiary(diaryID) {
+            var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
+            // var date = document.getElementsByClassName("title")
+
+
+            console.log(loggedInUser);
+            console.log(diaryID);
             $.ajax({
-                url: "deleteDiary.php",
-                success: function(result) {
-                    $(".phpResult").text(result);
-                }
+                url: "deleteDiary.php"
             })
-            console.log("DELETING!");
         }
     </script>
 </body>
