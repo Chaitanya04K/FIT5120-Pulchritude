@@ -108,6 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             <img src="images/feelings.png" alt="sad and happy faces">
                             Happy
                         </div>
+                        <button onclick="deleteDiary()">Delete</button>
                     </div>
                     <div class="collapse" id="<?= $key; ?>">
                         <div class="card card-body">
@@ -123,6 +124,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <?php endif; ?>
 
     <?php include 'footer.php'; ?>
+
+    <script>
+        function test() {
+            $.ajax({
+                url: "deleteDiary.php"
+            })
+        }
+    </script>
 </body>
+
 
 </html>
