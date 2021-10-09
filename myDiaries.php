@@ -17,19 +17,18 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
 }
 
 //Fetching past diaries for particular user from database
-if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FROM diary WHERE email = ?")) {
+if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diary WHERE email = ?")) {
     $query->bind_param('s', $email);
     $query->execute();
     $query->store_result();
-    $query->bind_result($diaryDate, $diaryTime, $diaryEmail, $diaryTitle, $diaryContent);
+    $query->bind_result($diaryDate, $diaryTime, $diaryTitle, $diaryContent);
 
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $diariesFound = true;
         while ($query->fetch()) {
-            // echo $diaryDate . " " . $diaryTime . " " . $diaryEmail . " " . $diaryTitle . " " . $diaryContent;
-            $resultArray = [$diaryDate, $diaryTime, $diaryEmail, $diaryTitle, $diaryContent];
-            array_push($diaryArray,$resultArray);  
+            $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
+            array_push($diaryArray, $resultArray);
         }
     }
 }
@@ -63,7 +62,15 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, email, title, content FR
     </nav>
 
     <?php if ($diariesFound == true) : ?>
-        <p>Diaries found, but still working on showing them!</p>
+        <!-- <p>Diaries found, but still working on showing them!</p> -->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Diary 1
+        </button>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
     <? else : ?>
         <p>You do not have any previous diaries!</p>
     <?php endif; ?>
