@@ -66,6 +66,11 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
             <p>Please select a Date</p>
             <input type="date" name="diaryDate" class="input-diary" id="diaryDatePicker">
         </div>
+
+        <?php foreach ($diaryArray as $key => $value) : ?>
+            <div><?= $key; ?></div>
+        <?php endforeach; ?>
+
         <div class="container diaryContainer">
             <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <div class="diaryCardPartition">
@@ -87,6 +92,7 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
                 </div>
             </div>
         </div>
+
     <? else : ?>
         <p>You do not have any previous diaries!</p>
     <?php endif; ?>
