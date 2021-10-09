@@ -62,36 +62,35 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
     </nav>
 
     <?php if ($diariesFound == true) : ?>
+
         <div class="datePicker">
             <p>Please select a Date</p>
             <input type="date" name="diaryDate" class="input-diary" id="diaryDatePicker">
         </div>
 
         <?php foreach ($diaryArray as $key => $value) : ?>
-            <div><?= $value[0]; ?></div>
+            <div class="container diaryContainer">
+                <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="diaryCardPartition">
+                        <img src="images/title.png" alt="Alphabet T">
+                        <?= $value[2]; ?>
+                    </div>
+                    <div class="diaryCardPartition">
+                        <img src="images/clock.png" alt="clock">
+                        <?= $value[1]; ?>
+                    </div>
+                    <div class="diaryCardPartition">
+                        <img src="images/feelings.png" alt="sad and happy faces">
+                        Happy
+                    </div>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <?= $value[3]; ?>
+                    </div>
+                </div>
+            </div>
         <?php endforeach; ?>
-
-        <div class="container diaryContainer">
-            <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                <div class="diaryCardPartition">
-                    <img src="images/title.png" alt="Alphabet T">
-                    Title
-                </div>
-                <div class="diaryCardPartition">
-                    <img src="images/clock.png" alt="clock">
-                    Time
-                </div>
-                <div class="diaryCardPartition">
-                    <img src="images/feelings.png" alt="sad and happy faces">
-                    Sentiment
-                </div>
-            </div>
-            <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                </div>
-            </div>
-        </div>
 
     <? else : ?>
         <p>You do not have any previous diaries!</p>
