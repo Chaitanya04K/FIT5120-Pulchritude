@@ -100,11 +100,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
                         <div class="diaryCardPartition">
                             <img src="images/title.png" alt="Alphabet T">
-                            <p class="title <?= $key; ?>"><?= $value[2]; ?></p>
+                            <span class="title <?= $key; ?>"><?= $value[2]; ?></span>
                         </div>
                         <div class="diaryCardPartition">
                             <img src="images/clock.png" alt="clock">
-                            <p class="time <?= $key; ?>"><?= $value[1]; ?></p>
+                            <span class="time <?= $key; ?>"><?= $value[1]; ?></span>
                         </div>
                         <div class="diaryCardPartition">
                             <img src="images/feelings.png" alt="sad and happy faces">
@@ -132,11 +132,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <script>
         function deleteDiary(diaryID) {
             var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
-            // var date = document.getElementsByClassName("title")
+            var date = document.getElementsByClassName("title " + diaryID);
 
 
             console.log(loggedInUser);
             console.log(diaryID);
+            console.log(date);
             $.ajax({
                 url: "deleteDiary.php"
             })
