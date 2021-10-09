@@ -145,7 +145,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             $.ajax({
                 type: "GET",
                 url: "deleteDiary.php",
-                dataType: "html",
+                dataType: "json",
                 data: {
                     "user": loggedInUser,
                     "date": date,
