@@ -647,7 +647,7 @@ iframe {
 }
 
 .diaryCardPartition img {
-    width: 30%;
+    width: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
