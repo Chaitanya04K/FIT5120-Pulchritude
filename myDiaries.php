@@ -70,7 +70,7 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
 
         <?php foreach ($diaryArray as $key => $value) : ?>
             <div class="container diaryContainer">
-                <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
                     <div class="diaryCardPartition">
                         <img src="images/title.png" alt="Alphabet T">
                         <?= $value[2]; ?>
@@ -84,7 +84,7 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
                         Happy
                     </div>
                 </div>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="<?= $key; ?>">
                     <div class="card card-body">
                         <?= $value[3]; ?>
                     </div>
