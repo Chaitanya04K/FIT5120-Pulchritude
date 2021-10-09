@@ -613,6 +613,7 @@ iframe {
     border-radius: 0 !important;
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
+    padding: unset;
 }
 
 .diaryContainer .card {
@@ -623,7 +624,8 @@ iframe {
     border-bottom-right-radius: 10px !important;
 }
 
-.datePicker {
+.datePicker,
+.diaryCardPartition {
     display: flex;
     align-items: baseline;
 }
@@ -631,6 +633,10 @@ iframe {
 .diaryCard {
     display: flex !important;
     justify-content: space-around;
+}
+
+.diaryCard div {
+    width: 100%;
 }
 
 @media only screen and (max-width: 1400px) {
