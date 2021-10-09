@@ -1,15 +1,13 @@
 <?php
+    require_once "config.php";
 
     $date = $_POST['date'];
     $time = $_POST['time'];
     $title = $_POST['title'];
     $user = $_POST['user'];
-    echo $date;
-    echo $time;
-    echo $title;
-    echo $user;
-    function php_func($diaryDate,$diaryTime,$loggedInUser,$diaryTitle){
-        echo $diaryDate . " " . $diaryTime . " " . $diaryTitle . " " . $loggedInUser;
+    
+    if ($query = $db->prepare("DELETE FROM diary WHERE email = ? AND diaryDate = ? AND diaryTime = ? AND title = ?")) {
+        $query->bind_param('ssss', $user, $date, $time, $title);
+        $query->execute();
     }
-    php_func($date, $time, $user, $title);
 ?>
