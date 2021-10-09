@@ -87,6 +87,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </div>
     </form>
 
+    <div class="phpResult"></div>
+
     <?php if ($diariesFound == true) : ?>
 
         <?php if ($noDiariesFound == true) : ?>
@@ -130,7 +132,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <script>
         function deleteDiary() {
             $.ajax({
-                url: "deleteDiary.php"
+                url: "deleteDiary.php",
+                success: function(result) {
+                    $(".phpResult").text(result);
+                }
             })
             console.log("DELETING!");
         }
