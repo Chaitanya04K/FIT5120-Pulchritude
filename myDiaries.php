@@ -7,6 +7,7 @@ session_start();
 
 //Initializing global variables
 $diariesFound = false;
+$noDiariesFound = false;
 $email = $_SESSION["email"];
 $diaryArray = [];
 
@@ -40,11 +41,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
         //Checking if past diaries exist
         if ($query->num_rows > 0) {
-            $diariesFound = true;
             while ($query->fetch()) {
                 $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
                 array_push($diaryArray, $resultArray);
             }
+        } else {
+            $noDiariesFound = true;
         }
     }
 }
@@ -87,29 +89,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     <?php if ($diariesFound == true) : ?>
 
-        <?php foreach ($diaryArray as $key => $value) : ?>
-            <div class="container diaryContainer">
-                <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
-                    <div class="diaryCardPartition">
-                        <img src="images/title.png" alt="Alphabet T">
-                        <?= $value[2]; ?>
+        <?php if ($noDiariesFound == true) : ?>
+            <p>No diaries found on this date, please select another date!</p>
+        <? else : ?>
+
+            <?php foreach ($diaryArray as $key => $value) : ?>
+                <div class="container diaryContainer">
+                    <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="diaryCardPartition">
+                            <img src="images/title.png" alt="Alphabet T">
+                            <?= $value[2]; ?>
+                        </div>
+                        <div class="diaryCardPartition">
+                            <img src="images/clock.png" alt="clock">
+                            <?= $value[1]; ?>
+                        </div>
+                        <div class="diaryCardPartition">
+                            <img src="images/feelings.png" alt="sad and happy faces">
+                            Happy
+                        </div>
                     </div>
-                    <div class="diaryCardPartition">
-                        <img src="images/clock.png" alt="clock">
-                        <?= $value[1]; ?>
-                    </div>
-                    <div class="diaryCardPartition">
-                        <img src="images/feelings.png" alt="sad and happy faces">
-                        Happy
+                    <div class="collapse" id="<?= $key; ?>">
+                        <div class="card card-body">
+                            <?= $value[3]; ?>
+                        </div>
                     </div>
                 </div>
-                <div class="collapse" id="<?= $key; ?>">
-                    <div class="card card-body">
-                        <?= $value[3]; ?>
-                    </div>
-                </div>
-            </div>
-        <?php endforeach; ?>
+            <?php endforeach; ?>
+        <?php endif; ?>
 
     <? else : ?>
         <p>You do not have any previous diaries!</p>
