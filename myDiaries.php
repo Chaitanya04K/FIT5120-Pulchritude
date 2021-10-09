@@ -69,12 +69,12 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
         <div class="container diaryContainer">
             <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <div class="diaryCardPartition">
-                    <img src="images/clock.png" alt="clock">
-                    Time
-                </div>
-                <div class="diaryCardPartition">
                     <img src="images/title.png" alt="Alphabet T">
                     Title
+                </div>
+                <div class="diaryCardPartition">
+                    <img src="images/clock.png" alt="clock">
+                    Time
                 </div>
                 <div class="diaryCardPartition">
                     <img src="images/feelings.png" alt="sad and happy faces">

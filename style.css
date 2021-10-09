@@ -634,8 +634,20 @@ iframe {
     justify-content: space-around;
 }
 
-.diaryCard div {
+.diaryCardPartition {
     width: 100%;
+    text-align: left;
+    padding: 6px 0;
+    margin-left: 6px;
+}
+
+.diaryCardPartition:nth-of-type(2),
+.diaryCardPartition:nth-of-type(3) {
+    width: 50%;
+}
+
+.diaryCardPartition img {
+
 }
 
 @media only screen and (max-width: 1400px) {
