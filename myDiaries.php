@@ -137,11 +137,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             var date = "<?php echo $selectedDate; ?>";
             var time = document.getElementsByClassName("time " + diaryID);
             time = time[0].innerHTML;
-
-            console.log(loggedInUser);
-            console.log(title);
-            console.log(date);
-            console.log(time);
             $.ajax({
                 type: "POST",
                 url: "deleteDiary.php",
@@ -150,6 +145,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     "date": date,
                     "time": time,
                     "title": title
+                },
+                success: function(response) {
+                    console.log(response);
                 }
             })
         }
