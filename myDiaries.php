@@ -132,11 +132,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <script>
         function deleteDiary(diaryID) {
             var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
-            var date = document.getElementsByClassName("title " + diaryID).innerHTML;
+            var date = document.getElementsByClassName("title " + diaryID);
 
 
             console.log(loggedInUser);
             console.log(diaryID);
+            console.log("title "+diaryID);
             console.log(date);
             $.ajax({
                 url: "deleteDiary.php"
