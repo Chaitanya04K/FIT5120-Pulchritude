@@ -63,8 +63,10 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
 
     <?php if ($diariesFound == true) : ?>
         <div class="datePicker">
-            <p>Please select a Date</p>
-            <input type="date" name="diaryDate" class="input-diary" id="diaryDatePicker">
+            <div class="container">
+                <p>Please select a Date</p>
+                <input type="date" name="diaryDate" class="input-diary" id="diaryDatePicker">
+            </div>
         </div>
         <div class="container diaryContainer">
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">

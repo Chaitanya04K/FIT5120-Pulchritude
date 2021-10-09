@@ -623,6 +623,11 @@ iframe {
     border-bottom-right-radius: 10px !important;
 }
 
+.datePicker {
+    display: flex;
+    align-items: baseline;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
