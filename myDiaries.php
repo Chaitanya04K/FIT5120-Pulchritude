@@ -134,8 +134,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
             var title = document.getElementsByClassName("title " + diaryID);
             title = title[0].innerHTML;
-            var date = "<?php echo $selectedDate; ?>";    
-            var time =  document.getElementsByClassName("time " + diaryID);
+            var date = "<?php echo $selectedDate; ?>";
+            var time = document.getElementsByClassName("time " + diaryID);
             time = time[0].innerHTML;
 
             console.log(loggedInUser);
@@ -143,7 +143,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             console.log(date);
             console.log(time);
             $.ajax({
-                url: "deleteDiary.php"
+                type: "GET",
+                url: "deleteDiary.php",
+                dataType: "html",
+                data: {
+                    "user": loggedInUser,
+                    "date": date,
+                    "time": time,
+                    "title": title
+                }
             })
         }
     </script>
