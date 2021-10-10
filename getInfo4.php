@@ -160,7 +160,7 @@
            <tr >
                 <td>
                     <br>
-                    <p>You have a <span style="background-color:#FBFEB3;"> very high </span> level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
+                    <p>You have a <span style="background-color:#FBFEB3;"> <strong> very high </strong> </span> level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
                     <p>Many people who score in this range are suffering from serious anxiety and depression. Some people 
                         may also have thoughts of self-harm or suicide.</p>
                     <p>Life could be very tough for you recently. However, please remember you are not alone! Some other 
