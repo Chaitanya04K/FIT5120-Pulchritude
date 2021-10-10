@@ -46,7 +46,7 @@
                     <th>K10 score</th>
                     <th>Level of psychological distress</th>
                 </tr>
-                <tr>
+                <tr style="background-color: deepskyblue;">
                     <td>10-15</td>
                     <td>Low</td>
                 </tr>
