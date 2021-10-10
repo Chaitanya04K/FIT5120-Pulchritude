@@ -150,7 +150,7 @@
            <tr  >
                 <td>
                     <br>
-                    <p>You have a high level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
+                    <p>You have a <span> high </span> level of psychological distress, which means you’ve likely been experiencing some symptoms of distress over the past four weeks.</p>
                     <p>You may be not willing to seek help. However, it is really important to explore your options at this score range.</p>                     
                     <p>You can find more mental health information and supports on Brainguard. Please feel free to ask for a help!</p>
                 <td>  

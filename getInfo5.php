@@ -135,7 +135,7 @@
             <tr >
                 <td>
                     <br>
-                    <p>You have a low level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
+                    <p>You have a <span> low </span> level of psychological distress, which means you’ve likely been well in the past four weeks.</p>
                     <p>Try to do some physical activities, health diet, and health lifestyle to keep up your good mood.</p>
                 <td>  
            </tr>  

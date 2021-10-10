@@ -142,7 +142,7 @@
            <tr >
                 <td>
                     <br>
-                    <p>You have a moderate level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
+                    <p>You have a <span >moderate </span>  level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
                     <p>You may not take it seriously. However, It may be a sign that your mental health is getting worse!</p>
                     <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
                 <td>  
