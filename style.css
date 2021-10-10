@@ -27,7 +27,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 .jumbotron {
     background-image: url('images/background.jpg');
     background-position: center;
@@ -38,6 +37,11 @@ body {
 
 .jumbotron.learnAboutDepression {
     background-image: url('images/support.jpg');
+}
+
+.jumbotron.mood-diary {
+    background-image: url('images/mood_diary.jpg');
+    height: 600px !important;
 }
 
 .actionBtn {
@@ -108,7 +112,7 @@ body {
 }
 
 .card-body .actionBtn.btn-right {
-    float:right;
+    float: right;
 }
 
 .card-title {
@@ -209,6 +213,7 @@ body {
     overflow: hidden;
     bottom: 0;
     transition: bottom 0.5s;
+    margin-bottom: 35px;
 }
 
 .support-card:hover {
@@ -359,8 +364,9 @@ body {
 
 .my-container {
     display: flex;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     justify-content: space-around;
+    flex-wrap: wrap !important;
 }
 
 .breadcrumb {
@@ -435,15 +441,309 @@ nav {
     height: 100%;
 }
 
+#carouselExampleControls, #carouselExampleControls-GetSupport {
+    display: none !important;
+}
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.iframe-container {
+    width: 100%;
+    height: 315px;
+}
+
+.info-videos .iframe-container:first-of-type {
+    margin-right: 10px;
+}
+
+.info-videos .iframe-container:nth-of-type(2) {
+    margin-left: 10px;
+}
+
+.treatment-info-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.treatment-info-section img {
+    max-height: 270px;
+    width: 300px;
+}
+
+.treatment-info-section p {
+    max-width: 785px;
+    text-align: justify;
+}
+
+.treatment-info-section:nth-of-type(2), .treatment-info-section:nth-of-type(4) {
+    flex-direction: row-reverse;
+}
+
+.mood-diary .banner-heading {
+    display: inline-block;
+    width: 700px;
+    line-height: 0.9 !important;
+    font-size: 6rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 30px;
+}
+
+.mood-diary .banner-subheading {
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.actionBtn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.actionBtn-container .actionBtn {
+    width: 40%;
+    text-align: center;
+}
+
+.margin-right-md {
+    margin-right: 30px;
+}
+
+.margin-left-md {
+    margin-left: 30px;
+}
+
+.mood-diary-section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mood-diary-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mood-diary-section-card {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.mood-diary-section-card img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.mood-diary-section-inner-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.mood-diary-section-inner {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    text-align: justify;
+}
+
+.parallax {
+    background-image: url("images/parallax.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 25px 0 0 0;
+    margin-top: 30px;
+}
+
+.parallax-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.parallax-subTitle {
+    text-align: justify;
+}
+
+.diaryForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.diaryForm label {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: unset;
+    margin-top: 15px;
+}
+
+.diaryForm input[type=submit] {
+    margin: 20px 0;
+}
+
+.error-box {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: .25rem;
+}
+
+.success-box {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: .25rem;
+}
+
+.error-box p,
+.success-box p {
+    padding: 10px;
+}
+
+.diaryContainer .btn {
+    width: 100% !important;
+    border-radius: 0 !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    padding: unset;
+}
+
+.diaryContainer .card {
+    background: #7b7b7b !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: unset !important;
+    border-top-right-radius: unset !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.datePicker {
+    display: flex;
+    align-items: baseline;
+}
+
+.diaryCard {
+    display: flex !important;
+    justify-content: space-around;
+}
+
+.diaryCardPartition {
+    width: 100%;
+    text-align: left;
+    padding: 6px 0;
+    margin-left: 6px;
+}
+
+.diaryCardPartition:nth-of-type(2),
+.diaryCardPartition:nth-of-type(3) {
+    width: 50%;
+}
+
+.diaryCardPartition img {
+    width: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+    #carouselExampleControls {
+        display: block !important;
+    }
+    .container-fluid.hide-for-mobile {
+        display: none !important;
+    }
+    .info-card {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        text-align: center;
+        line-height: 250px;
+        padding: 0 35px;
+        bottom: 0;
+        transition: bottom 0.5s;
+        border-radius: unset;
+    }
+    .info-card.one p span {
+        color: #14588c;
+    }
+    .info-card.two p span {
+        color: #a54617;
+    }
+    .info-card.three p span {
+        color: #9e6828;
+    }
+    .info-card.one {
+        background: #a7bbca;
+    }
+    .info-card.two {
+        background: #b69c8f;
+    }
+    .info-card.three {
+        background: #ecad62;
+    }
+    .info-card:hover {
+        bottom: unset;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5% !important;
+    }
+    .info-videos {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .treatment-info-section img {
+        display: none;
+    }
+    .treatment-info-section p {
+        max-width: unset;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .banner-heading.learnAboutDepression {
         width: 730px;
         margin-bottom: 25px;
         font-size: 5rem !important;
     }
-
     .banner-subheading.learnAboutDepression {
         font-size: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .causes-and-treatment-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .link-card {
+        height: 350px;
+        width: 100%;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: unset;
+        padding: 30px 30px 0 30px;
+        color: black;
+        transition: 0.5s;
+        box-shadow: 0px 30px 40px -20px hsl(229deg 6% 66%);
+        margin-bottom: 2rem;
+    }
+    .link-card .actionBtn-div {
+        margin-bottom: 25px;
     }
 }
 
@@ -451,16 +751,20 @@ nav {
     .banner-subheading {
         font-size: 1.2rem !important;
     }
-
-    .banner-heading.learnAboutDepression {
+    .banner-heading.learnAboutDepression, .mood-diary .banner-heading {
         font-size: 4rem !important;
         width: 100%;
     }
-
-    .banner-subheading.learnAboutDepression {
+    .banner-subheading.learnAboutDepression, .mood-diary .banner-subheading {
         font-size: 1.1rem !important;
     }
-
+    .actionBtn-container .actionBtn {
+        width: 100%;
+        text-align: center;
+    }
+    .mood-diary-section {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -469,11 +773,9 @@ nav {
         flex-direction: column;
         flex: 1 1 auto;
     }
-
     .card-horizontal.reverse {
         flex-direction: column-reverse;
     }
-
     .img-square-wrapper {
         width: 100%;
         height: 230px;
@@ -484,16 +786,82 @@ nav {
     }
 }
 
+@media only screen and (max-width: 645px) {
+    .my-container {
+        display: none;
+    }
+    #carouselExampleControls-GetSupport {
+        display: block !important;
+        margin-top: 21px !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5% !important;
+    }
+    .support-card {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: white;
+        box-shadow: 0px 30px 40px -20px hsl(229deg 6% 66%);
+        border-radius: unset;
+        overflow: hidden;
+        bottom: 0;
+        transition: bottom 0.5s;
+        margin-bottom: 35px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
-    .banner-subheading {
+    .banner-subheading, .mood-diary .banner-subheading {
         font-size: 1.2rem !important;
     }
-    .banner-heading {
+    .banner-heading, .mood-diary .banner-heading {
         width: 100%;
         font-size: 5rem !important;
     }
+    .jumbotron.mood-diary {
+        height: 100% !important;
+    }
     .container {
         margin-top: 40px;
+    }
+    .parallax .container {
+        margin-top: unset;
+    }
+    .info-videos {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: unset;
+    }
+    .info-videos .iframe-container:first-of-type, .info-videos .iframe-container:nth-of-type(2) {
+        margin-right: unset;
+        margin-left: unset;
+    }
+    .iframe-container {
+        width: 100%;
+        height: 250px;
+    }
+    .info-videos .iframe-container:first-of-type {
+        margin-bottom: 15px;
+    }
+    .mood-diary-section-card img {
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .actionBtn-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .actionBtn.margin-left-md, .actionBtn.margin-right-md {
+        margin: unset;
+    }
+    .actionBtn.margin-right-md {
+        margin-bottom: 10px;
     }
 }
 
@@ -509,7 +877,10 @@ nav {
         width: 73%;
         font-size: 3rem !important;
     }
-    .banner-subheading {
+    .mood-diary .banner-heading {
+        font-size: 3rem !important;
+    }
+    .banner-subheading, .mood-diary .banner-subheading {
         font-size: 1rem !important;
     }
     .actionBtn {
@@ -525,15 +896,34 @@ nav {
     .info-section span {
         font-size: 1.5rem;
     }
-
     .banner-heading.learnAboutDepression {
-        width: 730px;
+        width: 100%;
         margin-bottom: 25px;
         font-size: 3rem !important;
     }
-
     .banner-subheading.learnAboutDepression {
         font-size: 1rem !important;
     }
+    .mood-diary-section-card img {
+        max-width: 130px;
+    }
 }
 
+#support-searchbar {
+    margin-left: 15%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#support-searchbar {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+       change its width to 100% */
+
+#support-searchbar:focus {
+    width: 70%;
+}

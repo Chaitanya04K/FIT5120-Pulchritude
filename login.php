@@ -23,9 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         $_SESSION["loggedin"] = true;
                         $_SESSION["userid"] = $id;
                         $_SESSION["name"] = $name;
+                        $_SESSION["email"] = $email;
 
-                        //redirecting the user to the home scren(homepage.php)
-                        header("location: homepage.php");
+                        //redirecting the user to the mood diary scren(moodDiary.php)
+                        header("location: moodDiary.php");
                         exit;
 
                     } else {

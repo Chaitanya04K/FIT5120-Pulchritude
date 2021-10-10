@@ -15,6 +15,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #1E7ED1;
+        position: absolute;
+        height: 100%;
+        overflow: auto;
+        border-radius:10px;
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        border-collapse: collapse;
+        border:1px dashed #E2E5E9;
+    }
+    .sidebar a.active {
+        background-color: #1E7ED1;
+        color: white;
+    }
+    .sidebar a:hover:not(.active) {
+        background-color: #B2D2EE;
+        color: white;
+    }
+    div.container {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {float: left;}
+        div.container {margin-left: 0;}
+    }
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -30,18 +79,26 @@
     </nav>
     <br>
 
+    <div class="sidebar">
+        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
+        <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
+        <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
+        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
+        <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
+    </div>
+
     <div class="container">
         <div align="center" style="    color: #009BC9;
     font-weight: bold; font-size: 40px;">
-            Your K10 score is <b id="score"></b>
+            Your K10 score is <b id="score" style="color:purple;"></b>
         </div>
         <div align="center" style="    color: #009BC9;
     font-weight: bold; font-size: 40px;">
-            You have a <b id="level"></b> level of psychological distress
+            You have a <b id="level" style="color:purple;"></b> level of psychological distress
         </div>
         <br>
         <div style="text-align:center">
-            <table border="5" cellpadding="3" cellspacing="0" style="width: 60%;margin:auto">
+            <table border="5" cellpadding="3" cellspacing="0" style="width: 70%;margin:auto">
                 <tr>
                     <th>K10 score</th>
                     <th>Level of psychological distress</th>
@@ -59,17 +116,19 @@
                     <td>High</td>
                 </tr>
                 <tr>
-                    <td>30-50</td>
-                    <td>Very High</td>
+                    <td style="background-color:#FBFEB3;">30-50</td>
+                    <td style="background-color:#FBFEB3;">Very High</td>
                 </tr>
             </table>
         </div>
 
         <br>
+        <br>
+        <br>
 
-        <table border="1" class="guide">
+        <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
-                <th style="text-align: center;background-color: #009BC9;">
+                <th style="text-align: center;background-color: #0E76BA;height:50px">
                     What does my score mean?
                 </th>
             </tr>
@@ -100,23 +159,33 @@
            </tr> -->
            <tr >
                 <td>
-                    <div style="font-size: 20px; font-weight: bold;color: #023e8a;">30-50:</div>
+                    <br>
                     <p>You have a very high level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
                     <p>Many people who score in this range are suffering from serious anxiety and depression. Some people 
                         may also have thoughts of self-harm or suicide.</p>
                     <p>Life could be very tough for you recently. However, please remember you are not alone! Some other 
                         international students are also experiencing serious mental distress. Brainguard will try best to 
                         help you!</p>
-                    <p>Here are some help Brainguard provides you:
-                    <h4 style="color:#F4380F;">Call Lifeline: 13 11 14</h4>
-                    <h4 style="color:#396C32;"><a href="https://www.google.com/">Visit chatroom!</a></h4>
-                    <h4 style="color:#356883;"><a href="getSupport.php">Find mental health services!</a></h4>
-                    <h4 style="color:#7D4379;"><a href="moodDiary.php">Write down your diaries! You can also share your diaries 
-                        with counselors for help.</a></h4>
                 </td>
             </tr>
         </table>
-
+        <br>
+        <br>
+        <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
+            <tr>
+                <th style="text-align: center;background-color: #D7AADA;height:50px">
+                    Should I seek help?
+                </th>
+            </tr>
+            <tr >
+                <td>
+                    <br>
+                    <p>Please remember that this checklist is not a doctor diagnosis.</p>
+                    <p>If you feel anything else that the checklist does not cover, please contact a mental health 
+                        professional for a diagnosis.</p>
+                <td>  
+           </tr>
+        </table>
     </div>
     <br>
     <br>

@@ -16,6 +16,55 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #1E7ED1;
+        position: absolute;
+        height: 60%;
+        overflow: hidden;
+        border-radius:10px;
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        border-collapse: collapse;
+        border:1px dashed #E2E5E9;
+    }
+    .sidebar a.active {
+        background-color: #1E7ED1;
+        color: white;
+    }
+    .sidebar a:hover:not(.active) {
+        background-color: #B2D2EE;
+        color: white;
+    }
+    div.container1 {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {float: left;}
+        div.container1 {margin-left: 0;}
+    }
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+    </style>    
 </head>
 
 <body>
@@ -33,16 +82,23 @@
     <div class="jumbotron depression-signs jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading learnAboutDepression">Signs and Symptoms</h1>
-            <p class="lead banner-subheading learnAboutDepression">It is important to remember that you might be facing 
+            <p class="lead banner-subheading learnAboutDepression" style="text-align:justify;">It is important to remember that you might be facing 
                 many of these symptoms but that does not necessarily mean that you're depressed. Similarly, not everyone 
                 who is suffering from depression will have these symptoms.</p>
             <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
 
-    <div class="container">
+    <div class="sidebar">
+        <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
+        <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
+        <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
+        <a href="checklist.php" style="font-size:23px;color:white;">K10 Checklist</a>
+    </div>
+
+    <div class="container1">
         <p class="info-mainHeading">What is Depression?</p>
-        <p>
+        <p style="text-align:justify;margin-right:50px;">
             Depression is a common mental health condition among young people. It will negatively affect your feelings, 
             your behaviours, and your thoughts. Depression may cause negative mood changes or make you lose your interest in 
             activities you enjoy. It can lead to emotional and physical problems. It can also affect the close relationships 
@@ -52,7 +108,7 @@
             This is will be a good start to addressing your mental health needs.
         </p>
         <p class="info-subHeading">Signs and Symptoms</p>
-        <p>
+        <p style="text-align:justify;margin-right:50px;">
             It varies with people. There are common symptoms among people who are experiencing depression.
             Everyone will have negative moods and bad days.
             So, it is usually only depression if these symptoms continues for at least two weeks. 
@@ -71,6 +127,10 @@
                 <li>Suicidial or self-harm</li>
             </ol>
         </p>
+        <br>
+        <p class="info-mainHeading">Seek Professional Help</p>
+        <p style="text-align:justify;margin-right:50px;">
+        A few things to note:<br>This checklist does not give you a diagnosis.<br>Please contact a health professional for a diagnosis.</p>
     </div>
 
     <?php include 'footer.php'; ?>

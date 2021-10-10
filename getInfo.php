@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -37,8 +36,8 @@
             <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
-    
-    <div class="container-fluid">
+
+    <div class="container-fluid hide-for-mobile">
         <div class="row">
             <div class="info-card-container col-12">
                 <div class="info-card">
@@ -50,10 +49,40 @@
                 </div>
                 <div class="info-card">
                     <p>International students have a <span> higher risk </span> of depression, but they are <span>
-                        less </span> likely to use the health services.</p>
+                            less </span> likely to use the health services.</p>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="info-card one">
+                    <p>Research suggests that the mental health of university students is <span> more poor </span> than
+                        that of the general population in many countries.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="info-card two">
+                    <p>Social isolation, loneliness, study pressure, cultural difference, and economic burden exposes international uni students to the threat of depression. A highly concerning <span>30%</span> of students have had thoughts of self-harm</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="info-card three">
+                    <p>International students have a <span> higher risk </span> of depression, but they are <span>
+                            less </span> likely to use the health services.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
     <!-- <div class="container-fluid">
@@ -94,7 +123,7 @@
         <a href="signsandsymptoms.php" class="link-card">
             <div class="icon-svg causes"></div>
             <p class="svg-title">Signs and Symptoms</p>
-            <p class="svg-subTitle">What are some things you shoud keep an eye out 
+            <p class="svg-subTitle">What are some things you shoud keep an eye out
                 which would be important for yourself or others?</p>
             <div class="actionBtn-div">Learn more</div>
         </a>
