@@ -120,10 +120,11 @@
             problem on the inside, and therefore what treatments will work best, may be entirely different.</p>
             <br>
 
-        <p class="info-mainHeading">Seek professional help</p>
+        <p class="info-mainHeading">Seek Professional Help</p>
         <p class="info-text" style="text-align:justify;margin-right:100px;">  
             A few things to note:<br>This checklist does not give you a diagnosis.<br>Please contact a health professional for a diagnosis.</p>
-            
+        <br>
+
         <p class="info-mainHeading">Videos on Depression</p>
         <div class="info-videos">
             <div class="iframe-container">

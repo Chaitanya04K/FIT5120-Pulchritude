@@ -127,6 +127,10 @@
                 <li>Suicidial or self-harm</li>
             </ol>
         </p>
+        <br>
+        <p class="info-mainHeading">Seek Professional Help</p>
+        <p style="text-align:justify;margin-right:50px;">
+        A few things to note:<br>This checklist does not give you a diagnosis.<br>Please contact a health professional for a diagnosis.</p>
     </div>
 
     <?php include 'footer.php'; ?>
