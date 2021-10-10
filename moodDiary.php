@@ -60,7 +60,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["loggedin"] !== true) {
     <div class="jumbotron jumbotron-fluid mood-diary">
         <div class="container">
             <h1 class="display-4 banner-heading">Get to know Yourself</h1>
-            <p class="lead banner-subheading">Write down your thoughts and emotions to help work through your depression. Use it to heal, track your patterns and behaviours.</p>
+            <p class="lead banner-subheading">Write down your thoughts and emotions to help work through your depression. Use it to heal, track your triggers, identify your thoughts, patterns and behaviours. It is an opportunity for positive self-talk.</p>
             <div class="actionBtn-container">
                 <a href="tel:131114" class="actionBtn margin-right-md">Call: Lifeline 13 11 14</a>
                 <a id="startWritingBtn" class="actionBtn margin-left-md" style="color:white;">Start Writing</a>
