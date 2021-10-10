@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 <label for="diaryContent">Note</label>
                 <textarea name="content" id="diaryContent"></textarea>
 
-                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                <input type="submit" name="submit" class="btn btn-primary" value="submit">
             </div>
         </div>
     </form>

@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     <form action="" method="post">
         <div class="datePicker">
-            <p>Please select a Date</p>
+            <p>Please select a date </p>
             <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
             <input type="submit" name="submit" class="btn btn-primary" value="Submit">
         </div>
