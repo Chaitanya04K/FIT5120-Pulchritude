@@ -611,7 +611,7 @@ $(function(){
 				"Low",
 				"Moderate",
 				"High",
-				"Very\\sHigh",
+				"Very_High",
 			];
             var score_index=[
                 0,
