@@ -78,5 +78,5 @@ def result():
             return redirect(url_for('result'))
     return render_template("myDiaries.html", sentiment=sentiment)
 
-if __name__ == "__main__":
+if __name__ == "__name__":
     app.run()
