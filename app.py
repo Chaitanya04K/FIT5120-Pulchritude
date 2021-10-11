@@ -51,7 +51,7 @@ Home Page
 
 @app.route('/')
 def index():
-    return render_template("diaryEntry.php")
+    return "HELLO WORLD"
 
 '''
 Result Page
