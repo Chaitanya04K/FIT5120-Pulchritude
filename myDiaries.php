@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </ol>
     </nav>
 
-    <form action="" method="POST">
+    <form action="" method="post">
         <div class="datePicker">
             <p>Please select a date </p>
             <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">

@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     </nav>
 
 
-    <form action="/mydiaries.php" method="POST">
+    <form action="" method="post">
         <div class="container">
             <div class="error-box">
                 <?php echo $error; ?>
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 <label for="diaryContent">Note</label>
                 <textarea name="content" id="diaryContent"></textarea>
 
-                <input type="submit" name="submit" class="btn btn-primary" value="submit">
+                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
             </div>
         </div>
     </form>
