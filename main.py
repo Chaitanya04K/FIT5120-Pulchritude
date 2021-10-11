@@ -49,7 +49,7 @@ Home Page
 #             return redirect(url_for('result'))
 #     return render_template("diaryEntry.php")
 
-@app.route('/homepage.php')
+@app.route('/')
 def index():
     return render_template("diaryEntry.php")
 
