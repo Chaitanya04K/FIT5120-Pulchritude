@@ -65,14 +65,14 @@ def result():
     message = session.get('message')
     df_pred = predict(model=model, text=message)
     sentiment = df_pred.head(1)['sentiment'].values[0]
-    score = df_pred.head(1)['score'].values[0]
+    # score = df_pred.head(1)['score'].values[0]
     if request.method == 'POST':
         message = request.form['message']
         if message is not None:
             session.clear()
             session['message'] = message
             return redirect(url_for('result'))
-    return render_template("result.html", message=message, sentiment=sentiment, score=score)
+    return render_template("myDiaries.html", sentiment=sentiment)
 
 if __name__ == "__main__":
     app.run()
