@@ -39,14 +39,18 @@ Home Page
     so that it can be reused throughout the session
     b) The page will then be redirected to /result page
 '''
-@app.route('/', methods=('GET', 'POST'))
+# @app.route('/', methods=('GET', 'POST'))
+# def index():
+#     if request.method == 'POST':
+#         message = request.form['message']
+#         if message is not None:
+#             session.clear()
+#             session['message'] = message
+#             return redirect(url_for('result'))
+#     return render_template("diaryEntry.php")
+
+@app.route('/homepage.php')
 def index():
-    if request.method == 'POST':
-        message = request.form['message']
-        if message is not None:
-            session.clear()
-            session['message'] = message
-            return redirect(url_for('result'))
     return render_template("diaryEntry.php")
 
 '''
