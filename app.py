@@ -14,9 +14,9 @@ Initiate a new flaskr app
 2. Input some flaskr commands that would be used by the application
 '''
 app = Flask(__name__)
-app.config.from_mapping(
-    SECRET_KEY='f1af5e200af5a1efc355509356ae01acfb8368061bcbc1e9'
-)
+# app.config.from_mapping(
+#     SECRET_KEY='f1af5e200af5a1efc355509356ae01acfb8368061bcbc1e9'
+# )
 from flask import (
     redirect, render_template, request, session, url_for
 )
@@ -49,7 +49,7 @@ Home Page
 #             return redirect(url_for('result'))
 #     return render_template("diaryEntry.php")
 
-@app.route('/homepage.php')
+@app.route('/')
 def index():
     return render_template("diaryEntry.php")
 
