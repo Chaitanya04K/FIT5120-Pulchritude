@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         <input type="password" name="password" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <input type="submit" name="submit" class="btn btn-primary" value="submit">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Submit">
                     </div>
                     <p>Don't have an account? <a href="register.php">Register Here</a>.</p>
                 </form>
