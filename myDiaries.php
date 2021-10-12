@@ -108,9 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         </div>
                         <div class="diaryCardPartition">
                             <img src="images/feelings.png" alt="sad and happy faces">
-                            {% if sentiment %}
-                            <span> <strong> {{ sentiment }} </strong></span>
-                            {% endif %}
+                            <span>Sentiment</span>
                         </div>
                         <button onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                     </div>
