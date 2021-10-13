@@ -607,14 +607,6 @@ iframe {
     padding: 10px;
 }
 
-.diaryContainer .diaryCard {
-    width: 100% !important;
-    border-radius: 0 !important;
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-    padding: unset;
-}
-
 .diaryContainer .card {
     background: #7b7b7b !important;
     border-bottom-left-radius: 10px !important;
@@ -630,6 +622,7 @@ iframe {
 }
 
 .diaryCard {
+    width: 100% !important;
     display: flex !important;
     justify-content: space-around;
     border-radius: 6px !important;
