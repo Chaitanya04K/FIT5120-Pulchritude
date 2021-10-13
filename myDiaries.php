@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
             <?php foreach ($diaryArray as $key => $value) : ?>
                 <div class="container diaryContainer">
-                    <div class="btn btn-primary diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
                         <div class="diaryCardPartition">
                             <img src="images/title.png" alt="Alphabet T">
                             <span class="title <?= $key; ?>"><?= $value[2]; ?></span>

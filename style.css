@@ -607,7 +607,7 @@ iframe {
     padding: 10px;
 }
 
-.diaryContainer .btn {
+.diaryContainer .diaryCard {
     width: 100% !important;
     border-radius: 0 !important;
     border-top-left-radius: 10px !important;
