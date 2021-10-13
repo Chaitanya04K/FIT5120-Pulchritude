@@ -5,7 +5,7 @@ session_start();
 
 //Redirecting user to homescreen if already logged in
 if (isset($_SESSION["userid"]) && $_SESSION["userid"] === true) {
-    header("location: homepage.php");
+    header("location: index.php");
     exit;
 }
 

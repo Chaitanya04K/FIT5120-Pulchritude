@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="homepage.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
             <li class="breadcrumb-item"><a href="moodDiary.php">Mood Diary</a></li>
             <li class="breadcrumb-item active" aria-current="page">My Diaries</li>
         </ol>
