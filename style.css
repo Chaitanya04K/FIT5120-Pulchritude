@@ -663,7 +663,7 @@ iframe {
 }
 
 .container.moodDiary {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 
 @media only screen and (max-width: 1400px) {
