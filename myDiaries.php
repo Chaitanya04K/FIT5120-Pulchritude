@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             <img src="images/feelings.png" alt="sad and happy faces">
                             <span>Sentiment</span>
                         </div>
-                        <button onclick="deleteDiary(<?= $key; ?>)">Delete</button>
+                        <button class="deleteBtn" onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                     </div>
                     <div class="collapse" id="<?= $key; ?>">
                         <div class="card card-body">

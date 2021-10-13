@@ -629,7 +629,7 @@ iframe {
     background: white;
     border: 1px solid white;
     color: black;
-    font-weight: 800;
+    font-weight: 700;
     box-shadow: 0 8px 8px -4px lightblue;
     margin-top: 20px;
 }
@@ -647,6 +647,19 @@ iframe {
 
 .diaryCardPartition img {
     width: 30px;
+}
+
+.deleteBtn {
+    border: none;
+    background: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
