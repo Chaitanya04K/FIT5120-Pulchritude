@@ -603,8 +603,7 @@ iframe {
     border-radius: .25rem;
 }
 
-.error-box p,
-.success-box p {
+.error-box p, .success-box p {
     padding: 10px;
 }
 
@@ -641,13 +640,23 @@ iframe {
     margin-left: 6px;
 }
 
-.diaryCardPartition:nth-of-type(2),
-.diaryCardPartition:nth-of-type(3) {
+.diaryCardPartition:nth-of-type(2), .diaryCardPartition:nth-of-type(3) {
     width: 50%;
 }
 
 .diaryCardPartition img {
     width: 30px;
+}
+
+.diaryCard.collapsed {
+    border-radius: 6px !important;
+    padding: 20px;
+    background: white;
+    border: 1px solid white;
+    color: black;
+    font-weight: 800;
+    box-shadow: 0 8px 8px -4px lightblue;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 1400px) {
