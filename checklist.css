@@ -1,9 +1,41 @@
+<<<<<<< HEAD
+=======
+.depressionChecklist header {
+    background: #5D99C9;
+    overflow: hidden;
+}
+
+.depressionChecklist ol li,
+.depressionChecklist header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+}
+
+div,
+header {
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    display: block;
+}
+
+>>>>>>> iteration-3
 .depressionChecklist {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 25px;
 }
 
+<<<<<<< HEAD
 html,
 body,
 div,
@@ -86,22 +118,48 @@ mark,
 audio,
 video {
     border: 0;
+=======
+.depressionChecklist .col1 {
+    text-align: left;
+}
+
+.depressionChecklist [class*=col] {
+    text-align: center;
+    padding: 20px 10px !important;
+}
+
+.depressionChecklist .col1 {
+    width: 33%;
+    color: #009BC9;
+}
+
+div,
+ol,
+li,
+label {
+    border: 0;
+    font-size: 100%;
+>>>>>>> iteration-3
     font: inherit;
     vertical-align: baseline;
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> iteration-3
 div {
     display: block;
 }
 
+<<<<<<< HEAD
 body {
     color: #333;
 }
@@ -123,15 +181,175 @@ html {
 :before,
  :after {
     box-sizing: border-box;
+=======
+.depressionChecklist header [class*=col] {
+    color: #fff;
+    font-family: "FFDINWebBold", sans-serif;
+    padding: 10px 10px !important;
+    font-weight: bold;
+}
+
+.depressionChecklist .col1 {
+    width: 33%;
+    color: #009BC9;
+    font-weight: bold;
+}
+
+.depressionChecklist .col2,
+.depressionChecklist .col3,
+.depressionChecklist .col4,
+.depressionChecklist .col5,
+.depressionChecklist .col6 {
+    width: 13.4%;
+}
+
+.offScreen {
+    position: absolute;
+    left: -888%;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+label {
+    font-family: "FFDINWeb", sans-serif;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-family: "OthersBold";
+    cursor: pointer;
+}
+
+:not(.lt-ie10) .fancy-radio-alone {
+    display: inline-block;
+    position: relative;
+>>>>>>> iteration-3
 }
 
 *,
 *:before,
 *:after {
+<<<<<<< HEAD
     box-sizing: border-box;
 }
 
 :before,
  :after {
+=======
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+.depressionChecklist ol {
+    margin-bottom: 20px;
+}
+
+.display-mobile {
+    display: none;
+}
+
+.depressionChecklist .buttonWrap input[type="submit"],
+.buttonLarge {
+    background: #025C76;
+}
+
+.depressionChecklist .buttonWrap input[type="submit"],
+.button,
+.buttonLarge {
+    color: #fff !important;
+    font-family: "FFDINWebBold", sans-serif;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 12px 20px 10px;
+    border: 0 none;
+    text-align: left;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    *overflow: visible;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttonWrap {
+    align-items: center;
+}
+
+.footer {
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: baseline;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a {
+    color: #008dc9;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin:50px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p.a {
+    margin: 70px;
+    text-align: center;
+}
+
+*,
+ ::after,
+ ::before {
+>>>>>>> iteration-3
     box-sizing: border-box;
 }
