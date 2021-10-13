@@ -95,27 +95,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             <p>No diaries found on this date, please select another date!</p>
         <? else : ?>
 
-            <?php foreach ($diaryArray as $key => $value) : ?>
-                <div class="container diaryContainer">
-                    <div class="diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
-                        <div class="diaryCardPartition">
-                            <img src="images/title.png" alt="Alphabet T">
-                            <span class="title <?= $key; ?>"><?= $value[2]; ?></span>
+            <div class="container moodDiary">
+                <?php foreach ($diaryArray as $key => $value) : ?>
+                    <div class="diaryContainer">
+                        <div class="diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="diaryCardPartition">
+                                <img src="images/title.png" alt="Alphabet T">
+                                <span class="title <?= $key; ?>"><?= $value[2]; ?></span>
+                            </div>
+                            <div class="diaryCardPartition">
+                                <img src="images/clock.png" alt="clock">
+                                <span class="time <?= $key; ?>"><?= $value[0]; ?></span>
+                                <span class="time <?= $key; ?>"><?= $value[1]; ?></span>
+                            </div>
+                            <button class="deleteBtn" onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                         </div>
-                        <div class="diaryCardPartition">
-                            <img src="images/clock.png" alt="clock">
-                            <span class="time <?= $key; ?>"><?= $value[0]; ?></span>
-                            <span class="time <?= $key; ?>"><?= $value[1]; ?></span>
+                        <div class="collapse" id="<?= $key; ?>">
+                            <div class="card card-body">
+                                <?= $value[3]; ?>
+                            </div>
                         </div>
-                        <button class="deleteBtn" onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                     </div>
-                    <div class="collapse" id="<?= $key; ?>">
-                        <div class="card card-body">
-                            <?= $value[3]; ?>
-                        </div>
-                    </div>
-                </div>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
+            </div>
         <?php endif; ?>
 
     <? else : ?>

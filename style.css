@@ -662,6 +662,10 @@ iframe {
     cursor: pointer;
 }
 
+.container.moodDiary {
+    margin-bottom: 25px;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
