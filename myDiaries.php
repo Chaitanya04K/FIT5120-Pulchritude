@@ -159,15 +159,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             let input = document.getElementById('diary-searchbar').value
             input = input.toLowerCase();
             let x = document.getElementsByClassName('diaryTitleSection');
-            let y = document.getElementsByClassName('diaryTitleSection');
 
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                    x[i].style.display = "none !important";
-                    y[i].classList.add("testing-if");
+                    x[i].style.display = "none";
                 } else {
-                    x[i].style.display = "flex !important";
-                    y[i].classList.add("testing-else");
+                    x[i].style.display = "list-item";
                 }
             }
         }
