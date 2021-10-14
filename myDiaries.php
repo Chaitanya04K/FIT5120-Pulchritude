@@ -194,7 +194,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         }
 
         function setResult(resp) {
-            document.getElementById("deleteResult").innerHTML(resp);
+            document.getElementById("deleteResult").innerHTML = resp;
             console.log("inside set result func");
         }
     </script>
