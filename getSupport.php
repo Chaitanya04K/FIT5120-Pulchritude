@@ -11,7 +11,7 @@
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css?newcache04">
+    <link rel="stylesheet" href="style.css?newcache05">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -45,15 +45,11 @@
         <p class="info-mainHeading">Here are some organizations and universities that provide mental health related services.</p>
     </div>
 
-    <!-- input tag -->
-    <form style="margin:auto;max-width:300px">
-        <input id="support-searchbar" onkeyup="search_support()" type="text" name="search" placeholder="Search">
-    </form>
-
-    <!-- linking javascript -->
-    <script src="./supportsearch.js"></script>
-
-    <div class="my-container">
+    
+    <div class="container my-container">
+        <form>
+            <input id="support-searchbar" onkeyup="search_support()" type="text" name="search" placeholder="Search">
+        </form>
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Beyond Blue</p>
@@ -371,6 +367,9 @@
     </div>
 
     <?php include 'footer.php'; ?>
+
+    <!-- linking searchbar javascript -->
+    <script src="./supportsearch.js"></script>
 </body>
 
 </html>
