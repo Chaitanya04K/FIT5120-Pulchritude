@@ -260,6 +260,10 @@ body {
     background-image: url("images/signs.jpg");
 }
 
+.card-horizontal.reversess {
+    flex-direction: column-reverse;
+}
+
 .img-square-wrapper.signssymptoms {
     background-image: url("images/signssymptoms.jpg");
 }

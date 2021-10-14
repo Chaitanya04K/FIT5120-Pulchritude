@@ -124,7 +124,7 @@
         <div class="row">
             <div class="cardSection col-12">
                 <div class="card">
-                    <div class="card-horizontal">
+                    <div class="card-horizontal reversess">
                         <div class="img-square-wrapper signssymptoms"></div>
                         <div class="card-body">
                             <h4 class="card-title">Signs and Symptoms</h4>
