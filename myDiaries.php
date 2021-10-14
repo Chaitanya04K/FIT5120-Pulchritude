@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css?newcache02">
+    <link rel="stylesheet" href="style.css?newcache03">
 </head>
 
 <body>
@@ -164,7 +164,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
                     x[i].parentNode.parentNode.classList.add("removeCard");
+                    x[i].parentNode.parentNode.classList.remove("showCard");
                 } else {
+                    x[i].parentNode.parentNode.classList.remove("removeCard");
                     x[i].parentNode.parentNode.classList.add("showCard");
                 }
             }
