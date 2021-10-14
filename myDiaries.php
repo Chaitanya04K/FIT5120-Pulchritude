@@ -158,13 +158,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         function searchDiary() {
             let input = document.getElementById('diary-searchbar').value
             input = input.toLowerCase();
-            let x = document.getElementsByClassName('diaryTitleSection');
+            let x = document.getElementsByClassName('diaryCard');
 
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                    x[i].style.display = "none";
+                    x[i].style.display = "none !important";
                 } else {
-                    x[i].style.display = "list-item";
+                    x[i].style.display = "flex !important";
                 }
             }
         }
