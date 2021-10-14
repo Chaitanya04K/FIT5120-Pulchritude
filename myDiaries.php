@@ -25,6 +25,11 @@ if ($query = $db->prepare("SELECT diaryDate, diaryTime, title, content FROM diar
     //Checking if past diaries exist
     if ($query->num_rows > 0) {
         $diariesFound = true;
+        $query->bind_result($diaryDate, $diaryTime, $diaryTitle, $diaryContent);
+        while ($query->fetch()) {
+            $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
+            array_push($diaryArray, $resultArray);
+        }
     }
 }
 
