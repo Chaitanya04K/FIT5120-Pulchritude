@@ -707,6 +707,14 @@ iframe {
     padding: 15px;
 }
 
+.modal-footer a {
+    flex: 1 1 0;
+}
+
+.modal-footer a button{
+    width: 100%;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;
