@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css?newcache04">
+    <link rel="stylesheet" href="style.css?newcache05">
 </head>
 
 <body>
@@ -88,14 +88,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     <div class="container">
         <div class="datePicker">
-            <form action="" method="post">
-                <p>Please select a date</p>
-                <div>
-                    <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
-                    <input type="submit" name="submit" class="btn btn-primary" value="Submit">
-                </div>
-            </form>
-            <input id="diary-searchbar" onkeyup="searchDiary()" type="text" name="search-diary" placeholder="Search">
+            <div>
+                <form action="" method="post" class="datePickerForm">
+                    <p>Please select a date</p>
+                    <div>
+                        <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <div>
+                <input id="diary-searchbar" onkeyup="searchDiary()" type="text" name="search-diary" placeholder="Search">
+            </div>
         </div>
         <div class="phpResult"></div>
     </div>
