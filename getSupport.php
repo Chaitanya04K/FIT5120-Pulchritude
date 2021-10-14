@@ -11,13 +11,11 @@
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css?newcache02">
+    <link rel="stylesheet" href="style.css?newcache03">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
 </head>
 
 <body>
@@ -30,8 +28,6 @@
             <li class="breadcrumb-item active" aria-current="page">Get Support</li>
         </ol>
     </nav>
-
-    <div id="map"></div>
 
     <!-- input tag -->
     <form style="margin:auto;max-width:300px">
@@ -359,16 +355,6 @@
     </div>
 
     <?php include 'footer.php'; ?>
-
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiY2thbmFraWEwNCIsImEiOiJja3VxeGNyeDMzM3lmMnVvZnFmYmJ2M2ZlIn0.nnBx5SUXW-XgCKm9ZkjcIw';
-        const map = new mapboxgl.Map({
-            container: 'map', // container ID
-            style: 'mapbox://styles/mapbox/streets-v11', // style URL
-            center: [-74.5, 40], // starting position [lng, lat]
-            zoom: 9 // starting zoom
-        });
-    </script>
 </body>
 
 </html>
