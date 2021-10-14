@@ -82,10 +82,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <form action="" method="post">
         <div class="datePicker">
             <p>Please select a date </p>
-            <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
-            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+            <div>
+                <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
+                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+            </div>
         </div>
     </form>
+
+    <input id="diary-searchbar" onkeyup="searchDiary()" type="text" name="search-diary" placeholder="Search">
 
     <div class="phpResult"></div>
 
@@ -99,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 <?php foreach ($diaryArray as $key => $value) : ?>
                     <div class="diaryContainer">
                         <div class="diaryCard" data-toggle="collapse" data-target="#<?= $key; ?>" aria-expanded="false" aria-controls="collapseExample">
-                            <div class="diaryCardPartition">
+                            <div class="diaryCardPartition diaryTitleSection">
                                 <img src="images/title.png" alt="Alphabet T">
                                 <span class="title <?= $key; ?>"><?= $value[2]; ?></span>
                             </div>
@@ -149,6 +153,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     console.log(response);
                 }
             })
+        }
+
+        function searchDiary() {
+            let input = document.getElementById('diary-searchbar').value
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('diaryTitleSection');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                } else {
+                    x[i].style.display = "list-item";
+                }
+            }
         }
     </script>
 </body>

@@ -627,7 +627,7 @@ iframe {
     border: 1px solid white;
     color: black;
     font-weight: 700;
-    box-shadow: 0 8px 8px -4px lightblue;
+    box-shadow: 0 8px 8px -4px #c1c1c1;
     margin-top: 20px;
 }
 
@@ -656,6 +656,9 @@ iframe {
 
 .deleteBtn:hover {
     cursor: pointer;
+    border: 2px solid #db1414;
+    color: white;
+    background: #db1414;
 }
 
 .moodDiary {
