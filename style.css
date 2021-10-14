@@ -694,6 +694,13 @@ iframe {
     font-weight: 800;
 }
 
+.notice-box {
+    margin: 30px 0;
+    background-color: #f8d7da;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 1400px) {
     #carouselExampleControls {
         display: block !important;

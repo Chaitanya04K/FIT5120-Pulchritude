@@ -11,7 +11,7 @@
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css?newcache03">
+    <link rel="stylesheet" href="style.css?newcache04">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -33,6 +33,15 @@
         <p class="info-mainHeading">Getting Professional Help</p>
         <p class="info-text">This website is just a place to get information and support, only someone who is professionally trained and certified can diagnose someone with a mental health condition or disorder.</p>
         <p class="info-text"><strong>The best place to start is a trusted General Practitioner.</strong></p>
+        <div class="notice-box">
+            <p class="info-mainHeading">When to seek help</p>
+            <p class="info-text">Generally you should seek help when you face one or more of these signs and they are:</p>
+            <ul>
+                <li>Severe and noticable most of the time</li>
+                <li>Persistent for a period of about two weeks or more</li>
+                <li>Affecting your day to day activities in a negative way.</li>
+            </ul>
+        </div>
         <p class="info-mainHeading">Here are some organizations and universities that provide mental health related services.</p>
     </div>
 
