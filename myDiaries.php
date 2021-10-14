@@ -163,7 +163,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                    y[i].classList.add = "removeCard";
+                    // y[i].classList.add = "removeCard";
+                    console.log("inside IF");
                 } else {
                     y[i].style.display = "list-item";
                 }
