@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css?newcache07">
+    <link rel="stylesheet" href="style.css?newcache08">
 </head>
 
 <body>
@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-        <div class="phpResult"></div>
+        <div id="deleteResult"></div>
     </div>
 
 
@@ -110,7 +110,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     <?php if ($diariesFound == true) : ?>
 
         <?php if ($noDiariesFound == true) : ?>
-            <p>No diaries found on this date, please select another date!</p>
+            <div class="container error-box">
+                <p>No diaries found on this date, please select another date!</p>
+            </div>
         <? else : ?>
 
             <div class="container moodDiary">
@@ -164,7 +166,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     "title": title
                 },
                 success: function(response) {
-                    console.log(response);
+                    $document.getElementById("deleteResult").innerHTML("Diary successfully Deleted!");
                 }
             })
         }
