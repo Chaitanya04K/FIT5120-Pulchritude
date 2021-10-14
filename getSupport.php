@@ -45,11 +45,11 @@
         <p class="info-mainHeading">Here are some organizations and universities that provide mental health related services.</p>
     </div>
 
+    <div class="container">
+        <input id="support-searchbar" onkeyup="search_support()" type="text" name="search" placeholder="Search">
+    </div>
     
     <div class="container my-container">
-        <form>
-            <input id="support-searchbar" onkeyup="search_support()" type="text" name="search" placeholder="Search">
-        </form>
         <div class="support-card">
             <div class="support-card-header blue">
                 <p class="support-card-title">Beyond Blue</p>
