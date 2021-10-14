@@ -679,9 +679,19 @@ iframe {
     display: flex;
 }
 
+.datePickerForm .btn {
+    border-radius: 0 !important;
+    margin-left: 10px;
+}
+
 .datePickerInner {
     flex: 1 1 0;
     padding: 15px;
+}
+
+.datePickerInner p {
+    font-size: 1.2rem;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 1400px) {
