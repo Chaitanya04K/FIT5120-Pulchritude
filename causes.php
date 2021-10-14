@@ -120,9 +120,13 @@
             problem on the inside, and therefore what treatments will work best, may be entirely different.</p>
             <br>
 
-        <p class="info-mainHeading">Seek Professional Help</p>
+        <p class="info-mainHeading">A few things to note:</p>
         <p class="info-text" style="text-align:justify;margin-right:100px;">  
-            A few things to note:<br>This checklist does not give you a diagnosis.<br>Please contact a health professional for a diagnosis.</p>
+            <br>A diagnosis can only be supplied by a health professional.
+            <br>If you feel sad, stressed, anxious or struggling with something that the information does not cover, 
+            please consider other options that feels right for you to further assist you.
+            <br>Please seek a medical or mental health professional with further questions 
+            on your mental health. The most important thing is to recognise the signs and symptoms and seek support.</p>
         <br>
 
         <p class="info-mainHeading">Videos on Depression</p>
