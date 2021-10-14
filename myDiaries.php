@@ -163,9 +163,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
-                    x[i].parentNode.parentNode.style.display = "none !important";
+                    x[i].parentNode.parentNode.classList.add("removeCard");
                 } else {
-                    x[i].parentNode.parentNode.style.display = "flex !important";
+                    x[i].parentNode.parentNode.classList.add("showCard");
                 }
             }
         }
