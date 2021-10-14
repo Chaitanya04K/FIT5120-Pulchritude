@@ -125,8 +125,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             </div>
                             <div class="diaryCardPartition">
                                 <img src="images/clock.png" alt="clock">
-                                <span class="time <?= $key; ?>"><?= $value[1]; ?></span>
-                                <span class="date-time <?= $key; ?>"><?= $value[0]; ?></span>
+                                <span class="time <?= $key; ?>"><?= $value[0]; ?></span>
+                                <span class="date-time <?= $key; ?>"><?= $value[1]; ?></span>
                             </div>
                             <button class="deleteBtn" onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                         </div>
@@ -153,7 +153,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
             var title = document.getElementsByClassName("title " + diaryID);
             title = title[0].innerHTML;
-            var date = document.getElementsByClassName("date-time " + diaryID);
+            var date = "<?php echo $selectedDate; ?>";
             var time = document.getElementsByClassName("time " + diaryID);
             time = time[0].innerHTML;
             console.log(loggedInUser);
