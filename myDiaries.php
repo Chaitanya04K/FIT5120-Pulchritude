@@ -164,7 +164,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
                     x[i].style.display = "none";
-                    console.log(x[i].parentNode);
+                    console.log(x[i].parentNode.parentNode);
                 } else {
                     x[i].style.display = "list-item";
                 }
