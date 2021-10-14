@@ -52,7 +52,7 @@
 
             <div class="cardSection col-12">
                 <div class="card">
-                    <div class="card-horizontal reverse">
+                    <div class="card-horizontal reverseone">
                         <div class="card-body">
                             <h4 class="card-title">Feeling stressed?</h4>
                             <p class="card-text">The K10 Checklist is a simple checklist which will measure the level of general stress one is facing without identifying the causes.</p>

@@ -842,7 +842,7 @@ iframe {
         flex-direction: column;
         flex: 1 1 auto;
     }
-    .card-horizontal.reverse {
+    .card-horizontal.reverseone {
         flex-direction: column-reverse;
     }
     .img-square-wrapper {
