@@ -174,11 +174,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 },
                 success: function(response) {
                     setResult(response);
-                    console.log("ajax successful");
+                    window.location.href = "/myDiaries.php";
                 },
                 error: function(response) {
                     setResult(response);
-                    console.log("ajax failed");
                 }
             })
         }
