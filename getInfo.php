@@ -119,7 +119,24 @@
         </div>
     </div>
 
-    <div class="causes-and-treatment-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="cardSection col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-square-wrapper signs"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Signs and Symptoms</h4>
+                            <p class="card-text">What are some things you shoud keep an eye out which would be important for yourself or others?</p>
+                            <a href="causes.php" class="actionBtn btn-right">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="causes-and-treatment-container">
         <a href="signsandsymptoms.php" class="link-card">
             <div class="icon-svg causes"></div>
             <p class="svg-title">Signs and Symptoms</p>
@@ -133,7 +150,7 @@
             <p class="svg-subTitle">Common approaches and treatments to help you cope and recover from depression</p>
             <div class="actionBtn-div">Learn more</div>
         </a>
-    </div>
+    </div> -->
 
     <?php include 'footer.php'; ?>
 </body>
