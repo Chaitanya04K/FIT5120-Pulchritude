@@ -92,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         <input type="password" name="confirm_password" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <input type="submit" name="submit" class="btn btn-primary" value="submit">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Submit">
                     </div>
                     <p>Already have an account? <a href="login.php">Login Here</a>.</p>
                 </form>
