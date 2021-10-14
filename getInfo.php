@@ -119,12 +119,11 @@
         </div>
     </div>
 
-<div>
     <div class="container-fluid">
         <div class="row">
             <div class="cardSection col-12">
                 <div class="card">
-                    <div class="card-horizontal reversess">
+                    <div class="card-horizontal">
                         <div class="img-square-wrapper signssymptoms"></div>
                         <div class="card-body">
                             <h4 class="card-title">Signs and Symptoms</h4>
@@ -136,7 +135,6 @@
             </div>
         </div>
     </div>
-</div>
 
     <!-- <div class="causes-and-treatment-container">
         <a href="signsandsymptoms.php" class="link-card">
