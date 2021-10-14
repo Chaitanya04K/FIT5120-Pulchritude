@@ -153,8 +153,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             var loggedInUser = "<?php echo $_SESSION["email"]; ?>";
             var title = document.getElementsByClassName("title " + diaryID);
             title = title[0].innerHTML;
-            var date = "<?php echo $selectedDate; ?>";
-            // var date = document.getElementsByClassName("date-time " + diaryID);
+            var date = document.getElementsByClassName("date-time " + diaryID);
             var time = document.getElementsByClassName("time " + diaryID);
             time = time[0].innerHTML;
             console.log(loggedInUser);
