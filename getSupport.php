@@ -28,12 +28,13 @@
         </ol>
     </nav>
 
+    <div id="map"></div>
+
     <!-- input tag -->
     <form style="margin:auto;max-width:300px">
-        <input id="support-searchbar" onkeyup="search_support()" type="text"
-        name="search" placeholder="Search">
+        <input id="support-searchbar" onkeyup="search_support()" type="text" name="search" placeholder="Search">
     </form>
-      
+
     <!-- linking javascript -->
     <script src="./supportsearch.js"></script>
 
@@ -356,6 +357,15 @@
 
     <?php include 'footer.php'; ?>
 
+    <script>
+        mapboxgl.accessToken = '<pk.eyJ1IjoiY2thbmFraWEwNCIsImEiOiJja3VxeGNyeDMzM3lmMnVvZnFmYmJ2M2ZlIn0.nnBx5SUXW-XgCKm9ZkjcIw>';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/streets-v11', // style URL
+            center: [-74.5, 40], // starting position [lng, lat]
+            zoom: 9 // starting zoom
+        });
+    </script>
 </body>
 
 </html>
