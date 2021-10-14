@@ -32,88 +32,6 @@ header {
     margin-bottom: 25px;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    border: 0;
 .depressionChecklist .col1 {
     text-align: left;
 }
@@ -140,37 +58,10 @@ label {
     padding: 0;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
 div {
     display: block;
 }
 
-body {
-    color: #333;
-}
-
-body {
-    margin: 0;
-}
-
-html {
-    -webkit-text-size-adjust: 100%;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-:before,
- :after {
-    box-sizing: border-box;
 .depressionChecklist header [class*=col] {
     color: #fff;
     font-family: "FFDINWebBold", sans-serif;
@@ -218,11 +109,6 @@ label {
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
-}
-
-:before,
- :after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
