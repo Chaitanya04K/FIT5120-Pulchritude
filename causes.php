@@ -120,15 +120,6 @@
             problem on the inside, and therefore what treatments will work best, may be entirely different.</p>
             <br>
 
-        <p class="info-mainHeading">A few things to note:</p>
-        <p class="info-text" style="text-align:justify;margin-right:100px;">  
-            <br>A diagnosis can only be supplied by a health professional.
-            <br>If you feel sad, stressed, anxious or struggling with something that the information does not cover, 
-            please consider other options that feels right for you to further assist you.
-            <br>Please seek a medical or mental health professional with further questions 
-            on your mental health. The most important thing is to recognise the signs and symptoms and seek support.</p>
-        <br>
-
         <p class="info-mainHeading">Videos on Depression</p>
         <div class="info-videos">
             <div class="iframe-container">
@@ -144,6 +135,15 @@
                     allowfullscreen></iframe>
             </div>
         </div>
+
+        <p class="info-mainHeading">A few things to note:</p>
+        <p class="info-text" style="text-align:justify;margin-right:100px;">  
+            A diagnosis can only be supplied by a health professional.
+            <br>If you feel sad, stressed, anxious or struggling with something that the information does not cover, 
+            please consider other options that feels right for you to further assist you.
+            <br>Please seek a medical or mental health professional with further questions 
+            on your mental health. The most important thing is to recognise the signs and symptoms and seek support.</p>
+        <br>
     </div>
 
     <?php include 'footer.php'; ?>
