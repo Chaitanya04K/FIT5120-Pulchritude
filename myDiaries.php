@@ -125,8 +125,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             </div>
                             <div class="diaryCardPartition">
                                 <img src="images/clock.png" alt="clock">
-                                <span class="time <?= $key; ?>"><?= $value[0]; ?></span>
-                                <span class="date-time <?= $key; ?>"><?= $value[1]; ?></span>
+                                <span class="time <?= $key; ?>"><?= $value[1]; ?></span>
+                                <span class="date-time <?= $key; ?>"><?= $value[0]; ?></span>
                             </div>
                             <button class="deleteBtn" onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                         </div>
