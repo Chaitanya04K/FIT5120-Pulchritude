@@ -361,7 +361,7 @@
     <?php include 'footer.php'; ?>
 
     <script>
-        mapboxgl.accessToken = '<pk.eyJ1IjoiY2thbmFraWEwNCIsImEiOiJja3VxeGNyeDMzM3lmMnVvZnFmYmJ2M2ZlIn0.nnBx5SUXW-XgCKm9ZkjcIw>';
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY2thbmFraWEwNCIsImEiOiJja3VxeGNyeDMzM3lmMnVvZnFmYmJ2M2ZlIn0.nnBx5SUXW-XgCKm9ZkjcIw';
         const map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/mapbox/streets-v11', // style URL
