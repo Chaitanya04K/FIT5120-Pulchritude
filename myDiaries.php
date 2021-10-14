@@ -166,7 +166,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     "title": title
                 },
                 success: function(response) {
-                    document.getElementById("deleteResult").innerHTML("Diary successfully Deleted!");
+                    setResult(response);
+                    console.log("ajax successful");
+                },
+                error: function(response) {
+                    setResult(response);
+                    console.log("ajax failed");
                 }
             })
         }
@@ -186,6 +191,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     x[i].parentNode.parentNode.classList.add("showCard");
                 }
             }
+        }
+
+        function setResult(resp) {
+            document.getElementById("deleteResult").innerHTML(resp);
+            console.log("inside set result func");
         }
     </script>
 </body>
