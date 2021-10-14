@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </ol>
     </nav>
 
-    <div class="container">
+    <!-- <div class="container">
         <form action="" method="post">
             <div class="datePicker">
                 <p>Please select a date </p>
@@ -97,9 +97,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             </div>
         </form>
         <input id="diary-searchbar" onkeyup="searchDiary()" type="text" name="search-diary" placeholder="Search">
+    </div> -->
+
+    <div class="container">
+        <div></div>
+        <div class="phpResult"></div>
     </div>
 
-    <div class="phpResult"></div>
+
 
     <?php if ($diariesFound == true) : ?>
 
