@@ -166,7 +166,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     "title": title
                 },
                 success: function(response) {
-                    $document.getElementById("deleteResult").innerHTML("Diary successfully Deleted!");
+                    document.getElementById("deleteResult").innerHTML("Diary successfully Deleted!");
                 }
             })
         }
