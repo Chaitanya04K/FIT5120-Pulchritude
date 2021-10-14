@@ -86,21 +86,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         </ol>
     </nav>
 
-    <!-- <div class="container">
-        <form action="" method="post">
-            <div class="datePicker">
-                <p>Please select a date </p>
+    <div class="container">
+        <div class="datePicker">
+            <form action="" method="post">
+                <p>Please select a date</p>
                 <div>
                     <input type="date" name="diaryDateSelected" class="input-diary" id="diaryDatePicker">
                     <input type="submit" name="submit" class="btn btn-primary" value="Submit">
                 </div>
-            </div>
-        </form>
-        <input id="diary-searchbar" onkeyup="searchDiary()" type="text" name="search-diary" placeholder="Search">
-    </div> -->
-
-    <div class="container">
-        <div></div>
+            </form>
+            <input id="diary-searchbar" onkeyup="searchDiary()" type="text" name="search-diary" placeholder="Search">
+        </div>
         <div class="phpResult"></div>
     </div>
 

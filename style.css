@@ -616,6 +616,8 @@ iframe {
 .datePicker {
     display: flex;
     align-items: baseline;
+    background: white;
+    box-shadow: 0 8px 8px -4px #c1c1c1;
 }
 
 .diaryCard {
