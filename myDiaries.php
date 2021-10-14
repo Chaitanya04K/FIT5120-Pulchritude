@@ -177,7 +177,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 success: function(response) {
                     setResult(response);
                     document.getElementById("deleteResultBox").classList.remove("removeCard");
-                    // window.location.href = "/myDiaries.php";
+                    window.location.href = "/myDiaries.php";
                 },
                 error: function(response) {
                     setResult(response);
