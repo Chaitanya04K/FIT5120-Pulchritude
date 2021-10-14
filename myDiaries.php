@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             <div class="diaryCardPartition">
                                 <img src="images/clock.png" alt="clock">
                                 <span class="time <?= $key; ?>"><?= $value[0]; ?></span>
-                                <span class="time <?= $key; ?>"><?= $value[1]; ?></span>
+                                <span class="date-time <?= $key; ?>"><?= $value[1]; ?></span>
                             </div>
                             <button class="deleteBtn" onclick="deleteDiary(<?= $key; ?>)">Delete</button>
                         </div>
@@ -158,7 +158,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
         function searchDiary() {
             let input = document.getElementById('diary-searchbar').value
             input = input.toLowerCase();
-            let x = document.getElementsByClassName('diaryTitleSection');
+            let x = document.getElementsByClassName('title');
 
             for (i = 0; i < x.length; i++) {
                 if (!x[i].innerHTML.toLowerCase().includes(input)) {
