@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-        <div class="success-box">
+        <div id="deleteResultBox" class="success-box removeCard">
             <p id="deleteResult"></p>
         </div>
     </div>
@@ -176,6 +176,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 },
                 success: function(response) {
                     setResult(response);
+                    document.getElementById("deleteResultBox").classList.remove("removeCard");
                     // window.location.href = "/myDiaries.php";
                 },
                 error: function(response) {
