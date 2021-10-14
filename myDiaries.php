@@ -30,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
         //Checking if past diaries exist
         if ($query->num_rows > 0) {
+            $diariesFound = true;
             while ($query->fetch()) {
                 $resultArray = [$diaryDate, $diaryTime, $diaryTitle, $diaryContent];
                 array_push($diaryArray, $resultArray);
