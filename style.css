@@ -260,6 +260,10 @@ body {
     background-image: url("images/signs.jpg");
 }
 
+.img-square-wrapper.signssymptoms {
+    background-image: url("images/signssymptoms.jpg");
+}
+
 .causes-and-treatment-container {
     display: flex;
     max-width: 1140px;

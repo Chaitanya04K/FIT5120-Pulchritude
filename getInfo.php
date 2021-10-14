@@ -119,22 +119,24 @@
         </div>
     </div>
 
+<div>
     <div class="container-fluid">
         <div class="row">
             <div class="cardSection col-12">
                 <div class="card">
-                    <div class="card-horizontal">
-                        <div class="img-square-wrapper signs"></div>
+                    <div class="card-horizontal reverse">
+                        <div class="img-square-wrapper signssymptoms"></div>
                         <div class="card-body">
                             <h4 class="card-title">Signs and Symptoms</h4>
                             <p class="card-text">What are some things you shoud keep an eye out which would be important for yourself or others?</p>
-                            <a href="causes.php" class="actionBtn btn-right">Learn more</a>
+                            <a href="signsandsymptoms.php" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <!-- <div class="causes-and-treatment-container">
         <a href="signsandsymptoms.php" class="link-card">
