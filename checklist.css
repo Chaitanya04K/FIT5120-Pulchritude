@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 .depressionChecklist header {
     background: #5D99C9;
     overflow: hidden;
@@ -28,14 +26,12 @@ header {
     display: block;
 }
 
->>>>>>> iteration-3
 .depressionChecklist {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 25px;
 }
 
-<<<<<<< HEAD
 html,
 body,
 div,
@@ -118,7 +114,6 @@ mark,
 audio,
 video {
     border: 0;
-=======
 .depressionChecklist .col1 {
     text-align: left;
 }
@@ -139,27 +134,22 @@ li,
 label {
     border: 0;
     font-size: 100%;
->>>>>>> iteration-3
     font: inherit;
     vertical-align: baseline;
     margin: 0;
     padding: 0;
 }
 
-<<<<<<< HEAD
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
 
-=======
->>>>>>> iteration-3
 div {
     display: block;
 }
 
-<<<<<<< HEAD
 body {
     color: #333;
 }
@@ -181,7 +171,6 @@ html {
 :before,
  :after {
     box-sizing: border-box;
-=======
 .depressionChecklist header [class*=col] {
     color: #fff;
     font-family: "FFDINWebBold", sans-serif;
@@ -224,19 +213,16 @@ label {
 :not(.lt-ie10) .fancy-radio-alone {
     display: inline-block;
     position: relative;
->>>>>>> iteration-3
 }
 
 *,
 *:before,
 *:after {
-<<<<<<< HEAD
     box-sizing: border-box;
 }
 
 :before,
  :after {
-=======
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -350,6 +336,5 @@ p.a {
 *,
  ::after,
  ::before {
->>>>>>> iteration-3
     box-sizing: border-box;
 }
