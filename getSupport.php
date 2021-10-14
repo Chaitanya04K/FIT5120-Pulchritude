@@ -32,7 +32,7 @@
     <div class="container">
         <p class="info-mainHeading">Getting Professional Help</p>
         <p class="info-text">This website is just a place to get information and support, only someone who is professionally trained and certified can diagnose someone with a mental health condition or disorder.</p>
-        <p class="info-text"><strong>The best place to start is a trusted General Practitioner.</strong></p>
+        <p class="info-text"><strong>The best place to start is a trusted medical or mental health professional.</strong></p>
         <div class="notice-box">
             <p class="info-mainHeading">When to seek help</p>
             <p class="info-text">Generally you should seek help when you face one or more of these signs and they are:</p>
@@ -42,7 +42,7 @@
                 <li>Affecting your day to day activities in a negative way.</li>
             </ul>
         </div>
-        <p class="info-mainHeading">Here are some organizations and universities that provide mental health related services.</p>
+        <p class="info-mainHeading">Here are some public organizations and universities that provide mental health related services.</p>
     </div>
 
     <div class="container">

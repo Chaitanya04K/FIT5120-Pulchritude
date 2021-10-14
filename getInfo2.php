@@ -80,10 +80,10 @@
     <br>
 
     <div class="sidebar">
-        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
+        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Other Support</h4>
         <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
         <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
-        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
+        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Signs & Symptoms</a>
         <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
     </div>
 
@@ -142,9 +142,12 @@
            <tr >
                 <td>
                     <br>
-                    <p>You have a <span style="background-color:#FBFEB3;"> <strong> moderate </strong></span> level of psychological distress, which means you’ve likely been experiencing a little symptoms of distress over the past four weeks.</p>
-                    <p>You may not take it seriously. However, It may be a sign that your mental health is getting worse!</p>
-                    <p>Brainguard provides some assistance. Please browse the website and find any available information.</p>
+                    <p>You have a <span style="background-color:#FBFEB3;"> <strong> moderate </strong></span> level of psychological distress, which means you’ve likely been experiencing 
+                    symptoms of distress for a little or some of the time over the past four weeks.</p>
+                    <p>People who have a result in this range often feel it is not necessary to seek further support. However, it is very essential to look into your options
+                        at this point, to prevent the the distress you are experiencing possibly becoming worse.  
+                    </p>
+                    <p>Brainguard provides you with other informaiton and resources. Please browse through our website and find any suitable resources that can help you.</p>
                 <td>  
            </tr>
            <!-- <tr  >
@@ -181,15 +184,14 @@
         <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
                 <th style="text-align: center;background-color: #D7AADA;height:50px">
-                    Should I seek help?
+                    Things to note
                 </th>
             </tr>
             <tr >
                 <td>
                     <br>
-                    <p>Please remember that this checklist is not a doctor diagnosis.</p>
-                    <p>If you feel anything else that the checklist does not cover, please contact a mental health 
-                        professional for a diagnosis.</p>
+                    <p>Please note that this checklist is not a diagnosis.</p>
+                    <p>You should always seek advice from a qualified medical or mental health professional with any questions about your mental health.</p>
                 <td>  
            </tr>
         </table>

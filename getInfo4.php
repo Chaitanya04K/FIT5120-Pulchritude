@@ -80,10 +80,10 @@
     <br>
 
     <div class="sidebar">
-        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Support</h4>
+        <h4 style="text-align:center;color:white;font-weight:bold;font-size:30px">Other Support</h4>
         <a href="getSupport.php" style="font-size:23px;color:white;">Mental Health Services</a>
         <a href="moodDiary.php" style="font-size:23px;color:white;">Mood Diary</a>
-        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Symptoms</a>
+        <a href="signsandsymptoms.php" style="font-size:23px;color:white;">Depression Signs & Symptoms</a>
         <a href="causes.php" style="font-size:23px;color:white;">Depression Causes</a>
     </div>
 
@@ -160,12 +160,14 @@
            <tr >
                 <td>
                     <br>
-                    <p>You have a <span style="background-color:#FBFEB3;"> <strong> very high </strong></span> level of psychological distress, which means you’ve likely been experiencing serious mental distress over the past four weeks.</p>
-                    <p>Many people who score in this range are suffering from serious anxiety and depression. Some people 
-                        may also have thoughts of self-harm or suicide.</p>
-                    <p>Life could be very tough for you recently. However, please remember you are not alone! Some other 
-                        international students are also experiencing serious mental distress. Brainguard will try best to 
-                        help you!</p>
+                    <p>You have a <span style="background-color:#FBFEB3;"> <strong> very high </strong></span> level of psychological distress, which means you’ve likely been experiencing symptoms of mental distress 
+                    for a lot of the time over the past four weeks.</p>
+                    <p>We are sorry that things are hard for you recently. However, please remember you are not alone! Many people who score in this range 
+                        are likely to be going through mental health conditions like anxiety and depression. 
+                    </p>
+                    <p>However, it is important to note that this result should not substitute for professional clinical advice. Therefore, we highly recommend you to seek help as 
+                        soon as possible. Please take a look at Brainguard's other support resources and we hope our website can help you in some way!
+                    </p>
                 </td>
             </tr>
         </table>
@@ -174,15 +176,14 @@
         <table class="guide" style="width:70%;margin:auto;border-radius:1em;overflow: hidden;">
             <tr>
                 <th style="text-align: center;background-color: #D7AADA;height:50px">
-                    Should I seek help?
+                    Things to note
                 </th>
             </tr>
             <tr >
                 <td>
                     <br>
-                    <p>Please remember that this checklist is not a doctor diagnosis.</p>
-                    <p>If you feel anything else that the checklist does not cover, please contact a mental health 
-                        professional for a diagnosis.</p>
+                    <p>Please note that this checklist is not a diagnosis.</p>
+                    <p>You should always seek advice from a qualified medical or mental health professional with any questions about your mental health.</p>
                 <td>  
            </tr>
         </table>
