@@ -36,6 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 array_push($diaryArray, $resultArray);
             }
         } else {
+            $diariesFound = true;
             $noDiariesFound = true;
         }
     }
