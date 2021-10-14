@@ -29,6 +29,13 @@
         </ol>
     </nav>
 
+    <div class="container">
+        <p class="info-mainHeading">Getting Professional Help</p>
+        <p class="info-text">This website is just a place to get information and support, only someone who is professionally trained and certified can diagnose someone with a mental health condition or disorder.</p>
+        <p class="info-text"><strong>The best place to start is a trusted General Practitioner.</strong></p>
+        <p class="info-mainHeading">Here are some organizations and universities that provide mental health related services.</p>
+    </div>
+
     <!-- input tag -->
     <form style="margin:auto;max-width:300px">
         <input id="support-searchbar" onkeyup="search_support()" type="text" name="search" placeholder="Search">
