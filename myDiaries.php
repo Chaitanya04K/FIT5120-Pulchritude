@@ -165,6 +165,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     x[i].style.display = "none";
                 } else {
                     x[i].style.display = "list-item";
+                    console.log(x[i].innerHTML);
                 }
             }
         }
