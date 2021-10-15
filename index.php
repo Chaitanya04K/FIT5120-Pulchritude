@@ -24,8 +24,8 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading">You are Not Alone</h1>
-            <p class="lead banner-subheading">We are offering to provide information and support for international students
-                in Victorian Universities and they can seek to find more on this website</p>
+            <p class="lead banner-subheading">We are offering information and support for international students
+                in Victorian Universities and they can find out more on this website</p>
             <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
@@ -43,7 +43,7 @@
                         <div class="img-square-wrapper"></div>
                         <div class="card-body">
                             <h4 class="card-title">Learn about depression</h4>
-                            <p class="card-text">Depression is a very serious condition which unfortunately is very common and should not be ignored. It can affect your physical and mental health and can even stop you from doing normal daily activies.</p>
+                            <p class="card-text">Depression is a mental health condition which unfortunately very common and should not be ignored. It can affect your physical and mental health and can even stop you from doing normal daily activies.</p>
                             <a href="getInfo.php" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
