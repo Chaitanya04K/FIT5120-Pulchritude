@@ -39,8 +39,8 @@ session_start();
                         <ul class="dropdown-menu" aria-labelledby="dropdown1-1">
                             <!-- <li class="dropdown-item"><a href="causes.php">Causes of Depression</a></li>
                             <li class="dropdown-item"><a href="signsandsymptoms.php"></a></li>
-                            <li class="dropdown-item"><a href="treatment.php">Treatments of Depression</a></li> -->
-                            <li class="dropdown-item"><a href="getInfo.php"></a>About Depression</li>
+                            <li class="dropdown-item"><a hr ef="treatment.php">Treatments of Depression</a></li> -->
+                            <li class="dropdown-item"><a href="getInfo.php">About Depression</a></li>
                             <li class="dropdown-item"><a href="causes.php">Causes of Depression</a></li>
                             <li class="dropdown-item"><a href="signsandsymptoms.php">Signs and Symptoms</a></li>
                         </ul>
