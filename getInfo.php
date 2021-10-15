@@ -11,7 +11,7 @@
     <link rel="icon" href="/images/icon_logo.png">
 
     <!-- style CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?newcache01">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -123,12 +123,12 @@
         <div class="row">
             <div class="cardSection col-12">
                 <div class="card">
-                    <div class="card-horizontal">
+                    <div class="card-horizontal card-reverse">
                         <div class="img-square-wrapper signssymptoms"></div>
                         <div class="card-body">
                             <h4 class="card-title">Signs and Symptoms</h4>
                             <p class="card-text">What are some things you should keep an eye out for yourself or others.</p>
-                            <a href="signsandsymptoms.php" class="actionBtn btn-right">Learn more</a>
+                            <a href="signsandsymptoms.php" class="actionBtn">Learn more</a>
                         </div>
                     </div>
                 </div>
