@@ -41,11 +41,11 @@
         <div class="row">
             <div class="info-card-container col-12">
                 <div class="info-card">
-                    <p>Research suggests that the mental health of university students is <span> more poor </span> than
-                        that of the general population in many countries.</p>
+                    <p>Research suggests that the mental health of university students is <span> poorer </span> than
+                        that of the general population in Australia and many countries.</p>
                 </div>
                 <div class="info-card">
-                    <p>Social isolation, loneliness, study pressure, cultural difference, and economic burden exposes international uni students to the threat of depression. A highly concerning <span>30%</span> of students have had thoughts of self-harm</p>
+                    <p>Social isolation, loneliness, study pressure, cultural difference, and economic burden exposes international university students to the threat of depression. A highly concerning <span>30%</span> of students have had thoughts of self-harm</p>
                 </div>
                 <div class="info-card">
                     <p>International students have a <span> higher risk </span> of depression, but they are <span>
@@ -59,7 +59,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="info-card one">
-                    <p>Research suggests that the mental health of university students is <span> more poor </span> than
+                    <p>Research suggests that the mental health of university students is <span> poorer </span> than
                         that of the general population in many countries.</p>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                         <div class="img-square-wrapper signssymptoms"></div>
                         <div class="card-body">
                             <h4 class="card-title">Signs and Symptoms</h4>
-                            <p class="card-text">What are some things you shoud keep an eye out which would be important for yourself or others?</p>
+                            <p class="card-text">What are some things you should keep an eye out for yourself or others.</p>
                             <a href="signsandsymptoms.php" class="actionBtn btn-right">Learn more</a>
                         </div>
                     </div>
