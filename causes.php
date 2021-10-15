@@ -83,7 +83,7 @@
             <h1 class="display-4 banner-heading learnAboutDepression">Causes of depression</h1>
             <p class="lead banner-subheading learnAboutDepression" style="text-align:justify;margin-right:100px;">While the exact cause or reasons why people develop
                 depressive symptoms are not known, here are some general points that might help you figure out if you or
-                someone you care about are suffering from depression.</p>
+                someone you care about is suffering from depression.</p>
             <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
@@ -108,14 +108,15 @@
             <li>Stressful life events</li>
             <li>Medications</li>
             <li>Medical problems</li>
+         <br>
+
         <p class="info-text" style="text-align:justify;margin-right:100px;">
-            It's believed that several of these forces interact to bring on depression.
-            To be sure, chemicals are involved in this process, but it is not a simple matter of one chemical being too
+            It's believed that the combination of several of these factors is linked to the development of depression.
+            Chemicals are involved in this process, but it is not a simple matter of one chemical being too
             low and another too high.
             Rather, many chemicals are involved, working both inside and outside nerve cells.
             There are millions, even billions, of chemical reactions that make up the dynamic system that is responsible
-            for
-            your mood, perceptions, and how you experience life.
+            for your mood, perceptions, and how you experience life.
             With this level of complexity, you can see how two people might have similar symptoms of depression, but the
             problem on the inside, and therefore what treatments will work best, may be entirely different.</p>
             <br>
