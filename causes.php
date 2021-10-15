@@ -47,7 +47,7 @@
     div.container1 {
         margin-left: 200px;
         padding: 1px 16px;
-        height: 1000px;
+        height: 1100px;
     }
     @media screen and (max-width: 700px) {
         .sidebar {
