@@ -82,9 +82,9 @@
     <div class="jumbotron depression-signs jumbotron-fluid">
         <div class="container">
             <h1 class="display-4 banner-heading learnAboutDepression">Signs and Symptoms</h1>
-            <p class="lead banner-subheading learnAboutDepression" style="text-align:justify;">It is important to remember that you might be facing 
+            <p class="lead banner-subheading learnAboutDepression" style="text-align:justify;">It is important to remember that you may be facing 
                 many of these symptoms but that does not necessarily mean that you're depressed. Similarly, not everyone 
-                who is suffering from depression will have these symptoms.</p>
+                who is suffering from depression will have the same symptoms.</p>
             <a href="tel:131114" class="actionBtn">Call: Lifeline 13 11 14</a>
         </div>
     </div>
@@ -99,21 +99,21 @@
     <div class="container1">
         <p class="info-mainHeading">What is Depression?</p>
         <p style="text-align:justify;margin-right:50px;">
-            Depression is a common mental health condition among young people. It will negatively affect your feelings, 
-            your behaviours, and your thoughts. Depression may cause negative mood changes or make you lose your interest in 
-            activities you enjoy. It can lead to emotional and physical problems. It can also affect the close relationships 
-            with family and friends. Fortunately, depression can be managed and even treatable. With proper diagnosis and 
-            treatment, the vast majority of people with depression can overcome it. If you feel you are depressed, please take
-            the first step to see your family physician or psychiatrist. Talk about your concerns and request a thorough evaluation. 
-            This is will be a good start to addressing your mental health needs.
+            Depression is a common mental health condition among young adults. It will negatively affect your feelings, 
+            behaviours, and thoughts. Depression may cause negative mood changes or make you lose interest in 
+            activities you will normally enjoy. It can affect your emotional and physical wellbeing. Also, it can affect close relationships 
+            with family and friends. Fortunately, depression can be managed and even be treatable. With the proper diagnosis and 
+            treatment, the vast majority of people with depression can overcome it. If you feel depressed, please take
+            the first step to see your trusted physician or mental health professional. You can talk about your concerns and request a thorough evaluation. 
+            This is can be a good start to addressing your mental health needs.
         </p>
         <p class="info-subHeading">Signs and Symptoms</p>
         <p style="text-align:justify;margin-right:50px;">
-            It varies with people. There are common symptoms among people who are experiencing depression.
-            Everyone will have negative moods and bad days.
-            So, it is usually only depression if these symptoms continues for at least two weeks. 
+            The signs and symptoms varies with individual. There are some more common symptoms among people who are experiencing depression.
+            Everyone has negative moods and go through bad days.
+            However, you may be depressed if you have experienced several signs and symptoms for more than two weeks. 
             
-            Following symptoms are mild to severe:
+            Here are some examples of mild to severe signs and symptoms:
             <ol>
                 <li>Feeling Low</li>
                 <li>Losing interest in activities once enjoyed</li>
@@ -123,8 +123,8 @@
                 <li>Overeating or anorexia</li>
                 <li>Feeling fatigue, worthless, or guilty </li>
                 <li>Purposeless physical activities, or slowed movements and speech, which is too severe to be ignored by others</li>
-                <li>Cannot think or concentrating in the normal way</li>
-                <li>Suicidial or self-harm</li>
+                <li>Cannot think or concentrate in normally</li>
+                <li>Suicidial tendencies or self-harm</li>
             </ol>
         </p>
         <br>
