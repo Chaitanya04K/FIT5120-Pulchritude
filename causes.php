@@ -144,7 +144,6 @@
             please consider other options that feels right for you to further assist you.
             <br>Please seek a medical or mental health professional with further questions 
             on your mental health. The most important thing is to recognise the signs and symptoms and seek support.</p>
-        <br>
     </div>
 
     <?php include 'footer.php'; ?>
