@@ -719,7 +719,7 @@ iframe {
     width: 100%;
 }
 
-.card-horizontal .card-reverse {
+.card-horizontal.card-reverse {
     flex-direction: row-reverse;
 }
 
