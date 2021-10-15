@@ -55,7 +55,7 @@
                     <div class="card-horizontal reverse">
                         <div class="card-body">
                             <h4 class="card-title">Feeling stressed?</h4>
-                            <p class="card-text">The K10 Checklist is a simple checklist which will measure the level of general stress one is facing without identifying the causes.</p>
+                            <p class="card-text">The K10 Checklist is a simple checklist which measures the level of psychological distress of a person.</p>
                             <a href="checklist.php" class="actionBtn">Take the K10 Checklist</a>
                         </div>
                         <div class="img-square-wrapper help"></div>
