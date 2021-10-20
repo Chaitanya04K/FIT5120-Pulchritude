@@ -4,7 +4,7 @@ Data is downloaded from:
 1. ABS Census 2016 (not used on website)
 2. Victorian Population Health Survey (VPHS) from health.vic
 
-Data used:
+Data used are found in the 'Original data' folder on GitHub:
 1. 2016 Census G03 VIC SSC csv (not used on website)
 2. 2016 Census G09F VIC SSC csv (not used on website)
 3. 2016 Census G09G VIC SSC csv (not used on website)
@@ -12,12 +12,12 @@ Data used:
 5. 2016 Census G15 VIC SSC csv (not used on website)
 6. VPHS 2015 - 2019 csv (collated from the VPHS over those years)
 
-R scripts:
+R scripts are found in the 'R Scripts' folder on GitHub:
 1. Depression_Statistics.R
 - Data cleansing and manipulation of data sourced done in this script to create multiple 
 output files which will be fed into Rmd file to create the graphs to be added on website.
 
-- Output files created:
+- Output files created are found in the 'Input files' folder on GitHub:
 1.People aged 15to24 by Suburb.csv
 2. Country of birth of people aged 15to24 by Suburb.csv
 3. University people aged 15to24 by Suburb.csv
@@ -28,7 +28,7 @@ output files which will be fed into Rmd file to create the graphs to be added on
 - Formating of new input files and created graphs using the 'plotly' R package
 - Exported to the plotly api which is further added to the website
 
-- Input files used to create graphs:
+- Input files used to create graphs are found in the 'Input files' folder on GitHub:
 1. Level of psychological distress 2015to19.csv
 2. Ever diagnosed with anxiety or depression 2015to19.csv
 
