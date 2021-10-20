@@ -1,0 +1,108 @@
+---
+title: "Statistics_Dashboard"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+library(plotly)
+library(tidyr)
+library(dplyr)
+library(ggthemes)
+library(extrafont)
+library(stringr)
+
+cob_sub_merge <- read.csv("Country of birth of people aged 15-24 by Suburb.csv",stringsAsFactors = F)
+
+#VPHS data
+psy_dist <- read.csv("Level of psychological distress 2015-19.csv",stringsAsFactors = F)
+
+diag_anxdep <- read.csv("Ever diagnosed with anxiety or depression 2015-19.csv",stringsAsFactors = F)
+
+```
+
+```{r}
+# cob_sub_merge %>%
+#   select(-Suburb_Code) %>%
+#   rowwise(Suburb_Name) %>%
+#   summarise(total_int=sum(c_across(2:ncol(.)-2))) %>%
+#   ggplot(aes(x=Suburb_Name,y=total_int)) +
+#   geom_line()
+```
+
+```{r}
+psy_dist_graph <- psy_dist %>%
+  gather(key,value,-Year) %>%
+  mutate(value=as.integer(value))
+
+psy_dist_graph$key <- factor(psy_dist_graph$key,levels=c('Low','Moderate','High','Very_High', 'High_or_Very_High'))
+# sizes <- c('Low' = 1, 'Moderate' = 1, 'High' = 1, 'Very_High' = 1, 'High_or_Very_High' = 1)
+
+lpd <- ggplot(psy_dist_graph,aes(x=Year,
+                                 y=value,
+                                 color=key))+
+  geom_point(size=2)+
+  geom_line(aes(colour = key),size=1.5,alpha=0.8) +
+  # labs(title ='Level of psychological distress for Victorian adults from 2015 to 2019',
+  #   # subtitle = paste0("The line chart visualizes the proportion (%) of adult population (18+ years), by level of psychological distress changes in Victoria over 2015-2019.","\n","The higher level of psychological distress for was the highest in 2019."),
+  #      caption = "•Data obtained from Victorian Population Health Survey by the Victorian Health Intelligence Unit",
+  #    x='',
+  #    y='Number of adults',
+  # color="Level of Psychological Distress") +
+  scale_color_manual(values = c(rcartocolor::carto_pal(name = "Bold"), "grey50"))+
+  theme(legend.title = element_blank())
+  # theme_fivethirtyeight()+
+  # theme(plot.title = element_text(face="bold",size=16,
+  #                                 margin = margin(t = 10, r = 0, b = 5, l = 0)),
+  #       axis.title = element_text())
+  
+lpd
+```
+
+```{r}
+a <-ggplotly(lpd, tooltip = "value") %>%
+  layout(yaxis = list(title = 'Number of adults'),
+                      legend=list(title=list(text='<b>Level of psychological distress</b>')))
+```
+
+```{r}
+# library(htmlwidgets)
+# 
+# saveWidget(a,"psy_distress_graph.html")
+```
+
+```{r}
+Sys.setenv("plotly_username"="valho")
+Sys.setenv("plotly_api_key"="iZaY0FTy0yZjbZFCHZpM")
+
+api_create(a, "Level of Psychological Distress")
+```
+
+```{r Diagnosed with anxiety/depression, echo=FALSE}
+names(diag_anxdep) <- c("Year","Proportion_of_people")
+
+diag_ad_graph <-ggplot(diag_anxdep,aes(x=Year,y=Proportion_of_people))+
+    geom_line(size=1,color="#0174DF")+
+  geom_point(size=4,shape=21,fill="white") +
+  # labs(title =str_wrap('Proportion of adults that were diagnosed with anxiety or depression over time'),
+  #   subtitle = str_wrap("The line chart visualizes the proportion (%) of adult population (18+ years), with anxiety or depression in Victoria over 2015-2019. The proportion of adults has been gradually increasing over the years."),
+  #      caption = "•Data obtained from Victorian Population Health Survey",
+  #   x="",
+  #   y="Proportion of people")+
+    scale_color_manual(values = c(rcartocolor::carto_pal(name = "Bold"), "grey50"))+
+  theme(legend.title = element_blank())
+
+diag_ad_graph
+```
+
+```{r}
+b <-ggplotly(diag_ad_graph, tooltip = "Proportion_of_people") %>%
+  layout(yaxis = list(title = 'Proportion of people'))
+```
+
+```{r}
+Sys.setenv("plotly_username"="valho")
+Sys.setenv("plotly_api_key"="iZaY0FTy0yZjbZFCHZpM")
+
+api_create(b, "Diag_ad")
+```
