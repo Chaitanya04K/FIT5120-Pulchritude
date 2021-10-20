@@ -1,4 +1,7 @@
 Data manipulation for Statistics on Depression page on website
+Please note that the census data is not used on the website but planned to be used in future developments. 
+It can be added onto the website to give more perspective of the number of people aged 15-24 years, their country of birth and the number
+of university students by Suburb in Victoria.
 
 Data is downloaded from:
 1. ABS Census 2016 (not used on website)
@@ -18,7 +21,7 @@ R scripts are found in the 'R Scripts' folder on GitHub:
 output files which will be fed into Rmd file to create the graphs to be added on website.
 
 - Output files created are found in the 'Input files' folder on GitHub:
-1.People aged 15to24 by Suburb.csv
+1. People aged 15to24 by Suburb.csv
 2. Country of birth of people aged 15to24 by Suburb.csv
 3. University people aged 15to24 by Suburb.csv
 4. Level of psychological distress 2015to19.csv
